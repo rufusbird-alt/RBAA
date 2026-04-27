@@ -1,0 +1,25 @@
+/* Design tokens — source of truth for palette, typography, spacing.
+   These are inlined into globals.css. Edit here and mirror there. */
+
+:root {
+  /* Palette */
+  --ground:      #F4EFE4;
+  --ground-soft: #EFE8D6;
+  --ink:         #1C1A17;
+  --ink-soft:    #3E382D;
+  --ink-muted:   #5A5140;
+  --muted:       #7A6E55;
+  --rule:        #C9BFA8;
+  --rule-soft:   #DDD3BC;
+  --accent:      #6B1F2A; /* muted oxblood */
+  --accent-soft: #8F3842;
+
+  /* Typography */
+  --display: 'Cormorant Garamond', 'Garamond', serif;
+  --body:    'EB Garamond', 'Garamond', Georgia, serif;
+
+  /* Measure + spacing */
+  --max:     1340px;
+  --measure: 36rem;
+  --gutter:  2rem;
+}

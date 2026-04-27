@@ -1,0 +1,96 @@
+/* Design tokens */
+:root {
+  --ground:      #F4EFE4;
+  --ground-soft: #EFE8D6;
+  --ink:         #1C1A17;
+  --ink-soft:    #3E382D;
+  --ink-muted:   #5A5140;
+  --muted:       #7A6E55;
+  --rule:        #C9BFA8;
+  --rule-soft:   #DDD3BC;
+  --accent:      #6B1F2A;
+  --accent-soft: #8F3842;
+  --max:         1340px;
+  --measure:     36rem;
+  --gutter:      2rem;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    background-color: var(--ground);
+    color: var(--ink);
+  }
+
+  body {
+    font-family: var(--font-body, 'EB Garamond', Garamond, Georgia, serif);
+    font-size: 19px;
+    line-height: 1.65;
+  }
+
+  /* Visible focus ring on every interactive element */
+  *:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+    border-radius: 1px;
+  }
+
+  /* Italic for emphasis, not bold */
+  strong {
+    font-weight: normal;
+    font-style: italic;
+  }
+}
+
+@layer utilities {
+  /* Small caps — used for artist names, place names, metadata labels */
+  .small-caps {
+    font-variant-caps: all-small-caps;
+    letter-spacing: 0.08em;
+  }
+}
+
+/* Prose styling for MDX-rendered content */
+.rbaa-prose p {
+  margin-bottom: 1.25rem;
+}
+.rbaa-prose h2 {
+  font-family: var(--font-display, 'Cormorant Garamond', serif);
+  font-size: 1.5rem;
+  font-style: italic;
+  margin-top: 2.5rem;
+  margin-bottom: 0.75rem;
+  color: var(--ink);
+}
+.rbaa-prose h3 {
+  font-family: var(--font-display, 'Cormorant Garamond', serif);
+  font-size: 1.25rem;
+  font-style: italic;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+.rbaa-prose blockquote {
+  border-left: 2px solid var(--rule);
+  padding-left: 1.5rem;
+  margin: 2rem 0;
+  font-style: italic;
+  color: var(--ink-soft);
+}
+.rbaa-prose ul,
+.rbaa-prose ol {
+  padding-left: 1.5rem;
+  margin-bottom: 1.25rem;
+}
+.rbaa-prose li {
+  margin-bottom: 0.4rem;
+}
+.rbaa-prose em {
+  font-style: italic;
+}
+.rbaa-prose strong {
+  font-weight: normal;
+  font-style: italic;
+}
