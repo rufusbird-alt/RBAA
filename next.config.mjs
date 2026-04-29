@@ -4,9 +4,19 @@ const withNextIntl = createNextIntlPlugin('./src/i18n.ts');
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  staticPageGenerationTimeout: 180,
   async redirects() {
     return [
-      // 301 redirect table populated in Phase 5 after old-URL audit
+      // Common patterns from old sites — replace with actual audit from §10
+      { source: '/about-rufus', destination: '/about', permanent: true },
+      { source: '/about-us', destination: '/about', permanent: true },
+      { source: '/contact-us', destination: '/contact', permanent: true },
+      { source: '/our-services', destination: '/services', permanent: true },
+      { source: '/services.html', destination: '/services', permanent: true },
+      { source: '/blog', destination: '/journal', permanent: true },
+      { source: '/blog/:slug', destination: '/journal/:slug', permanent: true },
+      { source: '/news', destination: '/journal', permanent: true },
+      { source: '/news/:slug', destination: '/journal/:slug', permanent: true },
     ];
   },
 };

@@ -5,6 +5,9 @@ import { buildMetadata } from '@/lib/seo';
 import { Eyebrow } from '@/components/ui/Eyebrow';
 import { Button } from '@/components/ui/Button';
 import { UntranslatedBanner } from '@/components/ui/UntranslatedBanner';
+import { JsonLd } from '@/components/ui/JsonLd';
+
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://rufusbirdartadvisory.com';
 
 export async function generateStaticParams() {
   return getAllCaseStudies().map((s) => ({ slug: s.slug }));
@@ -37,8 +40,25 @@ export default function CaseStudyPage({
   const { frontmatter: fm, content } = item;
   const html = compileMDX(content);
 
+  const caseStudyJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    articleSection: 'Case Study',
+    headline: fm.title,
+    description: `${fm.mandate} — ${fm.location}. ${fm.scope}`,
+    datePublished: fm.date,
+    url: `${siteUrl}/case-studies/${slug}`,
+    author: {
+      '@type': 'Person',
+      '@id': `${siteUrl}/#rufus-bird`,
+    },
+    publisher: { '@id': `${siteUrl}/#organization` },
+    ...(fm.heroImage ? { image: `${siteUrl}${fm.heroImage}` } : {}),
+  };
+
   return (
     <>
+      <JsonLd data={caseStudyJsonLd} />
       <UntranslatedBanner locale={locale} />
 
       <div className="h-2 bg-[var(--accent)]" aria-hidden />

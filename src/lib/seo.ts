@@ -37,7 +37,7 @@ export function buildMetadata({
       type,
       locale,
       alternateLocale: (['en', 'de', 'fr'] as const).filter((l) => l !== locale),
-      images: [{ url: ogImage ?? '/og/default.png', width: 1200, height: 630 }],
+      ...(ogImage ? { images: [{ url: ogImage, width: 1200, height: 630 }] } : {}),
       siteName: 'Rufus Bird Art Advisory',
     },
     twitter: { card: 'summary_large_image', title, description },

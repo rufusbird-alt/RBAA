@@ -4,6 +4,9 @@ import { getAllJournalEntries, getJournalEntry, compileMDX, formatDate, readingT
 import { buildMetadata } from '@/lib/seo';
 import { Eyebrow } from '@/components/ui/Eyebrow';
 import { UntranslatedBanner } from '@/components/ui/UntranslatedBanner';
+import { JsonLd } from '@/components/ui/JsonLd';
+
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://rufusbirdartadvisory.com';
 
 export async function generateStaticParams() {
   return getAllJournalEntries().map((e) => ({ slug: e.slug }));
@@ -36,8 +39,28 @@ export default function JournalEntryPage({
   const { frontmatter: fm, content } = item;
   const html = compileMDX(content);
 
+  const articleJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: fm.title,
+    description: fm.excerpt,
+    datePublished: fm.date,
+    dateModified: fm.date,
+    wordCount: fm.wordCount,
+    keywords: [fm.theme],
+    url: `${siteUrl}/journal/${slug}`,
+    author: {
+      '@type': 'Person',
+      '@id': `${siteUrl}/#rufus-bird`,
+      name: fm.author,
+    },
+    publisher: { '@id': `${siteUrl}/#organization` },
+    ...(fm.coverImage ? { image: `${siteUrl}${fm.coverImage}` } : {}),
+  };
+
   return (
     <>
+      <JsonLd data={articleJsonLd} />
       <UntranslatedBanner locale={locale} />
 
       <section className="py-16 border-b border-[var(--rule)]">

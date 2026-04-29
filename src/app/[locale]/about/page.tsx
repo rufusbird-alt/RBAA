@@ -4,6 +4,27 @@ import { Link } from '@/navigation';
 import { buildMetadata } from '@/lib/seo';
 import { CareerTimeline } from '@/components/about/CareerTimeline';
 import { Button } from '@/components/ui/Button';
+import { JsonLd } from '@/components/ui/JsonLd';
+
+const personJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Person',
+  '@id': 'https://rufusbirdartadvisory.com/#rufus-bird',
+  name: 'Rufus Bird',
+  jobTitle: 'Independent Art Advisor',
+  alumniOf: 'University of Cambridge',
+  worksFor: { '@id': 'https://rufusbirdartadvisory.com/#organization' },
+  knowsAbout: [
+    'European paintings 1500–1950',
+    'European furniture',
+    'Silver',
+    'Books',
+    'Old Masters',
+    'Art valuation',
+    'Attribution',
+  ],
+  knowsLanguage: ['en', 'de', 'fr', 'es', 'it'],
+};
 
 export async function generateMetadata({
   params: { locale },
@@ -30,6 +51,8 @@ export default async function AboutPage() {
 
   return (
     <>
+      <JsonLd data={personJsonLd} />
+
       <section className="py-16 border-b border-[var(--rule)]">
         <div className="max-w-[var(--measure)] mx-auto px-[var(--gutter)]">
           <p className="text-xs small-caps text-[var(--muted)] mb-4">{t('eyebrow')}</p>
