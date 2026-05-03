@@ -1,8 +1,11 @@
 import type { Metadata } from 'next';
+import { existsSync } from 'fs';
+import path from 'path';
 import { getTranslations } from 'next-intl/server';
 import { Link } from '@/navigation';
 import { buildMetadata } from '@/lib/seo';
 import { CareerTimeline } from '@/components/about/CareerTimeline';
+import { PortraitFrame } from '@/components/about/PortraitFrame';
 import { Button } from '@/components/ui/Button';
 import { JsonLd } from '@/components/ui/JsonLd';
 
@@ -48,6 +51,9 @@ const affiliations = [
 
 export default async function AboutPage() {
   const t = await getTranslations('about');
+  const hasPortrait = existsSync(
+    path.join(process.cwd(), 'public', 'images', 'portrait.jpg'),
+  );
 
   return (
     <>
@@ -63,17 +69,25 @@ export default async function AboutPage() {
       </section>
 
       <section className="py-16 border-b border-[var(--rule)]">
-        <div className="max-w-[var(--measure)] mx-auto px-[var(--gutter)] space-y-5">
-          <p>{t('bio.p1')}</p>
-          <p>{t('bio.p2')}</p>
-          <p>{t('bio.p3')}</p>
-          <div className="mt-6">
-            <Link
-              href="/about/full-biography"
-              className="text-sm small-caps tracking-wider text-[var(--accent)] border-b border-[var(--accent)] pb-0.5 hover:text-[var(--accent-soft)] hover:border-[var(--accent-soft)] transition-colors"
-            >
-              {t('fullBioCta')}
-            </Link>
+        <div className="max-w-[var(--measure)] mx-auto px-[var(--gutter)]">
+          {hasPortrait && (
+            <PortraitFrame
+              src="/images/portrait.jpg"
+              alt="Rufus Bird"
+            />
+          )}
+          <div className="space-y-5 mt-8">
+            <p>{t('bio.p1')}</p>
+            <p>{t('bio.p2')}</p>
+            <p>{t('bio.p3')}</p>
+            <div className="mt-6">
+              <Link
+                href="/about/full-biography"
+                className="text-sm small-caps tracking-wider text-[var(--accent)] border-b border-[var(--accent)] pb-0.5 hover:text-[var(--accent-soft)] hover:border-[var(--accent-soft)] transition-colors"
+              >
+                {t('fullBioCta')}
+              </Link>
+            </div>
           </div>
         </div>
       </section>

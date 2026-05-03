@@ -1,5 +1,6 @@
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
+import Image from 'next/image';
 import { getAllJournalEntries, getJournalEntry, compileMDX, formatDate, readingTime } from '@/lib/content';
 import { buildMetadata } from '@/lib/seo';
 import { Eyebrow } from '@/components/ui/Eyebrow';
@@ -74,6 +75,21 @@ export default function JournalEntryPage({
           <p className="mt-4 text-xs small-caps text-[var(--muted)]">By {fm.author}</p>
         </div>
       </section>
+
+      {fm.coverImage && (
+        <figure className="border-b border-[var(--rule)]">
+          <div className="relative w-full aspect-[3/2] md:aspect-[16/7] overflow-hidden">
+            <Image
+              src={fm.coverImage}
+              alt={fm.coverAlt ?? fm.title}
+              fill
+              className="object-cover"
+              sizes="100vw"
+              priority
+            />
+          </div>
+        </figure>
+      )}
 
       <section className="py-16">
         <article

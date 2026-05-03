@@ -1,5 +1,6 @@
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
+import Image from 'next/image';
 import { getAllCaseStudies, getCaseStudy, compileMDX } from '@/lib/content';
 import { buildMetadata } from '@/lib/seo';
 import { Eyebrow } from '@/components/ui/Eyebrow';
@@ -61,7 +62,20 @@ export default function CaseStudyPage({
       <JsonLd data={caseStudyJsonLd} />
       <UntranslatedBanner locale={locale} />
 
-      <div className="h-2 bg-[var(--accent)]" aria-hidden />
+      {fm.heroImage ? (
+        <div className="relative w-full aspect-[2/1] md:aspect-[3/1] overflow-hidden">
+          <Image
+            src={fm.heroImage}
+            alt={fm.heroAlt ?? fm.title}
+            fill
+            className="object-cover"
+            sizes="100vw"
+            priority
+          />
+        </div>
+      ) : (
+        <div className="h-2 bg-[var(--accent)]" aria-hidden />
+      )}
 
       <section className="py-16 border-b border-[var(--rule)]">
         <div className="max-w-[var(--measure)] mx-auto px-[var(--gutter)]">
