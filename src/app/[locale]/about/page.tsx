@@ -51,9 +51,17 @@ const affiliations = [
 
 export default async function AboutPage() {
   const t = await getTranslations('about');
-  const hasPortrait = existsSync(
-    path.join(process.cwd(), 'public', 'images', 'portrait.jpg'),
+  // Try each portrait filename in preference order; update as needed
+  const portraitCandidates = [
+    'portrait.jpg',
+    'portrait-RB00001.jpeg',
+    'portrait-RB00002.jpeg',
+    'portrait-RB00004.JPG',
+  ];
+  const portraitFile = portraitCandidates.find((f) =>
+    existsSync(path.join(process.cwd(), 'public', 'images', f)),
   );
+  const portraitSrc = portraitFile ? `/images/${portraitFile}` : null;
 
   return (
     <>
@@ -70,11 +78,8 @@ export default async function AboutPage() {
 
       <section className="py-16 border-b border-[var(--rule)]">
         <div className="max-w-[var(--measure)] mx-auto px-[var(--gutter)]">
-          {hasPortrait && (
-            <PortraitFrame
-              src="/images/portrait.jpg"
-              alt="Rufus Bird"
-            />
+          {portraitSrc && (
+            <PortraitFrame src={portraitSrc} alt="Rufus Bird" />
           )}
           <div className="space-y-5 mt-8">
             <p>{t('bio.p1')}</p>
