@@ -65,8 +65,8 @@ const QUOTES = [
   },
 ] as const;
 
-const DWELL = 9000;
-const FADE_MS = 800;
+const DWELL = 3000;
+const FADE_MS = 500;
 
 export function QuotesCarousel() {
   const [current, setCurrent] = useState(0);
