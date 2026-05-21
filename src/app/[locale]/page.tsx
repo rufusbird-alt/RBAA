@@ -83,9 +83,11 @@ export default async function HomePage() {
           <h2 className="mt-3 font-display text-3xl md:text-4xl italic max-w-2xl leading-snug">
             {t('caseStudy.headline')}
           </h2>
-          <blockquote className="mt-6 text-xl italic text-[var(--ink-soft)]">
-            {t('caseStudy.pull')}
-          </blockquote>
+          {t('caseStudy.pull') && (
+            <blockquote className="mt-6 text-xl italic text-[var(--ink-soft)]">
+              {t('caseStudy.pull')}
+            </blockquote>
+          )}
           <div className="mt-8">
             <Button href="/case-studies/venetian-palazzo">{t('caseStudy.cta')}</Button>
           </div>

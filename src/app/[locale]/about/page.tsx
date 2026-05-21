@@ -44,9 +44,10 @@ export async function generateMetadata({
 }
 
 const affiliations = [
-  'Society of Fine Art Auctioneers',
-  'CINOA (associate)',
-  'Burlington Magazine contributor',
+  'Fellow of the Society of Antiquaries of London',
+  'Lieutenant of the Royal Victorian Order',
+  'Trustee of Thirlestane Castle Trust',
+  'Member of the Furniture History Society, The Beckford Society, The Society for the History of Collecting',
 ];
 
 export default async function AboutPage() {

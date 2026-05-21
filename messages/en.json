@@ -8,7 +8,7 @@
     "contact": "Contact"
   },
   "footer": {
-    "colophon": "Set in Cormorant Garamond and EB Garamond. Independent advisory founded in Shaftesbury, Dorset, 2019.",
+    "colophon": "Set in Cormorant Garamond and EB Garamond. Independent advisory founded in Shaftesbury, Dorset, 2024.",
     "theSite": "The Site",
     "languages": "Languages",
     "discretion": "Discretion",
@@ -20,7 +20,7 @@
       "de": "Deutsch",
       "fr": "Français"
     },
-    "baseline": "Rufus Bird Art Advisory · Shaftesbury · Dorset · MMXXVI. All content © Rufus Bird Art Advisory 2019–2026."
+    "baseline": "Rufus Bird Art Advisory · Shaftesbury · Dorset · SP7 0JE MMXXVI. All content © Rufus Bird Art Advisory 2024–2026."
   },
   "common": {
     "beginConversation": "Begin a conversation →",
@@ -34,9 +34,9 @@
   "home": {
     "definingStatement": "A globally leading independent art consultancy helping private clients, trusts, museums and corporations buy, sell and manage their collections.",
     "opening": {
-      "p1": "Rufus Bird Art Advisory was established to guide collectors through the art world: navigating markets, sourcing exceptional works, refining collections, advising on conservation, and managing legacies with complete transparency, clarity and trust.",
+      "p1": "Rufus Bird Art Advisory was established to work with buyers and sellers in the art market. We guide collectors through the art world: navigating markets, sourcing exceptional works, refining collections, advising on valuation, collection management, legacies, conservation and sale strategy — always with complete transparency, clarity and trust. We work for you — and only for you.",
       "p2": "We understand that collecting art is so much more than the acquisition of objects. It is the deliberate culmination of emotion, legacy, reputation and passion. Which is why having a reputable, informed, and independent partner at your side makes a profound difference.",
-      "p3": "With twenty-five years inside the art world, Rufus Bird is one of the most trusted and sought-after independent voices in it. A Cambridge graduate, he trained at Christie's in European Furniture & Works of Art, spent over ten years at the highest level inside the Royal Household managing the decorative arts of the Royal Collection for the British Royal Family, and led the European Furniture & Works of Art department at Gurr Johns before founding this practice in 2019. He is a published author and a connoisseur with a wealth of stories, objects, and contacts across the globe — now offering discreet, unconflicted counsel to private clients and institutions.",
+      "p3": "With twenty-five years inside the art world, Rufus Bird is one of the most trusted and sought-after independent agents and advisors. A Cambridge graduate, he trained at Christie's in European Furniture & Works of Art, spent over ten years at the highest level inside the Royal Household managing the decorative arts of the Royal Collection for the British Royal Family — as Surveyor of the Queen's Works of Art — and led the European Furniture & Works of Art department at Gurr Johns before founding his independent practice in 2024. He is an auctioneer, a published author and a connoisseur with a wealth of stories, objects, and contacts across the globe — now offering discreet, unconflicted counsel to private clients and institutions.",
       "p4": "You may be a seasoned collector pursuing a specific piece, a family office stewarding significant assets, an interior designer seeking a focal centrepiece, or a trustee of an estate needing a valuation or direction. Whatever your starting point, Rufus Bird Art Advisory offers tailored, bespoke guidance as a trusted partner throughout your journey with art."
     },
     "approachTeaser": {
@@ -55,15 +55,15 @@
     "servicesSection": "Who I work with",
     "caseStudy": {
       "eyebrow": "Case Study · 2024–ongoing",
-      "headline": "A Venetian Palazzo, inherited in full — and the Vietnamese bronze no one had known was there.",
-      "pull": "The trustees are on retainer. I have my own set of keys.",
+      "headline": "A Venetian Palazzo, inherited by a client. And the sleeping Vietnamese painting everyone missed.",
+      "pull": "",
       "cta": "Read the full study →"
     },
     "journalSection": "From the journal",
     "journalCta": "All journal entries →",
     "contactCta": {
       "heading": "A private door.",
-      "body": "Correspondence is welcomed by letter, electronic mail, or telephone. First conversations are without fee or obligation; a written fee note precedes every engagement.",
+      "body": "Correspondence is welcomed by post, email, telephone or WhatsApp. First conversations are without fee or obligation; a written fee note precedes every engagement.",
       "cta": "Begin a conversation →"
     }
   },
@@ -71,8 +71,8 @@
     "eyebrow": "About the practice",
     "headline": "Twenty-five years inside the objects.",
     "bio": {
-      "p1": "I studied History of Art at Cambridge and trained as a specialist at Christie's, in the European Furniture & Works of Art department. I spent a formative decade inside the Royal Household as Surveyor of The Queen's Works of Art, with responsibility for the decorative arts of the Royal Collection — the kind of post that teaches you, permanently, to put the object before the label. I went on to lead European Furniture & Works of Art at Gurr Johns, before opening this practice in Shaftesbury in 2019.",
-      "p2": "The practice is deliberately small: one principal, a network of specialists I have worked with for years, and a working library that has grown with the work. I accept mandates selectively, with a strong preference for long relationships over single transactions. I correspond in English, German, and French; in Spanish and Italian where the occasion requires it.",
+      "p1": "I studied History of Art at Cambridge graduating in 1996. After that I spent ten months in Baden-Württemberg learning German. I joined Christie's in 1997 and trained as a specialist in the European Furniture & Works of Art department. I left Christie's in 2010 to take up the post of Deputy Surveyor of the Queen's Works of Art — later becoming Surveyor of the Queen's Works of Art in 2018. My role was to care for, research and manage around 500,000 works of decorative art (furniture, ceramics, glass, armour, sculpture, textiles, costume) across 15 royal residences. In the wake of the global pandemic of 2020–21, I left the Royal Household and returned to the commercial art world working in a small regional auction house, before leading the Decorative Arts at Gurr Johns International Art Advisory and Valuations from 2022–2024, re-establishing the famous antique dealing brand Mallett, before opening my private practice in Shaftesbury in 2024.",
+      "p2": "The practice is deliberately small: one principal, working with an established and trusted network of specialists I have worked with for years, and a working library that has grown with my work. I accept mandates selectively, with a strong preference for long relationships over single transactions. I correspond in English, German, and French; in Spanish and Italian where the occasion requires it.",
       "p3": "People tell me the same thing, usually after we have worked together for a while: that the work feels more like counsel than brokerage. That it is, in some ways, quieter than they expected. I take that as the highest compliment."
     },
     "fullBioCta": "Read the full biography →",
@@ -86,15 +86,15 @@
     "cta": "Begin a conversation →"
   },
   "contact": {
-    "headline": "Enquiries are welcomed by letter, electronic mail, or telephone.",
-    "sub": "Referrals are treated in confidence. First conversations are without fee or obligation; a written fee note precedes every engagement.",
+    "headline": "Enquiries by WhatsApp, email, telephone, or post.",
+    "sub": "First conversations are without fee or obligation; a written fee note precedes every engagement.",
     "emailLabel": "Electronic mail",
     "phoneLabel": "Telephone",
     "postLabel": "Post",
     "hoursLabel": "Hours",
     "languagesLabel": "Languages",
     "pgpLabel": "PGP",
-    "pgpNote": "Public key fingerprint to be published.",
+    "pgpNote": "4282 D72B 4C1E 13BE C749 A96A 5730 FF5D 2956 F165",
     "hours": "Monday to Friday, 09:00 – 18:00 GMT/BST",
     "languages": "English · Deutsch · Français · Español · Italiano",
     "formNote": "A contact form will be available here shortly."

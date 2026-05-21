@@ -1,9 +1,9 @@
 const entries = [
-  { year: "1999", role: "Cambridge, History of Art" },
-  { year: "2001", role: "Christie's, London — European Furniture & Works of Art" },
-  { year: "2011", role: "The Royal Household — Surveyor of The Queen's Works of Art" },
-  { year: "2016", role: "Gurr Johns — Head of European Furniture & Works of Art" },
-  { year: "2019", role: "Independent practice — Shaftesbury, Dorset" },
+  { year: "1996", role: "Cambridge, History of Art" },
+  { year: "1997", role: "Christie's, London — European Furniture & Works of Art" },
+  { year: "2010", role: "The Royal Household — Surveyor of The Queen's Works of Art" },
+  { year: "2022", role: "Gurr Johns — Director of Decorative Arts" },
+  { year: "2024", role: "Independent practice — Shaftesbury, Dorset" },
 ];
 
 export function CareerTimeline() {

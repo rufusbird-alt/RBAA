@@ -8,7 +8,7 @@
     "contact": "Kontakt"
   },
   "footer": {
-    "colophon": "Gesetzt in Cormorant Garamond und EB Garamond. Unabhängige Beratungspraxis gegründet in Shaftesbury, Dorset, 2019.",
+    "colophon": "Gesetzt in Cormorant Garamond und EB Garamond. Unabhängige Beratungspraxis gegründet in Shaftesbury, Dorset, 2024.",
     "theSite": "Die Website",
     "languages": "Sprachen",
     "discretion": "Diskretion",
@@ -20,7 +20,7 @@
       "de": "Deutsch",
       "fr": "Français"
     },
-    "baseline": "Rufus Bird Art Advisory · Shaftesbury · Dorset · MMXXVI. Alle Inhalte © Rufus Bird Art Advisory 2019–2026."
+    "baseline": "Rufus Bird Art Advisory · Shaftesbury · Dorset · SP7 0JE MMXXVI. Alle Inhalte © Rufus Bird Art Advisory 2024–2026."
   },
   "common": {
     "beginConversation": "Ein Gespräch beginnen →",
@@ -34,9 +34,9 @@
   "home": {
     "definingStatement": "Eine weltweit führende unabhängige Kunstberatung für Privatsammler, Stiftungen, Museen und Unternehmen — für den Kauf, Verkauf und die Verwaltung von Sammlungen.",
     "opening": {
-      "p1": "Rufus Bird Art Advisory wurde gegründet, um Sammler durch die Kunstwelt zu begleiten: Märkte navigieren, außergewöhnliche Werke beschaffen, Sammlungen verfeinern, Konservierung beratend begleiten und Nachlässe mit vollständiger Transparenz, Klarheit und Vertrauen verwalten.",
+      "p1": "Rufus Bird Art Advisory wurde gegründet, um mit Käufern und Verkäufern auf dem Kunstmarkt zusammenzuarbeiten. Wir begleiten Sammler durch die Kunstwelt: Märkte navigieren, außergewöhnliche Werke beschaffen, Sammlungen verfeinern, bei Bewertung, Sammlungsverwaltung, Nachlässen, Konservierung und Verkaufsstrategie beraten — stets mit vollständiger Transparenz, Klarheit und Vertrauen. Wir arbeiten für Sie — und nur für Sie.",
       "p2": "Wir verstehen, dass das Sammeln von Kunst weit mehr ist als der Erwerb von Objekten. Es ist die bewusste Verbindung von Emotion, Erbe, Ansehen und Leidenschaft. Deshalb macht ein seriöser, informierter und unabhängiger Partner an Ihrer Seite einen wesentlichen Unterschied.",
-      "p3": "Mit fünfundzwanzig Jahren Erfahrung in der Kunstwelt gehört Rufus Bird zu den vertrauenswürdigsten und gefragtesten unabhängigen Stimmen. Ein Absolvent der Universität Cambridge, ausgebildet bei Christie's im Bereich Europäische Möbel & Kunsthandwerk, verbrachte er mehr als zehn Jahre auf höchster Ebene im Königlichen Haushalt als Verwalter der dekorativen Künste der Königlichen Sammlung für die britische Königsfamilie. Anschließend leitete er die Abteilung Europäische Möbel & Kunsthandwerk bei Gurr Johns, bevor er 2019 diese Praxis gründete. Er ist ein veröffentlichter Autor und Kenner mit einem reichen Schatz an Geschichten, Objekten und Kontakten weltweit — und bietet nun diskrete, unabhängige Beratung für Privatpersonen und Institutionen an.",
+      "p3": "Mit fünfundzwanzig Jahren Erfahrung in der Kunstwelt gehört Rufus Bird zu den vertrauenswürdigsten und gefragtesten unabhängigen Agenten und Beratern. Ein Absolvent der Universität Cambridge, ausgebildet bei Christie's im Bereich Europäische Möbel & Kunsthandwerk, verbrachte er mehr als zehn Jahre auf höchster Ebene im Königlichen Haushalt als Surveyor of the Queen's Works of Art — und leitete anschließend die Abteilung Europäische Möbel & Kunsthandwerk bei Gurr Johns, bevor er 2024 seine unabhängige Praxis gründete. Er ist Auktionator, veröffentlichter Autor und Kenner mit einem reichen Schatz an Geschichten, Objekten und Kontakten weltweit — und bietet nun diskrete, unparteiische Beratung für Privatpersonen und Institutionen an.",
       "p4": "Sie sind vielleicht ein erfahrener Sammler, der ein bestimmtes Werk sucht, ein Family Office, das bedeutende Vermögenswerte verwaltet, ein Innenarchitekt auf der Suche nach einem zentralen Kunstwerk, oder ein Testamentsvollstrecker, der eine Bewertung oder Orientierung benötigt. Was auch immer Ihr Ausgangspunkt ist, Rufus Bird Art Advisory bietet Ihnen maßgeschneiderte, individuelle Beratung als vertrauensvoller Partner auf Ihrem Weg mit der Kunst."
     },
     "approachTeaser": {
@@ -55,15 +55,15 @@
     "servicesSection": "Mit wem ich arbeite",
     "caseStudy": {
       "eyebrow": "Fallstudie · 2024–laufend",
-      "headline": "Ein venezianischer Palazzo, vollständig geerbt — und die vietnamesische Bronze, von der niemand wusste, dass sie dort war.",
-      "pull": "Die Treuhänder sind auf Retainer. Ich habe meinen eigenen Schlüssel.",
+      "headline": "Ein venezianischer Palazzo, von einem Klienten geerbt. Und das schlafende vietnamesische Gemälde, das alle übersehen hatten.",
+      "pull": "",
       "cta": "Die vollständige Studie lesen →"
     },
     "journalSection": "Aus dem Journal",
     "journalCta": "Alle Journal-Einträge →",
     "contactCta": {
       "heading": "Eine private Tür.",
-      "body": "Anfragen sind willkommen per Brief, elektronischer Post oder Telefon. Erstgespräche sind ohne Gebühr und ohne Verpflichtung; einem schriftlichen Honorarauftrag geht jede Beauftragung voraus.",
+      "body": "Korrespondenz ist willkommen per Post, E-Mail, Telefon oder WhatsApp. Erstgespräche sind ohne Gebühr und ohne Verpflichtung; einem schriftlichen Honorarauftrag geht jede Beauftragung voraus.",
       "cta": "Ein Gespräch beginnen →"
     }
   },
@@ -71,8 +71,8 @@
     "eyebrow": "Über die Praxis",
     "headline": "Fünfundzwanzig Jahre mit den Objekten.",
     "bio": {
-      "p1": "Ich studierte Kunstgeschichte in Cambridge und absolvierte meine Ausbildung als Spezialist bei Christie's, in der Abteilung für Europäische Möbel & Kunsthandwerk. Ich verbrachte ein prägendes Jahrzehnt im Königlichen Haushalt als Surveyor of The Queen's Works of Art, zuständig für die dekorativen Künste der Königlichen Sammlung — ein Amt, das einen dauerhaft lehrt, das Objekt vor das Etikett zu stellen. Anschließend leitete ich Europäische Möbel & Kunsthandwerk bei Gurr Johns, bevor ich 2019 diese Praxis in Shaftesbury eröffnete.",
-      "p2": "Das Büro ist bewusst klein gehalten: ein Hauptberater, ein Netzwerk von Spezialisten, mit denen ich seit Jahren zusammenarbeite, und eine Arbeitsbibliothek, die mit den Aufgaben gewachsen ist. Ich nehme Mandate selektiv an, mit einer klaren Präferenz für langfristige Beziehungen gegenüber einzelnen Transaktionen. Ich korrespondiere auf Englisch, Deutsch und Französisch; auf Spanisch und Italienisch, wenn der Anlass es erfordert.",
+      "p1": "Ich studierte Kunstgeschichte in Cambridge und schloss 1996 ab. Danach verbrachte ich zehn Monate in Baden-Württemberg, um Deutsch zu lernen. 1997 trat ich bei Christie's ein und absolvierte meine Ausbildung als Spezialist in der Abteilung für Europäische Möbel & Kunsthandwerk. 2010 verließ ich Christie's, um das Amt des Stellvertretenden Verwalters der Kunstwerke Ihrer Majestät der Königin zu übernehmen — und wurde 2018 zum Verwalter der Kunstwerke Ihrer Majestät der Königin ernannt. Meine Aufgabe war es, rund 500.000 Werke des Kunsthandwerks (Möbel, Keramik, Glas, Rüstung, Skulptur, Textilien, Kostüm) in 15 königlichen Residenzen zu pflegen, zu erforschen und zu verwalten. Im Zuge der globalen Pandemie 2020–21 verließ ich den Königlichen Haushalt und kehrte in die kommerzielle Kunstwelt zurück — zunächst in einem kleinen regionalen Auktionshaus, bevor ich von 2022 bis 2024 die Dekorativen Künste bei Gurr Johns International Art Advisory and Valuations leitete, die berühmte Antiquitätenmarke Mallett neu etablierte und schließlich 2024 meine private Praxis in Shaftesbury eröffnete.",
+      "p2": "Die Praxis ist bewusst klein gehalten: ein Hauptberater, ein bewährtes und vertrauensvolles Netzwerk von Spezialisten, mit denen ich seit Jahren zusammenarbeite, und eine Arbeitsbibliothek, die mit meiner Arbeit gewachsen ist. Ich nehme Mandate selektiv an, mit einer ausgeprägten Präferenz für langfristige Beziehungen gegenüber einzelnen Transaktionen. Ich korrespondiere auf Englisch, Deutsch und Französisch; auf Spanisch und Italienisch, wenn der Anlass es erfordert.",
       "p3": "Menschen sagen mir dasselbe, gewöhnlich nachdem wir eine Weile zusammengearbeitet haben: dass die Arbeit sich mehr wie Beratung als wie Vermittlung anfühlt. Dass sie in gewisser Weise ruhiger ist, als sie erwartet hatten. Ich nehme das als das höchste Kompliment."
     },
     "fullBioCta": "Die vollständige Biografie lesen →",
@@ -86,15 +86,15 @@
     "cta": "Ein Gespräch beginnen →"
   },
   "contact": {
-    "headline": "Anfragen sind willkommen per Brief, elektronischer Post oder Telefon.",
-    "sub": "Empfehlungen werden vertraulich behandelt. Erstgespräche sind ohne Gebühr und ohne Verpflichtung; einem schriftlichen Honorarauftrag geht jede Beauftragung voraus.",
+    "headline": "Anfragen per WhatsApp, E-Mail, Telefon oder Post.",
+    "sub": "Erstgespräche sind ohne Gebühr und ohne Verpflichtung; einem schriftlichen Honorarauftrag geht jede Beauftragung voraus.",
     "emailLabel": "Elektronische Post",
     "phoneLabel": "Telefon",
     "postLabel": "Post",
     "hoursLabel": "Öffnungszeiten",
     "languagesLabel": "Sprachen",
     "pgpLabel": "PGP",
-    "pgpNote": "Öffentlicher Schlüssel-Fingerabdruck wird veröffentlicht.",
+    "pgpNote": "4282 D72B 4C1E 13BE C749 A96A 5730 FF5D 2956 F165",
     "hours": "Montag bis Freitag, 09:00 – 18:00 GMT/BST",
     "languages": "English · Deutsch · Français · Español · Italiano",
     "formNote": "Ein Kontaktformular ist in Kürze hier verfügbar."

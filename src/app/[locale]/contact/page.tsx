@@ -26,10 +26,10 @@ export default async function ContactPage() {
       value: 'rufus@rufusbirdartadvisory.com',
       href: 'mailto:rufus@rufusbirdartadvisory.com',
     },
-    { key: 'phoneLabel', value: '+44 (0)1747 000 000', href: 'tel:+441747000000' },
+    { key: 'phoneLabel', value: '+44 (0)7815 588181', href: 'tel:+447815588181' },
     {
       key: 'postLabel',
-      value: 'Rufus Bird Art Advisory, Shaftesbury, Dorset SP7, United Kingdom',
+      value: 'Rufus Bird Art Advisory, Buddens Farm, Shaftesbury, Dorset SP7 0JE',
     },
     { key: 'hoursLabel', value: t('hours') },
     { key: 'languagesLabel', value: t('languages') },
@@ -67,7 +67,7 @@ export default async function ContactPage() {
               <dt className="small-caps text-xs text-[var(--muted)] w-32 shrink-0 pt-0.5">
                 {t('pgpLabel')}
               </dt>
-              <dd className="text-sm text-[var(--ink-muted)] italic">{t('pgpNote')}</dd>
+              <dd className="text-sm font-mono text-[var(--ink-soft)]">{t('pgpNote')}</dd>
             </div>
           </dl>
         </div>
