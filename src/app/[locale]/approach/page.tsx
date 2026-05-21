@@ -114,9 +114,10 @@ export default function ApproachPage() {
               way.
             </p>
             <p>
-              A written fee note precedes every engagement. No secret commissions, ever. Discretion
-              is presumed and absolute: client identities, prices, and provenance are treated as
-              privileged. PGP-encrypted correspondence is available on request.
+              A written fee note precedes every engagement. No secret undeclared commissions, ever.
+              Discretion is presumed and absolute: client identities, prices, and provenance are
+              treated as privileged. Secure, encrypted Proton mail correspondence is standard. PGP
+              secure email available.
             </p>
           </div>
           <div className="mt-10">
