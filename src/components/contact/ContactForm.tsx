@@ -82,7 +82,7 @@ export function ContactForm() {
       </div>
 
       <div>
-        <label htmlFor="email" className={labelClass}>Electronic mail</label>
+        <label htmlFor="email" className={labelClass}>Email</label>
         <input
           type="email"
           id="email"
