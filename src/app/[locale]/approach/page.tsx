@@ -39,9 +39,6 @@ export default function ApproachPage() {
       <section className="py-16 border-b border-[var(--rule)]">
         <div className="max-w-[var(--measure)] mx-auto px-[var(--gutter)] space-y-5">
           <p>
-            Collecting is not a transaction. Transactions are rational. Collecting is emotional.
-          </p>
-          <p>
             Art is one of the few assets whose value is inseparable from personal meaning. Two
             collectors can look at the same work and see entirely different worth. What compels one
             person leaves another indifferent. Price follows taste as much as the other way around.
