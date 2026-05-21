@@ -26,7 +26,7 @@ export default async function ContactPage() {
       value: 'rufus@rufusbirdartadvisory.com',
       href: 'mailto:rufus@rufusbirdartadvisory.com',
     },
-    { key: 'phoneLabel', value: '+44 (0)7815 588181', href: 'tel:+447815588181' },
+    { key: 'phoneLabel', value: 'WhatsApp / Telephone: +44 (0)7815 588181', href: 'https://wa.me/447815588181' },
     {
       key: 'postLabel',
       value: 'Rufus Bird Art Advisory, Buddens Farm, Shaftesbury, Dorset SP7 0JE',
