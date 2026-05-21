@@ -52,6 +52,10 @@ export default function ApproachPage() {
             mechanics.
           </p>
           <p>
+            The art of collecting is about showing how an aesthetic can transcend its own time and
+            to be understood and appreciated across generations.
+          </p>
+          <p>
             Access to art can be learned. Markets can be navigated.{' '}
             <em>What cannot be systematised is judgement.</em>
           </p>
@@ -66,10 +70,10 @@ export default function ApproachPage() {
             <em>With counsel, they become intentional.</em>
           </p>
           <p>
-            The role of a genuine advisor is not to facilitate transactions, but to help a collector
-            think clearly about what they are building, why it matters, and how it should evolve.
-            The outcome is not simply ownership of objects, but the construction of meaning,
-            coherence, and personal legacy.
+            The role of a genuine advisor is not only to facilitate transactions, but to provoke a
+            collector to think clearly about what they are building, why it matters, and how it
+            should evolve. The outcome is not simply ownership of objects, but the construction of
+            meaning, coherence, and a personal legacy.
           </p>
           <p className="italic">
             This is the difference between buying art and building a collection.
