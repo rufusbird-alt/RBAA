@@ -30,7 +30,7 @@ export default function ApproachPage() {
         <div className="max-w-[var(--measure)] mx-auto px-[var(--gutter)]">
           <p className="text-xs small-caps text-[var(--muted)] mb-4">The Approach</p>
           <h1 className="font-display text-4xl md:text-5xl italic leading-tight">
-            Collecting is not a transaction. Transactions are rational. Collecting is not.
+            Collecting is not a transaction. Transactions are rational. Collecting is emotional.
           </h1>
         </div>
       </section>
@@ -39,7 +39,7 @@ export default function ApproachPage() {
       <section className="py-16 border-b border-[var(--rule)]">
         <div className="max-w-[var(--measure)] mx-auto px-[var(--gutter)] space-y-5">
           <p>
-            Collecting is not a transaction. Transactions are rational. Collecting is not.
+            Collecting is not a transaction. Transactions are rational. Collecting is emotional.
           </p>
           <p>
             Art is one of the few assets whose value is inseparable from personal meaning. Two
