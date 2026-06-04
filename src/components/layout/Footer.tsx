@@ -13,6 +13,13 @@ const siteLinks = [
 const legalLinks = [
   { footerKey: 'privacy', href: '/privacy' },
   { footerKey: 'terms', href: '/terms-of-engagement' },
+  { footerKey: 'aml', href: '/anti-money-laundering-policy' },
+] as const;
+
+const socialLinks = [
+  { label: 'LinkedIn', href: 'https://www.linkedin.com/in/rufus-bird-lvo-fsa-94499332/' },
+  { label: 'Instagram', href: 'https://www.instagram.com/birdrufus/' },
+  { label: 'Substack', href: 'https://rufusbird.substack.com/' },
 ] as const;
 
 export async function Footer() {
@@ -27,6 +34,20 @@ export async function Footer() {
             <p className="text-sm text-[var(--ink-muted)] leading-relaxed">
               {tFooter('colophon')}
             </p>
+            <ul className="mt-6 space-y-2">
+              {socialLinks.map(({ label, href }) => (
+                <li key={href}>
+                  <a
+                    href={href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-sm text-[var(--ink-soft)] hover:text-[var(--ink)] transition-colors"
+                  >
+                    {label}
+                  </a>
+                </li>
+              ))}
+            </ul>
           </div>
 
           <div>

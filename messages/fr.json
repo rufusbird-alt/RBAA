@@ -12,8 +12,9 @@
     "theSite": "Le site",
     "languages": "Langues",
     "discretion": "Discrétion",
-    "privacy": "Note de confidentialité",
+    "privacy": "Politique de confidentialité",
     "terms": "Conditions d'engagement",
+    "aml": "Lutte contre le blanchiment",
     "pgp": "Clé PGP publique",
     "languageNames": {
       "en": "English",

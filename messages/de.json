@@ -12,8 +12,9 @@
     "theSite": "Die Website",
     "languages": "Sprachen",
     "discretion": "Diskretion",
-    "privacy": "Datenschutzhinweis",
+    "privacy": "Datenschutzrichtlinie",
     "terms": "Beauftragungsbedingungen",
+    "aml": "Geldwäscheprävention",
     "pgp": "PGP-Schlüssel",
     "languageNames": {
       "en": "English",

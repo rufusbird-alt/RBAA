@@ -12,8 +12,9 @@
     "theSite": "The Site",
     "languages": "Languages",
     "discretion": "Discretion",
-    "privacy": "Privacy note",
+    "privacy": "Privacy policy",
     "terms": "Terms of engagement",
+    "aml": "Anti-money laundering",
     "pgp": "PGP public key",
     "languageNames": {
       "en": "English",
