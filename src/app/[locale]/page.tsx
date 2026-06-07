@@ -7,15 +7,11 @@ import { SectionTitle } from '@/components/ui/SectionTitle';
 import { Eyebrow } from '@/components/ui/Eyebrow';
 import { Button } from '@/components/ui/Button';
 
+const heroImage = { src: '/images/home/panini-ancient-rome.jpg', alt: 'Pannini, A View of Ancient Rome' };
+
 const galleryImages = [
-  { src: '/images/home/panini-ancient-rome.jpg', alt: 'Pannini, A View of Ancient Rome' },
-  { src: '/images/home/panini-modern-rome.jpg', alt: 'Pannini, A View of Modern Rome' },
   { src: '/images/home/tapestryroom-croome.jpg', alt: 'The Tapestry Room, Croome Court' },
-  { src: '/images/home/salon-hoteldetesse.jpg', alt: 'Salon, Hôtel de Tessé' },
   { src: '/images/home/teniers-kermesse.jpg', alt: 'Teniers, Kermesse' },
-  { src: '/images/home/America-four-continents.jpg', alt: 'America, from The Four Continents' },
-  { src: '/images/home/Durer-geometriae.jpg', alt: 'Dürer, Geometriae' },
-  { src: '/images/home/durer-after-leonardo-embroidery-pattern.jpg', alt: 'After Leonardo, embroidery pattern' },
 ];
 
 export default async function HomePage() {
@@ -26,6 +22,11 @@ export default async function HomePage() {
 
   return (
     <>
+      {/* §1.1 Hero image */}
+      <section className="relative aspect-[21/9] overflow-hidden border-b border-[var(--rule)]">
+        <Image src={heroImage.src} alt={heroImage.alt} fill priority className="object-cover" sizes="100vw" />
+      </section>
+
       {/* §1.1 Hero — quotes carousel */}
       <QuotesCarousel />
 
@@ -69,10 +70,10 @@ export default async function HomePage() {
 
       {/* §1.5 Image gallery */}
       <section className="border-b border-[var(--rule)] overflow-hidden">
-        <div className="grid grid-cols-4 md:grid-cols-8">
+        <div className="grid grid-cols-2">
           {galleryImages.map(({ src, alt }) => (
-            <div key={src} className="relative aspect-square">
-              <Image src={src} alt={alt} fill className="object-cover" sizes="(max-width: 768px) 25vw, 12.5vw" />
+            <div key={src} className="relative aspect-[4/3]">
+              <Image src={src} alt={alt} fill className="object-cover" sizes="50vw" />
             </div>
           ))}
         </div>

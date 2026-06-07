@@ -5,18 +5,11 @@ import { getAllJournalEntries, formatDate, readingTime } from '@/lib/content';
 import { buildMetadata } from '@/lib/seo';
 import { Eyebrow } from '@/components/ui/Eyebrow';
 
+const heroImage = { src: '/images/journal/barberini-cabinet1.jpg', alt: 'Barberini cabinet' };
+
 const archiveImages = [
-  { src: '/images/journal/barberini-cabinet1.jpg', alt: 'Barberini cabinet' },
-  { src: '/images/journal/Barberini-cabinet2.jpg', alt: 'Barberini cabinet, detail' },
-  { src: '/images/journal/Bullock cabinet.jpg', alt: 'Bullock cabinet' },
   { src: '/images/journal/Piranesi1.jpg', alt: 'Piranesi, plate I' },
-  { src: '/images/journal/Piranesi2.jpg', alt: 'Piranesi, plate II' },
-  { src: '/images/journal/Piranesi3.jpg', alt: 'Piranesi, plate III' },
-  { src: '/images/journal/armchair-croome.jpg', alt: 'Armchair, Croome Court' },
   { src: '/images/journal/chippendale-director.jpg', alt: "Chippendale's Director" },
-  { src: '/images/journal/chippendale-drawings1.jpg', alt: 'Chippendale drawings' },
-  { src: '/images/journal/chippendale-drawings-commode.jpg', alt: 'Chippendale commode drawing' },
-  { src: '/images/journal/mekeren-marquetry.jpg', alt: 'Van Mekeren marquetry' },
 ];
 
 export async function generateMetadata({
@@ -49,6 +42,11 @@ export default function JournalPage() {
 
   return (
     <>
+      {/* Hero image */}
+      <section className="relative aspect-[21/9] overflow-hidden border-b border-[var(--rule)]">
+        <Image src={heroImage.src} alt={heroImage.alt} fill priority className="object-cover" sizes="100vw" />
+      </section>
+
       <section className="py-16 border-b border-[var(--rule)]">
         <div className="max-w-[var(--measure)] mx-auto px-[var(--gutter)]">
           <p className="text-xs small-caps text-[var(--muted)] mb-4">Journal</p>
@@ -123,10 +121,10 @@ export default function JournalPage() {
       </section>
       {/* Archive image strip */}
       <section className="border-b border-[var(--rule)] overflow-hidden">
-        <div className="grid grid-cols-4 md:grid-cols-11">
+        <div className="grid grid-cols-2">
           {archiveImages.map(({ src, alt }) => (
-            <div key={src} className="relative aspect-square">
-              <Image src={src} alt={alt} fill className="object-cover" sizes="(max-width: 768px) 25vw, 9vw" />
+            <div key={src} className="relative aspect-[4/3]">
+              <Image src={src} alt={alt} fill className="object-cover" sizes="50vw" />
             </div>
           ))}
         </div>

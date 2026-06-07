@@ -27,6 +27,18 @@ const differentiators = [
 export default function ApproachPage() {
   return (
     <>
+      {/* Hero image */}
+      <section className="relative aspect-[21/9] overflow-hidden border-b border-[var(--rule)]">
+        <Image
+          src="/images/approach/rothschild-vienna-ceiling-design.jpg"
+          alt="Rothschild Vienna ceiling design"
+          fill
+          priority
+          className="object-cover"
+          sizes="100vw"
+        />
+      </section>
+
       <section className="py-16 border-b border-[var(--rule)]">
         <div className="max-w-[var(--measure)] mx-auto px-[var(--gutter)]">
           <p className="text-xs small-caps text-[var(--muted)] mb-4">The Approach</p>
@@ -81,14 +93,13 @@ export default function ApproachPage() {
 
       {/* Images */}
       <section className="border-b border-[var(--rule)] overflow-hidden">
-        <div className="grid grid-cols-3">
+        <div className="grid grid-cols-2">
           {[
-            { src: '/images/approach/rothschild-vienna-ceiling-design.jpg', alt: 'Rothschild Vienna ceiling design' },
             { src: '/images/approach/castrucci-plaque.jpg', alt: 'Castrucci pietre dure plaque' },
             { src: '/images/approach/Burwash-Beckford-waiter.jpg', alt: 'Burwash Beckford waiter' },
           ].map(({ src, alt }) => (
             <div key={src} className="relative aspect-[4/3]">
-              <Image src={src} alt={alt} fill className="object-cover" sizes="33vw" />
+              <Image src={src} alt={alt} fill className="object-cover" sizes="50vw" />
             </div>
           ))}
         </div>

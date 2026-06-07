@@ -4,23 +4,11 @@ import Image from 'next/image';
 import { getAllServices } from '@/lib/content';
 import { buildMetadata } from '@/lib/seo';
 
+const heroImage = { src: '/images/services/rbaa-Isenbrandt-triptych.jpg', alt: 'Isenbrandt triptych' };
+
 const objectImages = [
-  { src: '/images/services/rbaa-Isenbrandt-triptych.jpg', alt: 'Isenbrandt triptych' },
   { src: '/images/services/rbaa-riesener-bureau.jpg', alt: 'Riesener bureau' },
-  { src: '/images/services/rbaa-pietre-dure-panel1.jpg', alt: 'Pietre dure panel' },
-  { src: '/images/services/rbaa-pietre-dure-panel2.jpg', alt: 'Pietre dure panel, detail' },
-  { src: '/images/services/rbaa-italian-cabinet.jpg', alt: 'Italian cabinet' },
-  { src: '/images/services/rbaa-litalian-cabinet1.jpg', alt: 'Italian cabinet, detail' },
   { src: '/images/services/rbaa-giltwood-console.jpg', alt: 'Giltwood console' },
-  { src: '/images/services/rbaa-bronze-bust.jpg', alt: 'Bronze bust' },
-  { src: '/images/services/rbaa-bronze-bust2.jpg', alt: 'Bronze bust, detail' },
-  { src: '/images/services/rbaa-celadon-vase.jpg', alt: 'Celadon vase' },
-  { src: '/images/services/rbaa-celadon-vase2.jpg', alt: 'Celadon vase, detail' },
-  { src: '/images/services/rbaa-baroque-pair-crackle-glaze-vases.jpg', alt: 'Baroque crackle-glaze vases' },
-  { src: '/images/services/rbaa-astronomical.jpg', alt: 'Astronomical instrument' },
-  { src: '/images/services/rbaa-aachen-pinecone.jpg', alt: 'Aachen pinecone' },
-  { src: '/images/services/rbaa-aachen-rathaus.jpg', alt: 'Aachen Rathaus' },
-  { src: '/images/services/rbaa-aachener-dom-door.jpg', alt: 'Aachener Dom door' },
 ];
 
 export async function generateMetadata({
@@ -42,6 +30,11 @@ export default function ServicesPage() {
 
   return (
     <>
+      {/* Hero image */}
+      <section className="relative aspect-[21/9] overflow-hidden border-b border-[var(--rule)]">
+        <Image src={heroImage.src} alt={heroImage.alt} fill priority className="object-cover" sizes="100vw" />
+      </section>
+
       <section className="py-16 border-b border-[var(--rule)]">
         <div className="max-w-[var(--measure)] mx-auto px-[var(--gutter)]">
           <p className="text-xs small-caps text-[var(--muted)] mb-4">Services</p>
@@ -77,10 +70,10 @@ export default function ServicesPage() {
         </div>
       </section>
       <section className="border-t border-[var(--rule)] overflow-hidden">
-        <div className="grid grid-cols-4 md:grid-cols-8">
+        <div className="grid grid-cols-2">
           {objectImages.map(({ src, alt }) => (
-            <div key={src} className="relative aspect-square">
-              <Image src={src} alt={alt} fill className="object-cover" sizes="(max-width: 768px) 25vw, 12.5vw" />
+            <div key={src} className="relative aspect-[4/3]">
+              <Image src={src} alt={alt} fill className="object-cover" sizes="50vw" />
             </div>
           ))}
         </div>
