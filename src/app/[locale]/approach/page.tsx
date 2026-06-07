@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Image from 'next/image';
 import { Button } from '@/components/ui/Button';
 import { buildMetadata } from '@/lib/seo';
 
@@ -75,6 +76,21 @@ export default function ApproachPage() {
           <p className="italic">
             This is the difference between buying art and building a collection.
           </p>
+        </div>
+      </section>
+
+      {/* Images */}
+      <section className="border-b border-[var(--rule)] overflow-hidden">
+        <div className="grid grid-cols-3">
+          {[
+            { src: '/images/approach/rothschild-vienna-ceiling-design.jpg', alt: 'Rothschild Vienna ceiling design' },
+            { src: '/images/approach/castrucci-plaque.jpg', alt: 'Castrucci pietre dure plaque' },
+            { src: '/images/approach/Burwash-Beckford-waiter.jpg', alt: 'Burwash Beckford waiter' },
+          ].map(({ src, alt }) => (
+            <div key={src} className="relative aspect-[4/3]">
+              <Image src={src} alt={alt} fill className="object-cover" sizes="33vw" />
+            </div>
+          ))}
         </div>
       </section>
 

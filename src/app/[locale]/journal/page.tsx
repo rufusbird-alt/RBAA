@@ -1,8 +1,23 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import Image from 'next/image';
 import { getAllJournalEntries, formatDate, readingTime } from '@/lib/content';
 import { buildMetadata } from '@/lib/seo';
 import { Eyebrow } from '@/components/ui/Eyebrow';
+
+const archiveImages = [
+  { src: '/images/journal/barberini-cabinet1.jpg', alt: 'Barberini cabinet' },
+  { src: '/images/journal/Barberini-cabinet2.jpg', alt: 'Barberini cabinet, detail' },
+  { src: '/images/journal/Bullock cabinet.jpg', alt: 'Bullock cabinet' },
+  { src: '/images/journal/Piranesi1.jpg', alt: 'Piranesi, plate I' },
+  { src: '/images/journal/Piranesi2.jpg', alt: 'Piranesi, plate II' },
+  { src: '/images/journal/Piranesi3.jpg', alt: 'Piranesi, plate III' },
+  { src: '/images/journal/armchair-croome.jpg', alt: 'Armchair, Croome Court' },
+  { src: '/images/journal/chippendale-director.jpg', alt: "Chippendale's Director" },
+  { src: '/images/journal/chippendale-drawings1.jpg', alt: 'Chippendale drawings' },
+  { src: '/images/journal/chippendale-drawings-commode.jpg', alt: 'Chippendale commode drawing' },
+  { src: '/images/journal/mekeren-marquetry.jpg', alt: 'Van Mekeren marquetry' },
+];
 
 export async function generateMetadata({
   params: { locale },
@@ -106,6 +121,17 @@ export default function JournalPage() {
           </div>
         </div>
       </section>
+      {/* Archive image strip */}
+      <section className="border-b border-[var(--rule)] overflow-hidden">
+        <div className="grid grid-cols-4 md:grid-cols-11">
+          {archiveImages.map(({ src, alt }) => (
+            <div key={src} className="relative aspect-square">
+              <Image src={src} alt={alt} fill className="object-cover" sizes="(max-width: 768px) 25vw, 9vw" />
+            </div>
+          ))}
+        </div>
+      </section>
+
       {/* Publications, lectures & media */}
       <section className="py-16">
         <div className="max-w-[var(--measure)] mx-auto px-[var(--gutter)]">

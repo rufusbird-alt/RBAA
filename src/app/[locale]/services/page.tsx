@@ -1,7 +1,27 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import Image from 'next/image';
 import { getAllServices } from '@/lib/content';
 import { buildMetadata } from '@/lib/seo';
+
+const objectImages = [
+  { src: '/images/services/rbaa-Isenbrandt-triptych.jpg', alt: 'Isenbrandt triptych' },
+  { src: '/images/services/rbaa-riesener-bureau.jpg', alt: 'Riesener bureau' },
+  { src: '/images/services/rbaa-pietre-dure-panel1.jpg', alt: 'Pietre dure panel' },
+  { src: '/images/services/rbaa-pietre-dure-panel2.jpg', alt: 'Pietre dure panel, detail' },
+  { src: '/images/services/rbaa-italian-cabinet.jpg', alt: 'Italian cabinet' },
+  { src: '/images/services/rbaa-litalian-cabinet1.jpg', alt: 'Italian cabinet, detail' },
+  { src: '/images/services/rbaa-giltwood-console.jpg', alt: 'Giltwood console' },
+  { src: '/images/services/rbaa-bronze-bust.jpg', alt: 'Bronze bust' },
+  { src: '/images/services/rbaa-bronze-bust2.jpg', alt: 'Bronze bust, detail' },
+  { src: '/images/services/rbaa-celadon-vase.jpg', alt: 'Celadon vase' },
+  { src: '/images/services/rbaa-celadon-vase2.jpg', alt: 'Celadon vase, detail' },
+  { src: '/images/services/rbaa-baroque-pair-crackle-glaze-vases.jpg', alt: 'Baroque crackle-glaze vases' },
+  { src: '/images/services/rbaa-astronomical.jpg', alt: 'Astronomical instrument' },
+  { src: '/images/services/rbaa-aachen-pinecone.jpg', alt: 'Aachen pinecone' },
+  { src: '/images/services/rbaa-aachen-rathaus.jpg', alt: 'Aachen Rathaus' },
+  { src: '/images/services/rbaa-aachener-dom-door.jpg', alt: 'Aachener Dom door' },
+];
 
 export async function generateMetadata({
   params: { locale },
@@ -54,6 +74,15 @@ export default function ServicesPage() {
               </Link>
             ))}
           </div>
+        </div>
+      </section>
+      <section className="border-t border-[var(--rule)] overflow-hidden">
+        <div className="grid grid-cols-4 md:grid-cols-8">
+          {objectImages.map(({ src, alt }) => (
+            <div key={src} className="relative aspect-square">
+              <Image src={src} alt={alt} fill className="object-cover" sizes="(max-width: 768px) 25vw, 12.5vw" />
+            </div>
+          ))}
         </div>
       </section>
     </>
