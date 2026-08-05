@@ -22,10 +22,10 @@ export async function Masthead() {
       <div className="max-w-[var(--max)] mx-auto px-[var(--gutter)] py-5 flex flex-wrap items-center justify-between gap-4">
         <Link
           href="/"
-          className="font-display text-xl tracking-[0.005em] shrink-0"
+          className="font-display text-xl tracking-[0.005em] shrink-0 text-[var(--ink)]"
           aria-label="Rufus Bird Art Advisory Ltd. — home"
         >
-          Rufus <span className="text-[var(--accent)]">Bird</span>
+          Rufus Bird Art Advisory
         </Link>
 
         <div className="flex flex-wrap items-center gap-6">
