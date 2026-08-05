@@ -46,9 +46,15 @@
 }
 
 @layer utilities {
-  /* Small caps — used for artist names, place names, metadata labels */
+  /* Small caps — used for artist names, place names, metadata labels.
+     Uses uppercase + a fixed font-size rather than font-variant-caps:
+     the latter renders accented glyphs (é, ü, à…) at full cap height
+     in this font, so French/German text came out visibly larger than
+     English. Uppercase + em-relative sizing keeps every locale the
+     same visual size. */
   .small-caps {
-    font-variant-caps: all-small-caps;
+    text-transform: uppercase;
+    font-size: 0.84em;
     letter-spacing: 0.08em;
   }
 }

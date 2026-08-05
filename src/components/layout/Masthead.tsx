@@ -2,6 +2,7 @@ import { getTranslations } from 'next-intl/server';
 import { Link } from '@/navigation';
 import { SkipLink } from './SkipLink';
 import { LanguageSwitcher } from './LanguageSwitcher';
+import { NavMenu } from './NavMenu';
 
 export async function Masthead() {
   const t = await getTranslations('nav');
@@ -22,27 +23,16 @@ export async function Masthead() {
         <Link
           href="/"
           className="font-display text-xl tracking-[0.005em] shrink-0"
-          aria-label="Rufus Bird Art Advisory — home"
+          aria-label="Rufus Bird Art Advisory Ltd. — home"
         >
           Rufus <span className="text-[var(--accent)]">Bird</span>
         </Link>
 
         <div className="flex flex-wrap items-center gap-6">
-          <nav aria-label="Primary">
-            <ul className="flex flex-wrap gap-x-6 gap-y-2">
-              {navLinks.map(({ key, href }) => (
-                <li key={href}>
-                  <Link
-                    href={href}
-                    className="text-sm small-caps text-[var(--ink-soft)] hover:text-[var(--ink)] transition-colors"
-                  >
-                    {t(key)}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </nav>
           <LanguageSwitcher />
+          <NavMenu
+            links={navLinks.map(({ key, href }) => ({ key, href, label: t(key) }))}
+          />
         </div>
       </div>
     </header>
