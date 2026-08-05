@@ -1,6 +1,6 @@
 import { ImageResponse } from 'next/og';
 
-export const alt = 'Rufus Bird Art Advisory — Independent counsel for collectors';
+export const alt = 'Rufus Bird Art Advisory Ltd. — Independent counsel for collectors';
 export const size = { width: 1200, height: 630 };
 export const contentType = 'image/png';
 

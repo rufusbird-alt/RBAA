@@ -1,4 +1,4 @@
-# Rufus Bird Art Advisory — English Copy (Canonical Source)
+# Rufus Bird Art Advisory Ltd. — English Copy (Canonical Source)
 
 **Version 1.0 — synthesised from Zing Content approved wording and Piers Bracher brand discussions.**
 
@@ -9,7 +9,7 @@ This file is the canonical English source for the website. All DE/FR translation
 ## Global elements
 
 ### Site name
-**Rufus Bird Art Advisory**
+**Rufus Bird Art Advisory Ltd.**
 
 ### Strapline (optional, for OG cards and metadata)
 *Counsel for the world's collectors. [S]*
@@ -35,7 +35,7 @@ EN · DE · FR
 4. **Discretion** — Privacy note · Terms of engagement · PGP public key
 
 ### Footer baseline
-Rufus Bird Art Advisory · Shaftesbury · Dorset · MMXXVI. All content © Rufus Bird Art Advisory 2019–2026.
+Rufus Bird Art Advisory Ltd. · Shaftesbury · Dorset · MMXXVI. All content © Rufus Bird Art Advisory Ltd. 2019–2026.
 
 ---
 
@@ -74,13 +74,13 @@ A single, authoritative paragraph, set large, centred beneath the carousel. [Z]
 
 Four short paragraphs in a centred, wide-measure column. Light polish from Zing's approved draft. [Z + S]
 
-Rufus Bird Art Advisory was established to guide collectors through the art world: navigating markets, sourcing exceptional works, refining collections, advising on conservation, and managing legacies with complete transparency, clarity and trust.
+Rufus Bird Art Advisory Ltd. was established to guide collectors through the art world: navigating markets, sourcing exceptional works, refining collections, advising on conservation, and managing legacies with complete transparency, clarity and trust.
 
 We understand that collecting art is so much more than the acquisition of objects. It is the deliberate culmination of emotion, legacy, reputation and passion. Which is why having a reputable, informed, and independent partner at your side makes a profound difference.
 
 With twenty-five years inside the art world, Rufus Bird is one of the most trusted and sought-after independent voices in it. A Cambridge graduate, he trained at Christie's in European Furniture & Works of Art, spent over ten years at the highest level inside the Royal Household managing the decorative arts of the Royal Collection for the British Royal Family, and led the European Furniture & Works of Art department at Gurr Johns before founding this practice in 2019. He is a published author and a connoisseur with a wealth of stories, objects, and contacts across the globe — now offering discreet, unconflicted counsel to private clients and institutions.
 
-You may be a seasoned collector pursuing a specific piece, a family office stewarding significant assets, an interior designer seeking a focal centrepiece, or a trustee of an estate needing a valuation or direction. Whatever your starting point, Rufus Bird Art Advisory offers tailored, bespoke guidance as a trusted partner throughout your journey with art.
+You may be a seasoned collector pursuing a specific piece, a family office stewarding significant assets, an interior designer seeking a focal centrepiece, or a trustee of an estate needing a valuation or direction. Whatever your starting point, Rufus Bird Art Advisory Ltd. offers tailored, bespoke guidance as a trusted partner throughout your journey with art.
 
 ### 1.4 — The Rufus Bird difference (Approach teaser)
 
@@ -126,7 +126,7 @@ Short, personable, no form on the home page. [S]
 
 ### 1.9 — Meta
 
-- **Title:** Rufus Bird Art Advisory — Independent counsel for collectors, family offices and institutions
+- **Title:** Rufus Bird Art Advisory Ltd. — Independent counsel for collectors, family offices and institutions
 - **Meta description:** Rufus Bird is an independent art advisor counselling private collectors, family offices, museums and corporations on the acquisition, stewardship, valuation and sale of European works of art and pictures, 1500–1950.
 - **OG image:** Hero carousel first frame, or a reserved OG card with wordmark + strapline.
 
@@ -186,7 +186,7 @@ A written fee note precedes every engagement. No secret commissions, ever. Discr
 
 ### 2.6 — Meta
 
-- **Title:** The Approach — Rufus Bird Art Advisory
+- **Title:** The Approach — Rufus Bird Art Advisory Ltd.
 - **Meta description:** Collecting is not a transaction. An independent counsellor to collectors, family offices and institutions explains how a genuine advisory relationship works.
 
 ---
@@ -271,7 +271,7 @@ He has done this for trustees of a Venetian palazzo, and for a number of other e
 
 ### 3.6 — Services meta (each page)
 
-- **Title:** *[Archetype name]* — Rufus Bird Art Advisory
+- **Title:** *[Archetype name]* — Rufus Bird Art Advisory Ltd.
 - **Meta description:** *[First sentence of each page, trimmed to ~155 chars.]*
 
 ---
@@ -312,7 +312,7 @@ The work took two years and is continuing. The trustees are on retainer. I have 
 
 ### 4.3 — Case study meta
 
-- **Title:** A Venetian Palazzo — Case Study — Rufus Bird Art Advisory
+- **Title:** A Venetian Palazzo — Case Study — Rufus Bird Art Advisory Ltd.
 - **Meta description:** How the trustees of a Venetian palazzo understood what they had inherited — room by room — before deciding anything else.
 
 ---
@@ -365,7 +365,7 @@ Each entry page contains:
 
 ### 5.4 — Journal meta
 
-- **Title:** *[Entry title]* — Journal — Rufus Bird Art Advisory
+- **Title:** *[Entry title]* — Journal — Rufus Bird Art Advisory Ltd.
 - **Meta description:** *[One-line excerpt]*
 - **Article schema** (structured data): headline, datePublished, dateModified, author, image, wordCount, keywords.
 
@@ -412,7 +412,7 @@ A vertical timeline. [Z dates and posts, plus synthesis]
 
 ### 6.6 — Meta
 
-- **Title:** About — Rufus Bird Art Advisory
+- **Title:** About — Rufus Bird Art Advisory Ltd.
 - **Meta description:** Rufus Bird — Cambridge, Christie's, the Royal Household, Gurr Johns, and now an independent practice in Shaftesbury, Dorset. Twenty-five years inside European works of art.
 
 ---
@@ -427,7 +427,7 @@ Long-form biography to be commissioned from Zing Content (their £120 quote) or 
 
 ### Meta
 
-- **Title:** Biography — Rufus Bird — Rufus Bird Art Advisory
+- **Title:** Biography — Rufus Bird — Rufus Bird Art Advisory Ltd.
 - **Meta description:** The full professional biography of Rufus Bird: Cambridge, Christie's, the Royal Household, Gurr Johns, and twenty-five years of advisory practice.
 
 ---
@@ -444,7 +444,7 @@ Long-form biography to be commissioned from Zing Content (their £120 quote) or 
 
 - **Electronic mail** — rufus@rufusbirdartadvisory.com
 - **Telephone** — +44 (0)1747 000 000
-- **Post** — Rufus Bird Art Advisory, Shaftesbury, Dorset SP7, United Kingdom
+- **Post** — Rufus Bird Art Advisory Ltd., Shaftesbury, Dorset SP7, United Kingdom
 - **PGP** — [Public key — fingerprint to be generated]
 - **Hours** — Monday to Friday, 09:00 – 18:00 GMT/BST
 - **Languages** — English · Deutsch · Français · Español · Italiano
@@ -461,7 +461,7 @@ Honeypot field hidden for spam. Submit handled by a Next.js server action callin
 
 ### 8.4 — Meta
 
-- **Title:** Contact — Rufus Bird Art Advisory
+- **Title:** Contact — Rufus Bird Art Advisory Ltd.
 - **Meta description:** Begin a conversation with Rufus Bird. First conversations are without fee or obligation. Correspondence in English, German, French, Spanish and Italian.
 
 ---

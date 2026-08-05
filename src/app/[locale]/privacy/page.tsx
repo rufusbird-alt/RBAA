@@ -8,7 +8,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   return buildMetadata({
     title: 'Privacy Policy',
-    description: 'How Rufus Bird Art Advisory collects, uses, and protects your personal data.',
+    description: 'How Rufus Bird Art Advisory Ltd. collects, uses, and protects your personal data.',
     path: '/privacy',
     locale,
   });
@@ -25,7 +25,7 @@ export default function PrivacyPage() {
 
           <div className="space-y-3">
             <p>
-              Rufus Bird Art Advisory is the data controller for the personal information we hold
+              Rufus Bird Art Advisory Ltd. is the data controller for the personal information we hold
               about you. Enquiries regarding this policy should be directed to{' '}
               <a
                 href="mailto:rufus@rufusbirdartadvisory.com"

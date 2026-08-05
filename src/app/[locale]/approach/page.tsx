@@ -52,9 +52,9 @@ export default function ApproachPage() {
       <section className="py-16 border-b border-[var(--rule)]">
         <div className="max-w-[var(--measure)] mx-auto px-[var(--gutter)] space-y-5">
           <p>
-            Art is one of the few assets whose value is inseparable from personal meaning. Two
-            collectors can look at the same work and see entirely different worth. What compels one
-            person leaves another indifferent. Price follows taste as much as the other way around.
+            Art is one of the few assets where value is inseparable from meaning. Two collectors can
+            look at the same work and see entirely different worth. What compels one person leaves
+            another indifferent. Price follows taste as much as the other way around.
           </p>
           <p>
             This makes collecting fundamentally different from other forms of acquisition. It is
@@ -70,20 +70,20 @@ export default function ApproachPage() {
             <em>What cannot be systematised is judgement.</em>
           </p>
           <p>
-            True collecting requires someone who can sit inside the client's world — understanding
+            True advisory requires someone who can sit inside the client's world — understanding
             not only what is available, but what is right for them. Someone who can challenge
             impulse, sharpen instinct, and translate unspoken ambition into coherent direction over
             time.
           </p>
           <p>
-            Without counsel, collections become accidental.{' '}
-            <em>With counsel, they become intentional.</em>
+            Without counsel, collections become accidental and drift.{' '}
+            <em>With counsel, they become intentional, understood and deeply felt.</em>
           </p>
           <p>
-            The role of a genuine advisor is not only to facilitate transactions, but to provoke a
-            collector to think clearly about what they are building, why it matters, and how it
-            should evolve. The outcome is not simply ownership of objects, but the construction of
-            meaning, coherence, and a personal legacy.
+            The role of an effective art advisor is not only to facilitate transactions, but to
+            provoke a collector to think clearly about what they are building, why it matters, and
+            how it should evolve. The outcome is not simply ownership of objects, but the
+            construction of meaning, coherence, and a personal legacy.
           </p>
           <p className="italic">
             This is the difference between buying art and building a collection.

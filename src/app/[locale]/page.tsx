@@ -44,6 +44,7 @@ export default async function HomePage() {
           <p>{t('opening.p2')}</p>
           <p>{t('opening.p3')}</p>
           <p>{t('opening.p4')}</p>
+          <p>{t('opening.p5')}</p>
         </div>
       </section>
 

@@ -23,9 +23,9 @@ const ebGaramond = EB_Garamond({
 
 export const metadata: Metadata = {
   title: {
-    template: '%s — Rufus Bird Art Advisory',
+    template: '%s — Rufus Bird Art Advisory Ltd.',
     default:
-      'Rufus Bird Art Advisory — Independent counsel for collectors, family offices and institutions',
+      'Rufus Bird Art Advisory Ltd. — Independent counsel for collectors, family offices and institutions',
   },
   description:
     'Rufus Bird is an independent art advisor counselling private collectors, family offices, museums and corporations on the acquisition, stewardship, valuation and sale of European works of art and pictures, 1500–1950.',
@@ -35,7 +35,7 @@ const orgJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'ProfessionalService',
   '@id': 'https://rufusbirdartadvisory.com/#organization',
-  name: 'Rufus Bird Art Advisory',
+  name: 'Rufus Bird Art Advisory Ltd.',
   url: 'https://rufusbirdartadvisory.com',
   founder: { '@type': 'Person', '@id': 'https://rufusbirdartadvisory.com/#rufus-bird' },
   areaServed: ['United Kingdom', 'Europe', 'Middle East', 'United States', 'Asia'],

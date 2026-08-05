@@ -38,7 +38,7 @@ export function buildMetadata({
       locale,
       alternateLocale: (['en', 'de', 'fr'] as const).filter((l) => l !== locale),
       ...(ogImage ? { images: [{ url: ogImage, width: 1200, height: 630 }] } : {}),
-      siteName: 'Rufus Bird Art Advisory',
+      siteName: 'Rufus Bird Art Advisory Ltd.',
     },
     twitter: { card: 'summary_large_image', title, description },
     alternates: {

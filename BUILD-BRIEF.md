@@ -1,4 +1,4 @@
-# Rufus Bird Art Advisory — Next.js Build Brief
+# Rufus Bird Art Advisory Ltd. — Next.js Build Brief
 
 **Version 1.0 · Hand-off document for local development in VS Code with Claude Code.**
 
@@ -344,7 +344,7 @@ export function buildMetadata({
       locale,
       alternateLocale: (['en','de','fr'] as const).filter(l => l !== locale),
       images: [{ url: ogImage ?? '/og/default.png', width: 1200, height: 630 }],
-      siteName: 'Rufus Bird Art Advisory',
+      siteName: 'Rufus Bird Art Advisory Ltd.',
     },
     twitter: { card: 'summary_large_image', title, description },
     alternates: {
@@ -371,7 +371,7 @@ Emit per page, in the head, via a `<Script type="application/ld+json">` tag.
   "@context": "https://schema.org",
   "@type": "ProfessionalService",
   "@id": "https://rufusbirdartadvisory.com/#organization",
-  "name": "Rufus Bird Art Advisory",
+  "name": "Rufus Bird Art Advisory Ltd.",
   "url": "https://rufusbirdartadvisory.com",
   "logo": "https://rufusbirdartadvisory.com/og/logo.png",
   "founder": { "@type": "Person", "@id": "#rufus-bird" },
