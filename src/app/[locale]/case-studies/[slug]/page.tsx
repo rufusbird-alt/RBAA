@@ -79,7 +79,7 @@ export default function CaseStudyPage({
 
       <section className="py-16 border-b border-[var(--rule)]">
         <div className="max-w-[var(--measure)] mx-auto px-[var(--gutter)]">
-          <Eyebrow>Case Study · {fm.location} · {fm.duration}</Eyebrow>
+          <Eyebrow>Case Study · {fm.location} · {fm.year}</Eyebrow>
           <h1 className="mt-3 font-display text-4xl md:text-5xl italic leading-tight">
             {fm.title}
           </h1>

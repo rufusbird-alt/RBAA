@@ -46,7 +46,7 @@ export default function CaseStudiesPage() {
                 className="block py-10 border-b border-[var(--rule)] hover:bg-[var(--ground-soft)] -mx-[var(--gutter)] px-[var(--gutter)] transition-colors group"
               >
                 <Eyebrow>
-                  {study.mandate} · {study.location} · {study.duration}
+                  {study.mandate} · {study.location} · {study.year}
                 </Eyebrow>
                 <h2 className="mt-2 font-display text-2xl italic group-hover:text-[var(--accent)] transition-colors">
                   {study.title}

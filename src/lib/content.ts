@@ -29,6 +29,7 @@ export interface CaseStudyFrontmatter {
   location: string;
   client: string;
   duration: string;
+  year: string;
   scope: string;
   heroImage?: string;
   heroAlt?: string;
