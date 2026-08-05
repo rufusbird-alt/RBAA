@@ -2,7 +2,6 @@ import type { Metadata } from 'next';
 import { existsSync } from 'fs';
 import path from 'path';
 import { getTranslations } from 'next-intl/server';
-import { Link } from '@/navigation';
 import { buildMetadata } from '@/lib/seo';
 import { CareerTimeline } from '@/components/about/CareerTimeline';
 import { PortraitFrame } from '@/components/about/PortraitFrame';
@@ -54,6 +53,7 @@ export default async function AboutPage() {
   const t = await getTranslations('about');
   // Try each portrait filename in preference order; update as needed
   const portraitCandidates = [
+    'portrait-RB00009.jpg',
     'portrait.jpg',
     'portrait-RB00001.jpeg',
     'portrait-RB00002.jpeg',
@@ -79,22 +79,15 @@ export default async function AboutPage() {
 
       <section className="py-16 border-b border-[var(--rule)]">
         <div className="max-w-[var(--measure)] mx-auto px-[var(--gutter)]">
-          {portraitSrc && (
-            <PortraitFrame src={portraitSrc} alt="Rufus Bird" />
-          )}
-          <div className="space-y-5 mt-8">
+          <div className="space-y-5">
+            {portraitSrc && (
+              <PortraitFrame src={portraitSrc} alt="Rufus Bird" className="float-left mr-8 mb-4" />
+            )}
             <p>{t('bio.p1')}</p>
             <p>{t('bio.p2')}</p>
             <p>{t('bio.p3')}</p>
-            <div className="mt-6">
-              <Link
-                href="/about/full-biography"
-                className="text-sm small-caps tracking-wider text-[var(--accent)] border-b border-[var(--accent)] pb-0.5 hover:text-[var(--accent-soft)] hover:border-[var(--accent-soft)] transition-colors"
-              >
-                {t('fullBioCta')}
-              </Link>
-            </div>
           </div>
+          <div className="clear-both" />
         </div>
       </section>
 
