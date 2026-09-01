@@ -9,11 +9,6 @@ import { Button } from '@/components/ui/Button';
 
 const heroImage = { src: '/images/home/panini-ancient-rome.jpg', alt: 'Pannini, A View of Ancient Rome' };
 
-const galleryImages = [
-  { src: '/images/home/tapestryroom-croome.jpg', alt: 'The Tapestry Room, Croome Court' },
-  { src: '/images/home/teniers-kermesse.jpg', alt: 'Teniers, Kermesse' },
-];
-
 export default async function HomePage() {
   const t = await getTranslations('home');
   const tc = await getTranslations('common');
@@ -22,9 +17,15 @@ export default async function HomePage() {
 
   return (
     <>
-      {/* §1.1 Hero image */}
-      <section className="relative aspect-[21/9] overflow-hidden border-b border-[var(--rule)]">
-        <Image src={heroImage.src} alt={heroImage.alt} fill priority className="object-cover" sizes="100vw" />
+      {/* §1.1 Intro text replacing the hero image */}
+      <section className="py-16 border-b border-[var(--rule)]">
+        <div className="max-w-[var(--measure)] mx-auto px-[var(--gutter)]">
+          <p className="text-xs small-caps text-[var(--muted)] mb-4">Independent art advisory</p>
+          <h1 className="font-display text-4xl md:text-5xl italic leading-tight">
+            Rufus Bird Art Advisory
+          </h1>
+          <p className="mt-6 text-xl italic text-[var(--ink-soft)]">{t('definingStatement')}</p>
+        </div>
       </section>
 
       {/* §1.1 Hero — quotes carousel */}
@@ -80,18 +81,7 @@ export default async function HomePage() {
         </div>
       </section>
 
-      {/* §1.5 Image gallery */}
-      <section className="border-b border-[var(--rule)] overflow-hidden">
-        <div className="grid grid-cols-2">
-          {galleryImages.map(({ src, alt }) => (
-            <div key={src} className="relative aspect-[4/3]">
-              <Image src={src} alt={alt} fill className="object-cover" sizes="50vw" />
-            </div>
-          ))}
-        </div>
-      </section>
-
-      {/* §1.6 Services teaser */}
+      {/* §1.5 Services teaser */}
       <section className="py-16 border-b border-[var(--rule)]">
         <div className="max-w-[var(--max)] mx-auto px-[var(--gutter)]">
           <SectionTitle>{t('servicesSection')}</SectionTitle>

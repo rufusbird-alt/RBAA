@@ -2,6 +2,7 @@ const entries = [
   { year: "1996", role: "Cambridge, History of Art" },
   { year: "1997", role: "Christie's, London — European Furniture & Works of Art" },
   { year: "2010", role: "The Royal Household — Surveyor of The Queen's Works of Art" },
+  { year: "2021", role: "Duke's, Dorchester — 2021–2022" },
   { year: "2022", role: "Gurr Johns — Director of Decorative Arts" },
   { year: "2024", role: "Independent practice — Shaftesbury, Dorset" },
 ];

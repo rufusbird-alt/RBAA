@@ -19,8 +19,8 @@ const QUOTES = [
     descriptor: "We source works that speak quietly, powerfully and unmistakably.",
   },
   {
-    text: "The true collector is not one who owns, but one who understands.",
-    attribution: "Douglas Cooper",
+    text: "The creation of art is not the fulfillment of a need but the creation of a need. The world never needed Beethoven's Fifth Symphony until he created it. Now we could not live without it.",
+    attribution: "Louis I. Kahn",
     descriptor: "We help you cultivate knowledge as carefully as we build your collections.",
   },
   {

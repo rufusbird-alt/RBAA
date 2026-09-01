@@ -100,31 +100,14 @@ export default async function AboutPage() {
 
       <section className="py-16 border-b border-[var(--rule)]">
         <div className="max-w-[var(--measure)] mx-auto px-[var(--gutter)]">
-          <h2 className="font-display text-2xl italic mb-6">{t('publicationsHeading')}</h2>
-          <div className="space-y-8">
-            <div>
-              <h3 className="text-xs small-caps text-[var(--muted)] mb-3">
-                {t('publicationsLabel')}
-              </h3>
-              <p className="text-sm text-[var(--ink-muted)] italic">{t('publicationsNote')}</p>
-            </div>
-            <div>
-              <h3 className="text-xs small-caps text-[var(--muted)] mb-3">{t('lecturesLabel')}</h3>
-              <p className="text-sm text-[var(--ink-muted)] italic">{t('lecturesNote')}</p>
-            </div>
-            <div>
-              <h3 className="text-xs small-caps text-[var(--muted)] mb-3">
-                {t('affiliationsLabel')}
-              </h3>
-              <ul className="space-y-1">
-                {affiliations.map((a) => (
-                  <li key={a} className="text-sm text-[var(--ink-soft)]">
-                    {a}
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </div>
+          <h2 className="font-display text-2xl italic mb-6">{t('affiliationsLabel')}</h2>
+          <ul className="space-y-1">
+            {affiliations.map((a) => (
+              <li key={a} className="text-sm text-[var(--ink-soft)]">
+                {a}
+              </li>
+            ))}
+          </ul>
         </div>
       </section>
 
