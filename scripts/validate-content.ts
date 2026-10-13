@@ -15,9 +15,11 @@ const MESSAGES = path.join(ROOT, 'messages');
 const LOCALES = ['en', 'de', 'fr'] as const;
 
 const BANNED = [
-  'passionate', 'bespoke', 'curated', 'journey', 'luxury',
+  'bespoke', 'journey', 'luxury',
   'world-class', 'world class', 'unique', 'elevate',
 ];
+// Matched as word prefixes: 'passion' covers passionate, 'curat' covers curated, curatorial, curator.
+const BANNED_PREFIXES = ['passion', 'curat'];
 const COMPANY_NUMBER = '17360856';
 
 type Level = 'ERROR' | 'WARN';
@@ -104,6 +106,10 @@ function checkVoice(where: string, text: string) {
   for (const w of BANNED) {
     const re = new RegExp(`\\b${w.replace(/[-]/g, '[- ]')}\\b`, 'i');
     if (re.test(lower)) report('WARN', where, `banned word: '${w}'`);
+  }
+  for (const p of BANNED_PREFIXES) {
+    const hits = new Set(lower.match(new RegExp(`\\b${p}\\w*`, 'g')) ?? []);
+    for (const h of hits) report('WARN', where, `banned word: '${h}' (prefix '${p}')`);
   }
   if (text.includes('—')) report('WARN', where, 'contains an em dash');
 }
@@ -231,6 +237,7 @@ if (en) {
     if (!other) continue;
     const where = `messages/${l}.json`;
     for (const k of Object.keys(en)) {
+      if (!en[k].trim()) continue; // nothing to translate yet
       if (!(k in other)) report('ERROR', where, `missing key: ${k}`);
       else if (!other[k].trim()) report('ERROR', where, `empty value: ${k}`);
       else if (other[k] === en[k] && en[k].length > 25) {
@@ -262,6 +269,19 @@ if (!grepTree(path.join(ROOT, 'src'), COMPANY_NUMBER) && !grepTree(MESSAGES, COM
 if (!grepTree(path.join(ROOT, 'src'), 'England and Wales') && !grepTree(MESSAGES, 'England and Wales')) {
   report('ERROR', 'site', "'Registered in England and Wales' appears nowhere in src/ or messages/");
 }
+
+// ---------- em dashes in source (advisory) ----------
+(function scanSrc(d: string) {
+  for (const e of fs.readdirSync(d, { withFileTypes: true })) {
+    const p = path.join(d, e.name);
+    if (e.isDirectory()) scanSrc(p);
+    else if (/\.tsx?$/.test(e.name)) {
+      const lines = fs.readFileSync(p, 'utf8').split('\n');
+      const at = lines.flatMap((l, i) => (l.includes('—') ? [i + 1] : []));
+      if (at.length) report('WARN', rel(p), `contains an em dash (line ${at.join(', ')})`);
+    }
+  }
+})(path.join(ROOT, 'src'));
 
 // ---------- unreferenced images (advisory) ----------
 const IMG_DIR = path.join(PUBLIC, 'images');
