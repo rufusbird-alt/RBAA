@@ -21,7 +21,12 @@
       "de": "Deutsch",
       "fr": "Français"
     },
-    "baseline": "Rufus Bird Art Advisory Ltd. · Shaftesbury · Dorset · SP7 0JE MMXXVI. All content © Rufus Bird Art Advisory Ltd. 2024–2026."
+    "baseline": "Rufus Bird Art Advisory Ltd · Shaftesbury · Dorset · SP7 0JE MMXXVI. All content © Rufus Bird Art Advisory Ltd 2024–2026.",
+    "legal": {
+      "name": "Rufus Bird Art Advisory Ltd",
+      "registration": "Registered in England and Wales, company number 17360856",
+      "office": "Registered office: Buddens Farm, Twyford, Shaftesbury, SP7 0JE"
+    }
   },
   "common": {
     "beginConversation": "Begin a conversation →",
@@ -35,15 +40,15 @@
   "home": {
     "definingStatement": "A globally leading independent art consultancy helping private clients, trusts, museums and corporations buy, sell and manage their collections.",
     "opening": {
-      "p1": "Rufus Bird Art Advisory Ltd. was established to work with buyers and sellers in the art market. We guide collectors through the art world: navigating markets, sourcing exceptional works, refining collections, advising on valuation, collection management, legacies, conservation and sale strategy — always with complete transparency, clarity and trust. We work for you — and only for you.",
-      "p2": "We understand that collecting art is so much more than the acquisition of objects: it is always much more than a financial transaction. We believe that collecting is the deliberate culmination of emotion, legacy, reputation, passion and is often deeply personal. Which is why having a reputable, informed, and independent partner at your side makes a valuable difference on your collecting journey.",
-      "p3": "We understand that deciding to sell some or all of your collection is a delicate decision which should be taken with the utmost care and deliberation. We work with clients to advise on the best route to sale as well as overseeing and guiding clients through the sale process — from cataloguing, photography and shipping through to sale and completion. We handle the administration for you and work for you to receive the best negotiated deal.",
-      "p4": "With twenty-five years inside the art world, Rufus Bird is one of the most trusted and sought-after independent advisors. A Cambridge graduate, he trained at Christie's in European Furniture & Works of Art, spent over ten years at the highest level inside the Royal Household — as Surveyor of the Queen's Works of Art — managing a collection of some 500,000 decorative art objects in the Royal Collection, on behalf of the British Royal Family. He led the European Furniture & Works of Art department at Gurr Johns before founding his independent practice in 2024. He is an auctioneer, a published author and a connoisseur with a wealth of stories, objects, and contacts across the globe. Rufus now offers discreet, unconflicted counsel to private clients and institutions.",
-      "p5": "You may be a seasoned collector pursuing a specific piece, a family office stewarding significant assets, an interior designer seeking a focal centrepiece, or a trustee of an estate needing a valuation or direction. Whatever your starting point, Rufus Bird Art Advisory Ltd. offers tailored, bespoke guidance as a trusted partner throughout your journey with art."
+      "p1": "Rufus Bird Art Advisory Ltd was established to work with buyers and sellers in the art market. We guide collectors through the art world: navigating markets, sourcing exceptional works, refining collections, advising on valuation, collection management, legacies, conservation and sale strategy, always with complete transparency, clarity and trust. We work for you, and only for you.",
+      "p2": "We understand that collecting art is more than the acquisition of objects, and more than a financial transaction. We believe that collecting is the deliberate culmination of emotion, legacy, reputation and taste, and is often deeply personal. Which is why a reputable, informed and independent partner at your side makes a valuable difference as you collect.",
+      "p3": "We understand that deciding to sell some or all of your collection is a delicate decision that deserves care and deliberation. We advise on the best route to sale and guide clients through the whole process, from cataloguing, photography and shipping through to sale and completion. We handle the administration and negotiate on your behalf.",
+      "p4": "Rufus Bird has twenty-five years inside the art world. A Cambridge graduate, he trained at Christie's in European Furniture & Works of Art, then spent over ten years in the Royal Household, as Deputy Surveyor and later Surveyor of the Queen's Works of Art, responsible for some 500,000 decorative art objects in the Royal Collection. He led the European Furniture & Works of Art department at Gurr Johns before founding his independent practice in 2024. He is an auctioneer, a published author and a connoisseur with a wealth of stories, objects and contacts across the globe. Rufus now offers discreet, unconflicted counsel to private clients and institutions.",
+      "p5": "You may be a seasoned collector pursuing a specific piece, a family office stewarding significant assets, an interior designer seeking a focal centrepiece, or a trustee of an estate needing a valuation or direction. Whatever your starting point, Rufus Bird Art Advisory Ltd acts for you alone."
     },
     "approachTeaser": {
-      "quote": "Most advisors help you buy art. I help you understand what you are really trying to build — and I become your partner in building it.",
-      "attribution": "— Rufus Bird",
+      "quote": "Most advisors help you buy art. I help you understand what you are really trying to build, and I become your partner in building it.",
+      "attribution": "Rufus Bird",
       "d1italic": "A relational asset,",
       "d1plain": "not a service provider.",
       "d2italic": "Embedded counsel,",
@@ -73,7 +78,7 @@
     "eyebrow": "About the practice",
     "headline": "Twenty-five years inside the objects.",
     "bio": {
-      "p1": "I studied History of Art at Cambridge graduating in 1996. After that I spent ten months in Baden-Württemberg learning German. I joined Christie's in 1997 and trained as a specialist in the European Furniture & Works of Art department. I left Christie's in 2010 to take up the post of Deputy Surveyor of the Queen's Works of Art — later becoming Surveyor of the Queen's Works of Art in 2018. My role was to care for, research and manage around 500,000 works of decorative art (furniture, ceramics, glass, armour, sculpture, textiles, costume) across 15 royal residences. In the wake of the global pandemic of 2020–21, I left the Royal Household and returned to the commercial art world working in a small regional auction house, before leading the Decorative Arts at Gurr Johns International Art Advisory and Valuations from 2022–2024, re-establishing the famous antique dealing brand Mallett, before opening my private practice in 2024.",
+      "p1": "I studied History of Art at Cambridge graduating in 1996. After that I spent ten months in Baden-Württemberg learning German. I joined Christie's in 1997 and trained as a specialist in the European Furniture & Works of Art department. I left Christie's in 2010 to take up the post of Deputy Surveyor of the Queen's Works of Art, and became Surveyor in 2018. My role was to care for, research and manage around 500,000 works of decorative art (furniture, ceramics, glass, armour, sculpture, textiles, costume) across 15 royal residences. In the wake of the global pandemic of 2020–21, I left the Royal Household and returned to the commercial art world working in a small regional auction house, before leading the Decorative Arts at Gurr Johns International Art Advisory and Valuations from 2022–2024, re-establishing the famous antique dealing brand Mallett, before opening my private practice in 2024.",
       "p2": "The practice is deliberately small: one principal, working with an established and trusted network of specialists I have worked with for years, and a working library that has grown with my work. I accept mandates selectively, with a strong preference for long relationships over single transactions. I correspond in English, German, and French; in Spanish and Italian where the occasion requires it.",
       "p3": "People often tell me after we have worked together for a while: that our working relationship feels more like counsel than trading. That it is, in some ways, quieter than they expected. I take that as the highest compliment."
     },

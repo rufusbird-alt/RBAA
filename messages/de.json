@@ -21,7 +21,12 @@
       "de": "Deutsch",
       "fr": "Français"
     },
-    "baseline": "Rufus Bird Art Advisory Ltd. · Shaftesbury · Dorset · SP7 0JE MMXXVI. Alle Inhalte © Rufus Bird Art Advisory Ltd. 2024–2026."
+    "baseline": "Rufus Bird Art Advisory Ltd · Shaftesbury · Dorset · SP7 0JE MMXXVI. Alle Inhalte © Rufus Bird Art Advisory Ltd 2024–2026.",
+    "legal": {
+      "name": "Rufus Bird Art Advisory Ltd",
+      "registration": "Eingetragen in England und Wales, Gesellschaftsnummer 17360856",
+      "office": "Eingetragener Sitz: Buddens Farm, Twyford, Shaftesbury, SP7 0JE"
+    }
   },
   "common": {
     "beginConversation": "Ein Gespräch beginnen →",
@@ -33,16 +38,17 @@
     "readMore": "Mehr lesen →"
   },
   "home": {
-    "definingStatement": "Eine weltweit führende unabhängige Kunstberatung für Privatsammler, Stiftungen, Museen und Unternehmen — für den Kauf, Verkauf und die Verwaltung von Sammlungen.",
+    "definingStatement": "Eine weltweit führende unabhängige Kunstberatung für Privatsammler, Stiftungen, Museen und Unternehmen: für den Kauf, Verkauf und die Verwaltung von Sammlungen.",
     "opening": {
-      "p1": "Rufus Bird Art Advisory Ltd. wurde gegründet, um mit Käufern und Verkäufern auf dem Kunstmarkt zusammenzuarbeiten. Wir begleiten Sammler durch die Kunstwelt: Märkte navigieren, außergewöhnliche Werke beschaffen, Sammlungen verfeinern, bei Bewertung, Sammlungsverwaltung, Nachlässen, Konservierung und Verkaufsstrategie beraten — stets mit vollständiger Transparenz, Klarheit und Vertrauen. Wir arbeiten für Sie — und nur für Sie.",
+      "p1": "Rufus Bird Art Advisory Ltd wurde gegründet, um mit Käufern und Verkäufern auf dem Kunstmarkt zusammenzuarbeiten. Wir begleiten Sammler durch die Kunstwelt: Märkte navigieren, außergewöhnliche Werke beschaffen, Sammlungen verfeinern, bei Bewertung, Sammlungsverwaltung, Nachlässen, Konservierung und Verkaufsstrategie beraten, stets mit vollständiger Transparenz, Klarheit und Vertrauen. Wir arbeiten für Sie, und nur für Sie.",
       "p2": "Wir verstehen, dass das Sammeln von Kunst weit mehr ist als der Erwerb von Objekten. Es ist die bewusste Verbindung von Emotion, Erbe, Ansehen und Leidenschaft. Deshalb macht ein seriöser, informierter und unabhängiger Partner an Ihrer Seite einen wesentlichen Unterschied.",
-      "p3": "Mit fünfundzwanzig Jahren Erfahrung in der Kunstwelt gehört Rufus Bird zu den vertrauenswürdigsten und gefragtesten unabhängigen Agenten und Beratern. Ein Absolvent der Universität Cambridge, ausgebildet bei Christie's im Bereich Europäische Möbel & Kunsthandwerk, verbrachte er mehr als zehn Jahre auf höchster Ebene im Königlichen Haushalt als Surveyor of the Queen's Works of Art — und leitete anschließend die Abteilung Europäische Möbel & Kunsthandwerk bei Gurr Johns, bevor er 2024 seine unabhängige Praxis gründete. Er ist Auktionator, veröffentlichter Autor und Kenner mit einem reichen Schatz an Geschichten, Objekten und Kontakten weltweit — und bietet nun diskrete, unparteiische Beratung für Privatpersonen und Institutionen an.",
-      "p4": "Sie sind vielleicht ein erfahrener Sammler, der ein bestimmtes Werk sucht, ein Family Office, das bedeutende Vermögenswerte verwaltet, ein Innenarchitekt auf der Suche nach einem zentralen Kunstwerk, oder ein Testamentsvollstrecker, der eine Bewertung oder Orientierung benötigt. Was auch immer Ihr Ausgangspunkt ist, Rufus Bird Art Advisory Ltd. bietet Ihnen maßgeschneiderte, individuelle Beratung als vertrauensvoller Partner auf Ihrem Weg mit der Kunst."
+      "p3": "Wir wissen, dass die Entscheidung, die Sammlung ganz oder teilweise zu verkaufen, sorgfältige Überlegung verdient. Wir beraten zum geeigneten Verkaufsweg und begleiten Sie durch den gesamten Prozess, von der Katalogisierung, Fotografie und Verschiffung bis zum Verkauf und zu dessen Abwicklung. Wir übernehmen die Verwaltung und verhandeln in Ihrem Namen.",
+      "p4": "Rufus Bird verfügt über fünfundzwanzig Jahre Erfahrung in der Kunstwelt. Er ist Absolvent der Universität Cambridge und wurde bei Christie's im Bereich Europäische Möbel & Kunsthandwerk ausgebildet. Mehr als zehn Jahre arbeitete er im Königlichen Haushalt, zunächst als Deputy Surveyor, dann als Surveyor of the Queen's Works of Art, verantwortlich für rund 500.000 Objekte der Royal Collection. Danach leitete er die Abteilung Europäische Möbel & Kunsthandwerk bei Gurr Johns, bevor er 2024 seine unabhängige Praxis gründete. Er ist Auktionator, Autor und Kenner mit einem reichen Schatz an Geschichten, Objekten und Kontakten weltweit. Heute berät er Privatpersonen und Institutionen diskret und ohne Interessenkonflikte.",
+      "p5": "Sie sind vielleicht ein erfahrener Sammler, der ein bestimmtes Werk sucht, ein Family Office, das bedeutende Vermögenswerte verwaltet, ein Innenarchitekt auf der Suche nach einem zentralen Kunstwerk, oder ein Testamentsvollstrecker, der eine Bewertung oder Orientierung benötigt. Was auch immer Ihr Ausgangspunkt ist: Rufus Bird Art Advisory Ltd handelt allein in Ihrem Interesse."
     },
     "approachTeaser": {
-      "quote": "Die meisten Berater helfen Ihnen beim Kunstkauf. Ich helfe Ihnen zu verstehen, was Sie wirklich aufbauen wollen — und werde Ihr Partner bei diesem Aufbau.",
-      "attribution": "— Rufus Bird",
+      "quote": "Die meisten Berater helfen Ihnen beim Kunstkauf. Ich helfe Ihnen zu verstehen, was Sie wirklich aufbauen wollen, und werde Ihr Partner bei diesem Aufbau.",
+      "attribution": "Rufus Bird",
       "d1italic": "Ein Beziehungswert,",
       "d1plain": "kein Dienstleister.",
       "d2italic": "Eingebundener Berater,",
@@ -72,7 +78,7 @@
     "eyebrow": "Über die Praxis",
     "headline": "Fünfundzwanzig Jahre mit den Objekten.",
     "bio": {
-      "p1": "Ich studierte Kunstgeschichte in Cambridge und schloss 1996 ab. Danach verbrachte ich zehn Monate in Baden-Württemberg, um Deutsch zu lernen. 1997 trat ich bei Christie's ein und absolvierte meine Ausbildung als Spezialist in der Abteilung für Europäische Möbel & Kunsthandwerk. 2010 verließ ich Christie's, um das Amt des Stellvertretenden Verwalters der Kunstwerke Ihrer Majestät der Königin zu übernehmen — und wurde 2018 zum Verwalter der Kunstwerke Ihrer Majestät der Königin ernannt. Meine Aufgabe war es, rund 500.000 Werke des Kunsthandwerks (Möbel, Keramik, Glas, Rüstung, Skulptur, Textilien, Kostüm) in 15 königlichen Residenzen zu pflegen, zu erforschen und zu verwalten. Im Zuge der globalen Pandemie 2020–21 verließ ich den Königlichen Haushalt und kehrte in die kommerzielle Kunstwelt zurück — zunächst in einem kleinen regionalen Auktionshaus, bevor ich von 2022 bis 2024 die Dekorativen Künste bei Gurr Johns International Art Advisory and Valuations leitete, die berühmte Antiquitätenmarke Mallett neu etablierte und schließlich 2024 meine private Praxis in Shaftesbury eröffnete.",
+      "p1": "Ich studierte Kunstgeschichte in Cambridge und schloss 1996 ab. Danach verbrachte ich zehn Monate in Baden-Württemberg, um Deutsch zu lernen. 1997 trat ich bei Christie's ein und absolvierte meine Ausbildung als Spezialist in der Abteilung für Europäische Möbel & Kunsthandwerk. 2010 verließ ich Christie's, um das Amt des Stellvertretenden Verwalters der Kunstwerke Ihrer Majestät der Königin zu übernehmen, und wurde 2018 zum Verwalter der Kunstwerke Ihrer Majestät der Königin ernannt. Meine Aufgabe war es, rund 500.000 Werke des Kunsthandwerks (Möbel, Keramik, Glas, Rüstung, Skulptur, Textilien, Kostüm) in 15 königlichen Residenzen zu pflegen, zu erforschen und zu verwalten. Im Zuge der globalen Pandemie 2020–21 verließ ich den Königlichen Haushalt und kehrte in die kommerzielle Kunstwelt zurück, zunächst in einem kleinen regionalen Auktionshaus, bevor ich von 2022 bis 2024 die Dekorativen Künste bei Gurr Johns International Art Advisory and Valuations leitete, die berühmte Antiquitätenmarke Mallett neu etablierte und schließlich 2024 meine private Praxis in Shaftesbury eröffnete.",
       "p2": "Die Praxis ist bewusst klein gehalten: ein Hauptberater, ein bewährtes und vertrauensvolles Netzwerk von Spezialisten, mit denen ich seit Jahren zusammenarbeite, und eine Arbeitsbibliothek, die mit meiner Arbeit gewachsen ist. Ich nehme Mandate selektiv an, mit einer ausgeprägten Präferenz für langfristige Beziehungen gegenüber einzelnen Transaktionen. Ich korrespondiere auf Englisch, Deutsch und Französisch; auf Spanisch und Italienisch, wenn der Anlass es erfordert.",
       "p3": "Menschen sagen mir dasselbe, gewöhnlich nachdem wir eine Weile zusammengearbeitet haben: dass die Arbeit sich mehr wie Beratung als wie Vermittlung anfühlt. Dass sie in gewisser Weise ruhiger ist, als sie erwartet hatten. Ich nehme das als das höchste Kompliment."
     },

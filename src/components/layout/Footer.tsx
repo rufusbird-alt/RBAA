@@ -105,6 +105,13 @@ export async function Footer() {
         </div>
 
         <div className="mt-12 pt-6 border-t border-[var(--rule-soft)]">
+          <p className="text-xs text-[var(--ink-muted)] leading-relaxed mb-4">
+            {tFooter('legal.name')}
+            <br />
+            {tFooter('legal.registration')}
+            <br />
+            {tFooter('legal.office')}
+          </p>
           <p className="text-xs small-caps text-[var(--muted)]">{tFooter('baseline')}</p>
         </div>
       </div>

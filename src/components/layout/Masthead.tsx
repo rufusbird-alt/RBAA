@@ -23,7 +23,7 @@ export async function Masthead() {
         <Link
           href="/"
           className="font-display text-xl tracking-[0.005em] shrink-0 text-[var(--ink)]"
-          aria-label="Rufus Bird Art Advisory Ltd. — home"
+          aria-label="Rufus Bird Art Advisory Ltd, home"
         >
           Rufus Bird Art Advisory
         </Link>
