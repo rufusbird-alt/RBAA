@@ -72,7 +72,7 @@ Required in the footer and on the privacy and terms pages. [Approved]
 
 ## 4. Home (`/`)
 
-Order: statement, carousel, independence, credentials, services, contact. [Approved]
+Order: eyebrow and title, carousel, statement, Approach manifesto, independence, credentials, services, contact. [Approved; statement and manifesto moved below the carousel 14 October 2026]
 
 ### 4.1 Statement
 - Eyebrow: Independent art advisory [Live]
@@ -80,7 +80,7 @@ Order: statement, carousel, independence, credentials, services, contact. [Appro
 - Statement, shown once: Rufus Bird is an art advisor, providing independent counsel for private and institutional clients. [Approved, option A] It replaces 'A globally leading independent art consultancy…', which is retired.
 - Lead message removed from Home, 14 October 2026; to be used elsewhere. [Pending: placement]
 
-#### Approach manifesto, under the statement
+#### Approach manifesto, below the statement
 Merged from the former Approach page (decision of 14 October 2026). Text [Approved]; the house-rule fixes listed below are [Draft] until Rufus confirms them.
 
 **Collecting is not a transaction. Transactions are rational. Collecting is emotional.**

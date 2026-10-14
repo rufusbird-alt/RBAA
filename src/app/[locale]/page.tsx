@@ -24,18 +24,6 @@ export default async function HomePage() {
           <h1 className="font-display text-4xl md:text-5xl italic leading-tight">
             Rufus Bird Art Advisory
           </h1>
-          <p className="mt-6 text-xl italic text-[var(--ink-soft)]">{t('definingStatement')}</p>
-
-          {/* Approach manifesto, merged from the former /approach page */}
-          <h2 className="mt-12 font-display text-2xl md:text-3xl italic leading-snug">
-            {t('approach.headline')}
-          </h2>
-          <div className="mt-6 space-y-5">
-            {(['p1', 'p2', 'p3', 'p4', 'p5', 'p6', 'p7'] as const).map((k) => (
-              <p key={k}>{t.rich(`approach.${k}`, { em: (chunks) => <em>{chunks}</em> })}</p>
-            ))}
-            <p className="italic">{t('approach.p8')}</p>
-          </div>
         </div>
       </section>
 
@@ -47,6 +35,21 @@ export default async function HomePage() {
         <p className="max-w-[44rem] mx-auto px-[var(--gutter)] text-center text-2xl md:text-3xl leading-snug font-display italic">
           {t('definingStatement')}
         </p>
+      </section>
+
+      {/* Approach manifesto, merged from the former /approach page */}
+      <section className="py-16 border-b border-[var(--rule)]">
+        <div className="max-w-[var(--measure)] mx-auto px-[var(--gutter)]">
+          <h2 className="font-display text-2xl md:text-3xl italic leading-snug">
+            {t('approach.headline')}
+          </h2>
+          <div className="mt-6 space-y-5">
+            {(['p1', 'p2', 'p3', 'p4', 'p5', 'p6', 'p7'] as const).map((k) => (
+              <p key={k}>{t.rich(`approach.${k}`, { em: (chunks) => <em>{chunks}</em> })}</p>
+            ))}
+            <p className="italic">{t('approach.p8')}</p>
+          </div>
+        </div>
       </section>
 
       {/* §1.3 Opening paragraphs */}
