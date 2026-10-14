@@ -345,6 +345,14 @@ Recorded 13 October 2026. These override sections 1–8 where they differ.
     - **Hilliard and Venetian palazzo**: placeholder text until Rufus supplies it.
     - **German and French credentials c1**: now carry the end years 2017 and 2021, matching the English.
     - **Home statement** (option A): 'Rufus Bird is an art advisor, providing independent counsel for private and institutional clients.' Written to `home.definingStatement` in en, with de and fr drafts.
+    - **Lead message**: 'Rufus Bird works for the client only.' (`home.leadMessage`), shown directly under the statement. It replaces 'works for the client, never the dealer'; CLAUDE.md still uses the old wording (change proposed, not applied).
+21. **Approach merged into Home** (14 October):
+    - The full Approach manifesto, with house-rule fixes, sits under the lead message (`home.approach.*`).
+    - The four differentiators stay with the Independence list (`home.approachTeaser.d1`–`d4`, no longer unused).
+    - 'How a relationship begins' sits above the contact details (`home.relationship.*`).
+    - The 'Read the approach' link is removed from Home.
+    - German and French are drafts for review.
+    - The /approach route itself is archived and redirected in commit 8 as planned.
 
 ### NavMenu aria labels
 They are hard-coded English: `aria-label={open ? 'Close menu' : 'Open menu'}` (`NavMenu.tsx:53`) and `aria-label="Primary"` (`NavMenu.tsx:78`). German and French screen-reader users hear English. Proposed keys, passed from `Masthead` as props in the way the link labels already are:

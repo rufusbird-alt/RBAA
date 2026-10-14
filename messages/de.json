@@ -44,6 +44,18 @@
   },
   "home": {
     "definingStatement": "Rufus Bird ist Kunstberater und bietet privaten und institutionellen Kunden unabhängige Beratung.",
+    "leadMessage": "Rufus Bird arbeitet ausschließlich für den Kunden.",
+    "approach": {
+      "headline": "Sammeln ist keine Transaktion. Transaktionen sind rational. Sammeln ist emotional.",
+      "p1": "Kunst ist einer der wenigen Vermögenswerte, bei denen Wert und Bedeutung untrennbar sind. Zwei Sammler können dasselbe Werk betrachten und darin einen völlig unterschiedlichen Wert sehen. Was den einen fesselt, lässt den anderen gleichgültig. Der Preis folgt dem Geschmack ebenso sehr wie umgekehrt.",
+      "p2": "Das unterscheidet das Sammeln grundlegend von anderen Formen des Erwerbs. Es wird von Identität, Ehrgeiz, Ansehen, Emotion und Vermächtnis geprägt, nicht allein von den Mechanismen des Marktes.",
+      "p3": "In der Kunst des Sammelns geht es darum zu zeigen, wie eine Ästhetik ihre eigene Zeit überdauern und über Generationen hinweg verstanden und geschätzt werden kann.",
+      "p4": "Der Zugang zur Kunst lässt sich erlernen. Märkte lassen sich navigieren. <em>Was sich nicht systematisieren lässt, ist Urteilsvermögen.</em>",
+      "p5": "Echte Beratung braucht jemanden, der sich in die Welt des Kunden hineinversetzen kann und versteht, nicht nur was verfügbar ist, sondern was für ihn richtig ist. Jemanden, der Impulse hinterfragt, den Instinkt schärft und unausgesprochenen Ehrgeiz im Lauf der Zeit in eine klare Richtung übersetzt.",
+      "p6": "Ohne Beratung werden Sammlungen zufällig und treiben dahin. <em>Mit Beratung werden sie bewusst, verstanden und tief empfunden.</em>",
+      "p7": "Die Aufgabe eines guten Kunstberaters ist es nicht nur, Transaktionen zu ermöglichen, sondern einen Sammler dazu anzuregen, klar darüber nachzudenken, was er aufbaut, warum es wichtig ist und wie es sich entwickeln soll. Das Ergebnis ist nicht bloß der Besitz von Objekten, sondern die Schaffung von Bedeutung, Zusammenhang und einem persönlichen Vermächtnis.",
+      "p8": "Das ist der Unterschied zwischen dem Kauf von Kunst und dem Aufbau einer Sammlung."
+    },
     "opening": {
       "p1": "Rufus Bird Art Advisory Ltd wurde gegründet, um mit Käufern und Verkäufern auf dem Kunstmarkt zusammenzuarbeiten. Wir begleiten Sammler durch die Kunstwelt: Märkte navigieren, außergewöhnliche Werke beschaffen, Sammlungen verfeinern, bei Bewertung, Sammlungsverwaltung, Nachlässen, Konservierung und Verkaufsstrategie beraten, stets mit vollständiger Transparenz, Klarheit und Vertrauen. Wir arbeiten für Sie, und nur für Sie.",
       "p2": "Wir verstehen, dass das Sammeln von Kunst weit mehr ist als der Erwerb von Objekten. Es ist die bewusste Verbindung von Emotion, Erbe, Ansehen und Leidenschaft. Deshalb macht ein seriöser, informierter und unabhängiger Partner an Ihrer Seite einen wesentlichen Unterschied.",
@@ -73,6 +85,12 @@
     },
     "journalSection": "Aus dem Journal",
     "journalCta": "Alle Journal-Einträge →",
+    "relationship": {
+      "heading": "Wie eine Zusammenarbeit beginnt",
+      "p1": "Jede Beauftragung beginnt mit einem Gespräch. Vielleicht suchen Sie ein bestimmtes Werk, überdenken, was Sie bereits besitzen, stehen vor einem Erbe oder einer Auflösung, oder fragen sich einfach, ob das, was Sie haben, zusammenpasst. Das Gespräch ist kostenlos und unverbindlich, auf Englisch, Deutsch oder Französisch.",
+      "p2": "Danach folgen die meisten Zusammenarbeiten einem von drei Rhythmen: einem klar umrissenen Projekt (ein Erwerb, ein Verkauf, eine Bestandsprüfung, eine Bewertung), einem laufenden Mandat (regelmäßige Beratung, eine feste Zahl von Stunden im Monat, erreichbar, wenn es darauf ankommt) oder einer Mischform, die als Projekt beginnt und als Partnerschaft weitergeht. So begann auch der venezianische Palazzo.",
+      "p3": "Jeder Beauftragung geht eine schriftliche Honorarvereinbarung voraus. Niemals verdeckte Provisionen. Diskretion ist selbstverständlich und absolut: Identität der Kunden, Preise und Provenienz werden vertraulich behandelt. Die Korrespondenz läuft standardmäßig über sicheres, verschlüsseltes Proton Mail. PGP-verschlüsselte E-Mail ist möglich."
+    },
     "contactCta": {
       "heading": "Eine private Tür.",
       "body": "Korrespondenz ist willkommen per Post, E-Mail, Telefon oder WhatsApp. Erstgespräche sind ohne Gebühr und ohne Verpflichtung; einem schriftlichen Honorarauftrag geht jede Beauftragung voraus.",

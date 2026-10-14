@@ -77,7 +77,34 @@ Order: statement, carousel, independence, credentials, services, contact. [Appro
 ### 4.1 Statement
 - Eyebrow: Independent art advisory [Live]
 - H1: Rufus Bird Art Advisory [Live]
-- Statement, shown once: Rufus Bird is an art advisor, providing independent counsel for private and institutional clients. [Approved, option A] It replaces 'A globally leading independent art consultancy…', which is retired. Note: the lead-message rule (§8.1) asks that Home lead with 'works for the client, never the dealer'; this statement does not say it, and the nearest wording is the Independence list (§4.3). [Pending: Rufus to confirm this is acceptable]
+- Statement, shown once: Rufus Bird is an art advisor, providing independent counsel for private and institutional clients. [Approved, option A] It replaces 'A globally leading independent art consultancy…', which is retired.
+- Lead message, directly under the statement: Rufus Bird works for the client only. [Approved, 14 October 2026]
+
+#### Approach manifesto, under the lead message
+Merged from the former Approach page (decision of 14 October 2026). Text [Approved]; the house-rule fixes listed below are [Draft] until Rufus confirms them.
+
+**Collecting is not a transaction. Transactions are rational. Collecting is emotional.**
+
+Art is one of the few assets where value is inseparable from meaning. Two collectors can look at the same work and see entirely different worth. What compels one person leaves another indifferent. Price follows taste as much as the other way around.
+
+This makes collecting fundamentally different from other forms of acquisition. It is shaped by identity, ambition, reputation, emotion, and legacy, not simply market mechanics.
+
+The art of collecting is about showing how an aesthetic can transcend its own time and be understood and appreciated across generations.
+
+Access to art can be learned. Markets can be navigated. *What cannot be systematised is judgement.*
+
+True advisory requires someone who can sit inside the client's world, understanding not only what is available, but what is right for them. Someone who can challenge impulse, sharpen instinct, and translate unspoken ambition into coherent direction over time.
+
+Without counsel, collections become accidental and drift. *With counsel, they become intentional, understood, and deeply felt.*
+
+The role of an effective art advisor is not only to facilitate transactions, but to provoke a collector to think clearly about what they are building, why it matters, and how it should evolve. The outcome is not simply ownership of objects, but the construction of meaning, coherence, and a personal legacy.
+
+*This is the difference between buying art and building a collection.*
+
+Fixes made to the Approach page text:
+- em dashes replaced with commas (paragraphs 2 and 5)
+- Oxford comma added: 'intentional, understood, and deeply felt' (paragraph 6)
+- grammar: 'transcend its own time and to be understood' became '…and be understood' (paragraph 3)
 
 ### 4.2 Quotes carousel
 Unchanged by decision; listed as it is on the site today. [Live]
@@ -115,6 +142,12 @@ Behaviour per BUILD-BRIEF §7: 9 seconds a quotation, 800 ms crossfade. The site
 - Accepts no commissions, rebates or introductory fees from dealers or auction houses.
 - The fee is agreed in writing before work begins.
 
+**Four differentiators**, shown with the Independence list (from the Approach page; text [Live], translations exist):
+- *A relational asset,* not a service provider.
+- *Embedded counsel,* not episodic advisor.
+- *Interpreter of subjective value,* not just market value.
+- *Architect of ambition,* not a facilitator of purchases.
+
 ### 4.4 Credentials [Approved]
 **Credentials** (heading may be visually hidden)
 1. The Royal Household: Deputy Surveyor of the Queen's Works of Art, 2010 to 2017; Surveyor, 2018 to 2021
@@ -136,6 +169,12 @@ Behaviour per BUILD-BRIEF §7: 9 seconds a quotation, 800 ms crossfade. The site
 Both valuation lines stay. [Approved]
 
 ### 4.6 Contact (`#contact`)
+- **How a relationship begins**, a section directly above the contact details (from the Approach page; text [Approved], fixes [Draft]):
+  - Every engagement begins with a conversation. You might be pursuing a specific work, reconsidering what you already own, facing an inheritance or a dispersal, or simply wondering whether what you have makes sense together. The conversation is without fee and without obligation, in English, German, or French.
+  - From there, most relationships settle into one of three rhythms: a defined project (an acquisition, a sale, a collection audit, a valuation), an open retainer (regular counsel, a set number of hours per month, on-call where it matters), or a hybrid that begins as a project and continues as a partnership. The Venetian palazzo began that way.
+  - A written fee note precedes every engagement. No secret undeclared commissions, ever. Discretion is presumed and absolute: client identities, prices, and provenance are treated as privileged. Secure, encrypted Proton Mail correspondence is standard. PGP-encrypted email is available.
+  - Fixes: 'Proton mail' became 'Proton Mail'; 'PGP secure email available' became 'PGP-encrypted email is available'.
+  - Note: 'The Venetian palazzo began that way' points to a project whose text is still a placeholder (§6.2).
 - Heading: A private door. [Live]
 - Body: Correspondence is welcomed by post, email, telephone or WhatsApp. First conversations are without fee or obligation; a written fee note precedes every engagement. [Live]
 - Details: [Live, except where marked]
@@ -232,7 +271,7 @@ v1.0 §4.2 contains a synthesised Venetian narrative: drawings in an attic trunk
 
 These follow `CLAUDE.md`. Where v1.0 differed, these replace it.
 
-1. **The lead message**: Rufus works for the client, never the dealer. It leads the Home page. Do not weaken or move it.
+1. **The lead message**: Rufus Bird works for the client only. It leads the Home page, directly under the statement. Do not weaken or move it.
 2. **Voice**: first person singular. The practice is one principal. Exceptions: legal pages (the company, 'we'), and quotations as written.
 3. **Register**: scholarly, understated, personal. Short, precise sentences. Concrete over abstract: 'a North Italian panel, Cremonese school, c. 1560' beats 'a distinguished Old Master picture'.
 4. **Never use**: passionate (or passion), bespoke, curated (or curatorial), journey, luxury, world-class, unique, elevate. 'Curator' as a job title is fine. Also avoid: leverage, deliver, unlock, reach out, solution, offering, tailored.
@@ -271,7 +310,7 @@ To be brought into line in later steps; nothing is changed by v2.0 itself.
 ## 10. Retired from v1.0
 
 Kept unchanged in `_archive/COPY-EN-v1.0.md`:
-- Approach page
+- Approach page layout and images (its text now lives on Home: §4.1, §4.3, §4.6)
 - the four Services pages and their index
 - Case studies index and single pages
 - Journal and its seed entries

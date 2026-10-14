@@ -25,6 +25,18 @@ export default async function HomePage() {
             Rufus Bird Art Advisory
           </h1>
           <p className="mt-6 text-xl italic text-[var(--ink-soft)]">{t('definingStatement')}</p>
+          <p className="mt-4 text-xl text-[var(--ink)]">{t('leadMessage')}</p>
+
+          {/* Approach manifesto, merged from the former /approach page */}
+          <h2 className="mt-12 font-display text-2xl md:text-3xl italic leading-snug">
+            {t('approach.headline')}
+          </h2>
+          <div className="mt-6 space-y-5">
+            {(['p1', 'p2', 'p3', 'p4', 'p5', 'p6', 'p7'] as const).map((k) => (
+              <p key={k}>{t.rich(`approach.${k}`, { em: (chunks) => <em>{chunks}</em> })}</p>
+            ))}
+            <p className="italic">{t('approach.p8')}</p>
+          </div>
         </div>
       </section>
 
@@ -75,9 +87,6 @@ export default async function HomePage() {
             <li><em>{t('approachTeaser.d3italic')}</em> {t('approachTeaser.d3plain')}</li>
             <li><em>{t('approachTeaser.d4italic')}</em> {t('approachTeaser.d4plain')}</li>
           </ul>
-          <div className="mt-8">
-            <Button href="/approach">{t('approachTeaser.cta')}</Button>
-          </div>
         </div>
       </section>
 
@@ -144,6 +153,18 @@ export default async function HomePage() {
           </div>
           <div className="mt-10">
             <Button href="/journal">{t('journalCta')}</Button>
+          </div>
+        </div>
+      </section>
+
+      {/* How a relationship begins, merged from the former /approach page */}
+      <section className="py-16 border-b border-[var(--rule)]">
+        <div className="max-w-[var(--measure)] mx-auto px-[var(--gutter)]">
+          <h2 className="font-display text-2xl italic mb-8">{t('relationship.heading')}</h2>
+          <div className="space-y-5">
+            <p>{t('relationship.p1')}</p>
+            <p>{t('relationship.p2')}</p>
+            <p>{t('relationship.p3')}</p>
           </div>
         </div>
       </section>

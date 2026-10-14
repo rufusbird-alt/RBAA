@@ -44,6 +44,18 @@
   },
   "home": {
     "definingStatement": "Rufus Bird est conseiller en art et apporte un conseil indépendant à une clientèle privée et institutionnelle.",
+    "leadMessage": "Rufus Bird travaille uniquement pour le client.",
+    "approach": {
+      "headline": "Collectionner n'est pas une transaction. Les transactions sont rationnelles. Collectionner est affaire d'émotion.",
+      "p1": "L'art est l'un des rares actifs dont la valeur est indissociable du sens. Deux collectionneurs peuvent regarder la même œuvre et y voir une valeur entièrement différente. Ce qui captive l'un laisse l'autre indifférent. Le prix suit le goût autant que l'inverse.",
+      "p2": "C'est ce qui distingue fondamentalement la collection des autres formes d'acquisition. Elle est façonnée par l'identité, l'ambition, la réputation, l'émotion et la transmission, et pas seulement par les mécanismes du marché.",
+      "p3": "L'art de collectionner consiste à montrer comment une esthétique peut transcender son époque et être comprise et appréciée au fil des générations.",
+      "p4": "L'accès à l'art peut s'apprendre. Les marchés peuvent se parcourir. <em>Ce qui ne peut se systématiser, c'est le jugement.</em>",
+      "p5": "Un véritable conseil exige quelqu'un capable d'entrer dans l'univers du client, de comprendre non seulement ce qui est disponible, mais ce qui lui convient. Quelqu'un qui sait questionner l'impulsion, aiguiser l'instinct et traduire une ambition tacite en une direction cohérente au fil du temps.",
+      "p6": "Sans conseil, les collections deviennent fortuites et dérivent. <em>Avec conseil, elles deviennent intentionnelles, comprises et profondément ressenties.</em>",
+      "p7": "Le rôle d'un conseiller en art n'est pas seulement de faciliter des transactions, mais d'amener un collectionneur à réfléchir clairement à ce qu'il construit, à la raison pour laquelle cela compte et à la manière dont cela doit évoluer. Le résultat n'est pas la simple possession d'objets, mais la construction d'un sens, d'une cohérence et d'un héritage personnel.",
+      "p8": "C'est la différence entre acheter de l'art et bâtir une collection."
+    },
     "opening": {
       "p1": "Rufus Bird Art Advisory Ltd a été fondée pour travailler avec acheteurs et vendeurs sur le marché de l'art. Nous guidons les collectionneurs à travers le monde de l'art : naviguer sur les marchés, acquérir des œuvres exceptionnelles, affiner les collections, conseiller en matière d'évaluation, de gestion de collection, de successions, de conservation et de stratégie de vente, toujours avec une transparence, une clarté et une confiance absolues. Nous travaillons pour vous, et uniquement pour vous.",
       "p2": "Nous comprenons que collectionner l'art va bien au-delà de l'acquisition d'objets. C'est l'aboutissement délibéré d'une émotion, d'un héritage, d'une réputation et d'une passion. C'est pourquoi avoir à vos côtés un partenaire réputé, informé et indépendant fait une différence profonde.",
@@ -73,6 +85,12 @@
     },
     "journalSection": "Du journal",
     "journalCta": "Tous les articles →",
+    "relationship": {
+      "heading": "Comment commence une collaboration",
+      "p1": "Chaque mission commence par une conversation. Vous recherchez peut-être une œuvre précise, vous reconsidérez ce que vous possédez déjà, vous faites face à une succession ou à une dispersion, ou vous vous demandez simplement si ce que vous avez forme un ensemble cohérent. Cette conversation est sans frais et sans engagement, en anglais, en allemand ou en français.",
+      "p2": "Ensuite, la plupart des collaborations prennent l'un de trois rythmes : un projet défini (une acquisition, une vente, un inventaire de collection, une évaluation), un mandat continu (un conseil régulier, un nombre d'heures fixe par mois, une disponibilité quand cela compte) ou une formule mixte qui commence comme un projet et se poursuit comme un partenariat. Le palais vénitien a commencé ainsi.",
+      "p3": "Une note d'honoraires écrite précède chaque mission. Jamais de commissions occultes. La discrétion est présumée et absolue : l'identité des clients, les prix et la provenance sont traités comme confidentiels. La correspondance passe par défaut par Proton Mail, sécurisé et chiffré. Le courriel chiffré PGP est disponible."
+    },
     "contactCta": {
       "heading": "Une porte privée.",
       "body": "Les demandes sont les bienvenues par courrier, e-mail, téléphone ou WhatsApp. Les premières conversations sont sans frais et sans obligation ; une note d'honoraires écrite précède chaque engagement.",
