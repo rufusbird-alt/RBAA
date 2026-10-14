@@ -78,9 +78,9 @@ Order: statement, carousel, independence, credentials, services, contact. [Appro
 - Eyebrow: Independent art advisory [Live]
 - H1: Rufus Bird Art Advisory [Live]
 - Statement, shown once: Rufus Bird is an art advisor, providing independent counsel for private and institutional clients. [Approved, option A] It replaces 'A globally leading independent art consultancy…', which is retired.
-- Lead message, directly under the statement: Rufus Bird works for the client only. [Approved, 14 October 2026]
+- Lead message removed from Home, 14 October 2026; to be used elsewhere. [Pending: placement]
 
-#### Approach manifesto, under the lead message
+#### Approach manifesto, under the statement
 Merged from the former Approach page (decision of 14 October 2026). Text [Approved]; the house-rule fixes listed below are [Draft] until Rufus confirms them.
 
 **Collecting is not a transaction. Transactions are rational. Collecting is emotional.**
@@ -271,7 +271,7 @@ v1.0 §4.2 contains a synthesised Venetian narrative: drawings in an attic trunk
 
 These follow `CLAUDE.md`. Where v1.0 differed, these replace it.
 
-1. **The lead message**: Rufus Bird works for the client only. It leads the Home page, directly under the statement. Do not weaken or move it.
+1. **The lead message**: Rufus Bird works for the client only. It no longer leads the Home page (14 October 2026); placement to be decided. Do not weaken it where it is used.
 2. **Voice**: first person singular. The practice is one principal. Exceptions: legal pages (the company, 'we'), and quotations as written.
 3. **Register**: scholarly, understated, personal. Short, precise sentences. Concrete over abstract: 'a North Italian panel, Cremonese school, c. 1560' beats 'a distinguished Old Master picture'.
 4. **Never use**: passionate (or passion), bespoke, curated (or curatorial), journey, luxury, world-class, unique, elevate. 'Curator' as a job title is fine. Also avoid: leverage, deliver, unlock, reach out, solution, offering, tailored.

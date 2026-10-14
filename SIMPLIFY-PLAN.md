@@ -345,9 +345,9 @@ Recorded 13 October 2026. These override sections 1–8 where they differ.
     - **Hilliard and Venetian palazzo**: placeholder text until Rufus supplies it.
     - **German and French credentials c1**: now carry the end years 2017 and 2021, matching the English.
     - **Home statement** (option A): 'Rufus Bird is an art advisor, providing independent counsel for private and institutional clients.' Written to `home.definingStatement` in en, with de and fr drafts.
-    - **Lead message**: 'Rufus Bird works for the client only.' (`home.leadMessage`), shown directly under the statement. It replaces 'works for the client, never the dealer'; CLAUDE.md still uses the old wording (change proposed, not applied).
+    - **Lead message**: 'Rufus Bird works for the client only.' (`home.leadMessage`), shown directly under the statement. It replaces 'works for the client, never the dealer'; Removed from Home on 14 October at Rufus's request; the message stays central and its placement is to be decided. CLAUDE.md and COPY-EN.md updated to match.
 21. **Approach merged into Home** (14 October):
-    - The full Approach manifesto, with house-rule fixes, sits under the lead message (`home.approach.*`).
+    - The full Approach manifesto, with house-rule fixes, sits under the statement (`home.approach.*`).
     - The four differentiators stay with the Independence list (`home.approachTeaser.d1`–`d4`, no longer unused).
     - 'How a relationship begins' sits above the contact details (`home.relationship.*`).
     - The 'Read the approach' link is removed from Home.

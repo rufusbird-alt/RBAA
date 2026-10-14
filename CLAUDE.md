@@ -15,7 +15,7 @@ Next.js 14, App Router only (never Pages Router). TypeScript strict. Tailwind wi
 The registered name is Rufus Bird Art Advisory Ltd, registered in England and Wales, company number 17360856, registered office Buddens Farm, Twyford, Shaftesbury, SP7 0JE. The full block must appear in the footer and on the terms and privacy pages. The company is not VAT registered: never show a VAT line. Never describe the company as dealing in or holding title to works; it acts as agent only.
 
 ## Copy rules
-The message that must lead the Home and Approach pages: Rufus works for the client, never the dealer. Do not weaken or move it.
+The core message: Rufus works for the client only. It is central to the practice but does not lead the Home page; where it is used is to be decided. Wherever it appears, do not weaken it.
 Never use: passionate, bespoke, curated, journey, luxury, world-class, unique, elevate. No superlatives, no vague credentials, no brochure language.
 Register: scholarly, understated, personal; short precise sentences. British spelling. Single inverted commas for quotation. No em dashes. GBP by default; prices include buyer's premium. Attribution ladder exact: by, attributed to, studio of, workshop of, circle of, follower of, manner of, after, anonymous.
 Do not rewrite existing copy unless asked. Propose wording; Rufus decides. German and French copy is translated from English and must be flagged for his review, not shipped silently.

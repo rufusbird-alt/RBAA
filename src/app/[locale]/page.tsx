@@ -25,7 +25,6 @@ export default async function HomePage() {
             Rufus Bird Art Advisory
           </h1>
           <p className="mt-6 text-xl italic text-[var(--ink-soft)]">{t('definingStatement')}</p>
-          <p className="mt-4 text-xl text-[var(--ink)]">{t('leadMessage')}</p>
 
           {/* Approach manifesto, merged from the former /approach page */}
           <h2 className="mt-12 font-display text-2xl md:text-3xl italic leading-snug">
