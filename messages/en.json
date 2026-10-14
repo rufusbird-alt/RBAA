@@ -5,7 +5,12 @@
     "caseStudies": "Case Studies",
     "journal": "Journal",
     "about": "About",
-    "contact": "Contact"
+    "contact": "Contact",
+    "home": "Home",
+    "recentProjects": "Recent projects"
+  },
+  "header": {
+    "contactLabel": "Contact details"
   },
   "footer": {
     "colophon": "Set in Cormorant Garamond and EB Garamond. Independent advisory founded in Shaftesbury, Dorset, 2024.",
@@ -38,7 +43,7 @@
     "readMore": "Read more →"
   },
   "home": {
-    "definingStatement": "A globally leading independent art consultancy helping private clients, trusts, museums and corporations buy, sell and manage their collections.",
+    "definingStatement": "Rufus Bird is an art advisor, providing independent counsel for private and institutional clients.",
     "opening": {
       "p1": "Rufus Bird Art Advisory Ltd was established to work with buyers and sellers in the art market. We guide collectors through the art world: navigating markets, sourcing exceptional works, refining collections, advising on valuation, collection management, legacies, conservation and sale strategy, always with complete transparency, clarity and trust. We work for you, and only for you.",
       "p2": "We understand that collecting art is more than the acquisition of objects, and more than a financial transaction. We believe that collecting is the deliberate culmination of emotion, legacy, reputation and taste, and is often deeply personal. Which is why a reputable, informed and independent partner at your side makes a valuable difference as you collect.",
@@ -72,6 +77,31 @@
       "heading": "A private door.",
       "body": "Correspondence is welcomed by post, email, telephone or WhatsApp. First conversations are without fee or obligation; a written fee note precedes every engagement.",
       "cta": "Begin a conversation →"
+    },
+    "independence": {
+      "heading": "Independence",
+      "l1": "Acts as agent for the client.",
+      "l2": "Never takes title to works.",
+      "l3": "Accepts no commissions, rebates or introductory fees from dealers or auction houses.",
+      "l4": "The fee is agreed in writing before work begins."
+    },
+    "credentials": {
+      "heading": "Credentials",
+      "c1": "The Royal Household: Deputy Surveyor of the Queen's Works of Art, 2010 to 2017; Surveyor, 2018 to 2021",
+      "c2": "Lieutenant of the Royal Victorian Order (LVO), 2021",
+      "c3": "Fellow of the Society of Antiquaries of London (FSA)",
+      "c4": "Christie's, European Furniture & Works of Art, 1997 to 2010",
+      "c5": "Gurr Johns, Director of Decorative Arts, 2022 to 2024",
+      "c6": "Trustee, Thirlestane Castle Trust, since 2014",
+      "c7": "Committee member, The Beckford Society"
+    },
+    "services": {
+      "heading": "Services",
+      "s1": "Acquisition sourcing",
+      "s2": "Price advice and valuation",
+      "s3": "Sale strategy",
+      "s4": "Due diligence",
+      "s5": "Valuation for probate, insurance and inheritance tax"
     }
   },
   "about": {
@@ -89,13 +119,27 @@
     "publicationsLabel": "Publications",
     "lecturesLabel": "Lectures & teaching",
     "affiliationsLabel": "Affiliations",
-    "cta": "Begin a conversation →"
+    "cta": "Begin a conversation →",
+    "substack": "Essays and notes on Substack →"
+  },
+  "projects": {
+    "eyebrow": "Recent projects",
+    "headline": "Work in the world",
+    "intro": "Work the client has released us to discuss. Where discretion requires, the principals remain anonymous and commercial details are withheld.",
+    "metaTitle": "Recent projects",
+    "metaDescription": "Work the client has released us to discuss. Where discretion requires, the principals remain anonymous and commercial details are withheld.",
+    "labels": {
+      "mandate": "Mandate",
+      "location": "Location",
+      "year": "Year"
+    }
   },
   "contact": {
     "headline": "Enquiries by WhatsApp, email, telephone, or post.",
     "sub": "First conversations are without fee or obligation; a written fee note precedes every engagement.",
     "emailLabel": "Email",
     "phoneLabel": "Telephone",
+    "whatsappLabel": "WhatsApp",
     "postLabel": "Post",
     "hoursLabel": "Hours",
     "languagesLabel": "Languages",

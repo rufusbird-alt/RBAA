@@ -5,7 +5,12 @@
     "caseStudies": "Études de cas",
     "journal": "Journal",
     "about": "À propos",
-    "contact": "Contact"
+    "contact": "Contact",
+    "home": "Accueil",
+    "recentProjects": "Projets récents"
+  },
+  "header": {
+    "contactLabel": "Coordonnées"
   },
   "footer": {
     "colophon": "Composé en Cormorant Garamond et EB Garamond. Cabinet de conseil indépendant fondé à Shaftesbury, Dorset, 2024.",
@@ -38,7 +43,7 @@
     "readMore": "Lire la suite →"
   },
   "home": {
-    "definingStatement": "Un cabinet de conseil en art indépendant de premier plan mondial, accompagnant les collectionneurs privés, les trusts, les musées et les entreprises dans l'achat, la vente et la gestion de leurs collections.",
+    "definingStatement": "Rufus Bird est conseiller en art et apporte un conseil indépendant à une clientèle privée et institutionnelle.",
     "opening": {
       "p1": "Rufus Bird Art Advisory Ltd a été fondée pour travailler avec acheteurs et vendeurs sur le marché de l'art. Nous guidons les collectionneurs à travers le monde de l'art : naviguer sur les marchés, acquérir des œuvres exceptionnelles, affiner les collections, conseiller en matière d'évaluation, de gestion de collection, de successions, de conservation et de stratégie de vente, toujours avec une transparence, une clarté et une confiance absolues. Nous travaillons pour vous, et uniquement pour vous.",
       "p2": "Nous comprenons que collectionner l'art va bien au-delà de l'acquisition d'objets. C'est l'aboutissement délibéré d'une émotion, d'un héritage, d'une réputation et d'une passion. C'est pourquoi avoir à vos côtés un partenaire réputé, informé et indépendant fait une différence profonde.",
@@ -72,6 +77,31 @@
       "heading": "Une porte privée.",
       "body": "Les demandes sont les bienvenues par courrier, e-mail, téléphone ou WhatsApp. Les premières conversations sont sans frais et sans obligation ; une note d'honoraires écrite précède chaque engagement.",
       "cta": "Commencer une conversation →"
+    },
+    "independence": {
+      "heading": "Indépendance",
+      "l1": "Agit en qualité de mandataire du client.",
+      "l2": "N'acquiert jamais la propriété des œuvres.",
+      "l3": "N'accepte aucune commission, rétrocession ni commission d'apport de la part de marchands ou de maisons de ventes.",
+      "l4": "Les honoraires sont convenus par écrit avant le début de toute mission."
+    },
+    "credentials": {
+      "heading": "Parcours",
+      "c1": "Maison Royale : Deputy Surveyor of the Queen's Works of Art, 2010 à 2017 ; Surveyor, 2018 à 2021",
+      "c2": "Lieutenant of the Royal Victorian Order (LVO), 2021",
+      "c3": "Fellow de la Society of Antiquaries of London (FSA)",
+      "c4": "Christie's, Mobilier & Arts décoratifs européens, 1997 à 2010",
+      "c5": "Gurr Johns, Director of Decorative Arts, 2022 à 2024",
+      "c6": "Administrateur (trustee), Thirlestane Castle Trust, depuis 2014",
+      "c7": "Membre du comité, The Beckford Society"
+    },
+    "services": {
+      "heading": "Services",
+      "s1": "Recherche et acquisition d'œuvres",
+      "s2": "Conseil sur les prix et évaluation",
+      "s3": "Stratégie de vente",
+      "s4": "Due diligence (vérifications préalables)",
+      "s5": "Évaluation pour succession, assurance et droits de succession"
     }
   },
   "about": {
@@ -89,13 +119,27 @@
     "publicationsLabel": "Publications",
     "lecturesLabel": "Conférences & enseignement",
     "affiliationsLabel": "Affiliations",
-    "cta": "Commencer une conversation →"
+    "cta": "Commencer une conversation →",
+    "substack": "Essais et notes sur Substack →"
+  },
+  "projects": {
+    "eyebrow": "Projets récents",
+    "headline": "Travaux choisis",
+    "intro": "Des missions dont le client nous a autorisés à parler. Lorsque la discrétion l'exige, les mandants restent anonymes et les détails commerciaux ne sont pas divulgués.",
+    "metaTitle": "Projets récents",
+    "metaDescription": "Des missions dont le client nous a autorisés à parler. Lorsque la discrétion l'exige, les mandants restent anonymes et les détails commerciaux ne sont pas divulgués.",
+    "labels": {
+      "mandate": "Mandat",
+      "location": "Lieu",
+      "year": "Année"
+    }
   },
   "contact": {
     "headline": "Demandes par WhatsApp, e-mail, téléphone ou courrier.",
     "sub": "Les premières conversations sont sans frais et sans obligation ; une note d'honoraires écrite précède chaque engagement.",
     "emailLabel": "Email",
     "phoneLabel": "Téléphone",
+    "whatsappLabel": "WhatsApp",
     "postLabel": "Courrier",
     "hoursLabel": "Heures",
     "languagesLabel": "Langues",

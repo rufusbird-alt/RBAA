@@ -5,7 +5,12 @@
     "caseStudies": "Fallstudien",
     "journal": "Journal",
     "about": "Über mich",
-    "contact": "Kontakt"
+    "contact": "Kontakt",
+    "home": "Startseite",
+    "recentProjects": "Aktuelle Projekte"
+  },
+  "header": {
+    "contactLabel": "Kontaktdaten"
   },
   "footer": {
     "colophon": "Gesetzt in Cormorant Garamond und EB Garamond. Unabhängige Beratungspraxis gegründet in Shaftesbury, Dorset, 2024.",
@@ -38,7 +43,7 @@
     "readMore": "Mehr lesen →"
   },
   "home": {
-    "definingStatement": "Eine weltweit führende unabhängige Kunstberatung für Privatsammler, Stiftungen, Museen und Unternehmen: für den Kauf, Verkauf und die Verwaltung von Sammlungen.",
+    "definingStatement": "Rufus Bird ist Kunstberater und bietet privaten und institutionellen Kunden unabhängige Beratung.",
     "opening": {
       "p1": "Rufus Bird Art Advisory Ltd wurde gegründet, um mit Käufern und Verkäufern auf dem Kunstmarkt zusammenzuarbeiten. Wir begleiten Sammler durch die Kunstwelt: Märkte navigieren, außergewöhnliche Werke beschaffen, Sammlungen verfeinern, bei Bewertung, Sammlungsverwaltung, Nachlässen, Konservierung und Verkaufsstrategie beraten, stets mit vollständiger Transparenz, Klarheit und Vertrauen. Wir arbeiten für Sie, und nur für Sie.",
       "p2": "Wir verstehen, dass das Sammeln von Kunst weit mehr ist als der Erwerb von Objekten. Es ist die bewusste Verbindung von Emotion, Erbe, Ansehen und Leidenschaft. Deshalb macht ein seriöser, informierter und unabhängiger Partner an Ihrer Seite einen wesentlichen Unterschied.",
@@ -72,6 +77,31 @@
       "heading": "Eine private Tür.",
       "body": "Korrespondenz ist willkommen per Post, E-Mail, Telefon oder WhatsApp. Erstgespräche sind ohne Gebühr und ohne Verpflichtung; einem schriftlichen Honorarauftrag geht jede Beauftragung voraus.",
       "cta": "Ein Gespräch beginnen →"
+    },
+    "independence": {
+      "heading": "Unabhängigkeit",
+      "l1": "Handelt als Vertreter des Kunden.",
+      "l2": "Erwirbt niemals Eigentum an Kunstwerken.",
+      "l3": "Nimmt keine Provisionen, Rückvergütungen oder Vermittlungsgebühren von Händlern oder Auktionshäusern an.",
+      "l4": "Das Honorar wird vor Beginn der Arbeit schriftlich vereinbart."
+    },
+    "credentials": {
+      "heading": "Werdegang",
+      "c1": "Königlicher Haushalt: Deputy Surveyor of the Queen's Works of Art, 2010 bis 2017; Surveyor, 2018 bis 2021",
+      "c2": "Lieutenant of the Royal Victorian Order (LVO), 2021",
+      "c3": "Fellow der Society of Antiquaries of London (FSA)",
+      "c4": "Christie's, Europäische Möbel & Kunsthandwerk, 1997 bis 2010",
+      "c5": "Gurr Johns, Director of Decorative Arts, 2022 bis 2024",
+      "c6": "Trustee, Thirlestane Castle Trust, seit 2014",
+      "c7": "Vorstandsmitglied, The Beckford Society"
+    },
+    "services": {
+      "heading": "Leistungen",
+      "s1": "Beschaffung von Kunstwerken",
+      "s2": "Preisberatung und Bewertung",
+      "s3": "Verkaufsstrategie",
+      "s4": "Due-Diligence-Prüfung",
+      "s5": "Bewertung für Nachlass, Versicherung und Erbschaftsteuer"
     }
   },
   "about": {
@@ -89,13 +119,27 @@
     "publicationsLabel": "Publikationen",
     "lecturesLabel": "Vorträge & Lehre",
     "affiliationsLabel": "Zugehörigkeiten",
-    "cta": "Ein Gespräch beginnen →"
+    "cta": "Ein Gespräch beginnen →",
+    "substack": "Essays und Notizen auf Substack →"
+  },
+  "projects": {
+    "eyebrow": "Aktuelle Projekte",
+    "headline": "Ausgewählte Arbeiten",
+    "intro": "Projekte, über die wir mit Zustimmung des Kunden sprechen dürfen. Wo Diskretion geboten ist, bleiben die Auftraggeber anonym und geschäftliche Einzelheiten werden nicht genannt.",
+    "metaTitle": "Aktuelle Projekte",
+    "metaDescription": "Projekte, über die wir mit Zustimmung des Kunden sprechen dürfen. Wo Diskretion geboten ist, bleiben die Auftraggeber anonym und geschäftliche Einzelheiten werden nicht genannt.",
+    "labels": {
+      "mandate": "Mandat",
+      "location": "Ort",
+      "year": "Jahr"
+    }
   },
   "contact": {
     "headline": "Anfragen per WhatsApp, E-Mail, Telefon oder Post.",
     "sub": "Erstgespräche sind ohne Gebühr und ohne Verpflichtung; einem schriftlichen Honorarauftrag geht jede Beauftragung voraus.",
     "emailLabel": "Email",
     "phoneLabel": "Telefon",
+    "whatsappLabel": "WhatsApp",
     "postLabel": "Post",
     "hoursLabel": "Öffnungszeiten",
     "languagesLabel": "Sprachen",

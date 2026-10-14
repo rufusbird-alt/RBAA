@@ -312,6 +312,39 @@ Recorded 13 October 2026. These override sections 1–8 where they differ.
     - Lieutenant of the Royal Victorian Order (LVO), appointed 2021.
     - No connection with SOFAA, CINOA or the Burlington Magazine. None of these may appear anywhere.
     - Remaining dates to be confirmed by Rufus.
+18. **Confirmed facts, complete set** (13 October; extends item 17 and resolves open question 6):
+    - Christie's, 1997 to 2010.
+    - The Royal Household: Deputy Surveyor of the Queen's Works of Art, 2010 to 2017; Surveyor of the Queen's Works of Art, 2018 to 2021.
+    - Duke's, 2021 to 2022.
+    - Gurr Johns, Director of Decorative Arts, 2022 to 2024.
+    - Independent practice from 2024.
+    - Fellow of the Society of Antiquaries of London (FSA).
+    - Lieutenant of the Royal Victorian Order (LVO), 2021.
+    - Trustee, Thirlestane Castle Trust, since 2014.
+    - Committee member, The Beckford Society.
+19. **Credentials strip**: seven lines, `home.credentials.c1` to `c7`, replacing the five written in commit 2. Display order:
+    - Royal Household
+    - LVO
+    - FSA
+    - Christie's
+    - Gurr Johns
+    - Thirlestane Castle Trust
+    - Beckford Society
+20. **Decisions of 14 October** (recorded in `COPY-EN.md` v2.0, the corrected copy source; v1.0 archived at `_archive/COPY-EN-v1.0.md`):
+    - **Voice**: first person singular; CLAUDE.md's rules override COPY-EN's old tone rules.
+    - **Confirmed facts**:
+      - Cambridge, History of Art, 1996.
+      - Member, Furniture History Society.
+      - Member, Society for the History of Collecting.
+      - 'In the art world since 1997' (no count of years).
+      - Whilst at Gurr Johns, as Director of Decorative Arts, led the revival of Mallett, the famous antique dealers.
+    - **About headline**: 'In the art world since 1997.' `about.bio.p1` is retired.
+    - **Telephone**: +44 (0)7815 588181 is approved for public use (resolves open question 13).
+    - **Valuation lines**: both stay in the services list.
+    - **Oxford comma**: used.
+    - **Hilliard and Venetian palazzo**: placeholder text until Rufus supplies it.
+    - **German and French credentials c1**: now carry the end years 2017 and 2021, matching the English.
+    - **Home statement** (option A): 'Rufus Bird is an art advisor, providing independent counsel for private and institutional clients.' Written to `home.definingStatement` in en, with de and fr drafts.
 
 ### NavMenu aria labels
 They are hard-coded English: `aria-label={open ? 'Close menu' : 'Open menu'}` (`NavMenu.tsx:53`) and `aria-label="Primary"` (`NavMenu.tsx:78`). German and French screen-reader users hear English. Proposed keys, passed from `Masthead` as props in the way the link labels already are:
