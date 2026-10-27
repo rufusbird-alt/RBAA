@@ -44,6 +44,7 @@ export interface ServiceFrontmatter {
   heroImage?: string;
   heroAlt?: string;
   metaDescription: string;
+  cardLine?: string;
   published: boolean;
 }
 

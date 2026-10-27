@@ -70,6 +70,7 @@ const serviceSchema = z.object({
   heroImage: z.string().optional(),
   heroAlt: z.string().optional(),
   metaDescription: nonEmpty,
+  cardLine: z.string().optional(),
   published: z.boolean(),
 });
 

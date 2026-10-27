@@ -63,6 +63,9 @@ export default function ServicesPage() {
                 <p className="mt-3 text-sm text-[var(--ink-muted)] leading-relaxed">
                   {service.metaDescription}
                 </p>
+                {service.cardLine && (
+                  <p className="mt-3 text-sm italic text-[var(--ink-soft)]">{service.cardLine}</p>
+                )}
                 <p className="mt-4 text-sm small-caps text-[var(--accent)]">Read more →</p>
               </Link>
             ))}
