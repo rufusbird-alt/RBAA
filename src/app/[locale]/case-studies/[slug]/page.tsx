@@ -63,7 +63,7 @@ export default function CaseStudyPage({
       <UntranslatedBanner locale={locale} />
 
       {fm.heroImage ? (
-        <div className="relative w-full aspect-[2/1] md:aspect-[3/1] overflow-hidden">
+        <div className="relative w-full aspect-[3/2] md:aspect-[2/1] overflow-hidden">
           <Image
             src={fm.heroImage}
             alt={fm.heroAlt ?? fm.title}

@@ -8,17 +8,34 @@ interface PortraitFrameProps {
 
 export function PortraitFrame({ src, alt, className }: PortraitFrameProps) {
   return (
-    <figure
-      className={`relative w-48 h-64 md:w-56 md:h-[18rem] shrink-0 overflow-hidden${className ? ` ${className}` : ''}`}
-    >
-      <Image
-        src={src}
-        alt={alt}
-        fill
-        className="object-cover object-top grayscale"
-        sizes="(max-width: 768px) 192px, 224px"
-        priority
-      />
+    <figure className={`w-full max-w-[28rem]${className ? ` ${className}` : ''}`}>
+      <div className="relative aspect-[4/5] overflow-hidden">
+        <Image
+          src={src}
+          alt={alt}
+          fill
+          className="object-cover object-top grayscale"
+          sizes="(max-width: 768px) 100vw, 448px"
+          priority
+        />
+      </div>
+      <PhotoCredit />
     </figure>
+  );
+}
+
+export function PhotoCredit() {
+  return (
+    <figcaption className="mt-2 text-xs text-[var(--ink-muted)]">
+      Photograph:{' '}
+      <a
+        href="https://www.felixbirdphotography.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="hover:text-[var(--accent)] transition-colors"
+      >
+        Felix Bird
+      </a>
+    </figcaption>
   );
 }

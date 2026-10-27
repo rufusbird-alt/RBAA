@@ -78,7 +78,7 @@ export default function JournalEntryPage({
 
       {fm.coverImage && (
         <figure className="border-b border-[var(--rule)]">
-          <div className="relative w-full aspect-[3/2] md:aspect-[16/7] overflow-hidden">
+          <div className="relative w-full aspect-[3/2] md:aspect-[2/1] overflow-hidden">
             <Image
               src={fm.coverImage}
               alt={fm.coverAlt ?? fm.title}

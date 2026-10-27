@@ -90,6 +90,14 @@
   padding-left: 1.5rem;
   margin-bottom: 1.25rem;
 }
+.rbaa-prose img {
+  display: block;
+  width: min(56rem, calc(100vw - 2 * var(--gutter)));
+  max-width: none;
+  height: auto;
+  margin: 2.5rem 0 2.5rem 50%;
+  transform: translateX(-50%);
+}
 .rbaa-prose li {
   margin-bottom: 0.4rem;
 }

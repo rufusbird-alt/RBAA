@@ -6,6 +6,7 @@ import { QuotesCarousel } from '@/components/home/QuotesCarousel';
 import { SectionTitle } from '@/components/ui/SectionTitle';
 import { Eyebrow } from '@/components/ui/Eyebrow';
 import { Button } from '@/components/ui/Button';
+import { PhotoCredit } from '@/components/about/PortraitFrame';
 
 const heroImage = { src: '/images/home/panini-ancient-rome.jpg', alt: 'Pannini, A View of Ancient Rome' };
 
@@ -39,16 +40,19 @@ export default async function HomePage() {
 
       {/* §1.3 Opening paragraphs */}
       <section className="py-16 border-b border-[var(--rule)]">
-        <div className="max-w-[var(--max)] mx-auto px-[var(--gutter)] grid gap-10 md:grid-cols-[minmax(0,20rem)_1fr] md:items-start">
+        <div className="max-w-[var(--max)] mx-auto px-[var(--gutter)] grid gap-10 md:grid-cols-[minmax(0,26rem)_1fr] lg:grid-cols-[minmax(0,34rem)_1fr] md:items-start">
+          <figure>
           <div className="relative aspect-[3/2] w-full overflow-hidden">
             <Image
               src="/images/portrait-RB00003.jpg"
               alt="Rufus Bird"
               fill
               className="object-cover"
-              sizes="(max-width: 768px) 100vw, 320px"
+              sizes="(max-width: 768px) 100vw, 544px"
             />
           </div>
+          <PhotoCredit />
+          </figure>
           <div className="space-y-5 max-w-[var(--measure)]">
             <p>{t('opening.p1')}</p>
             <p>{t('opening.p2')}</p>

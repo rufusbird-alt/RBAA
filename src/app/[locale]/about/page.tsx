@@ -81,7 +81,7 @@ export default async function AboutPage() {
         <div className="max-w-[var(--measure)] mx-auto px-[var(--gutter)]">
           <div className="space-y-5">
             {portraitSrc && (
-              <PortraitFrame src={portraitSrc} alt="Rufus Bird" className="float-left mr-8 mb-4" />
+              <PortraitFrame src={portraitSrc} alt="Rufus Bird" className="mb-10" />
             )}
             <p>{t('bio.p1')}</p>
             <p>{t('bio.p2')}</p>

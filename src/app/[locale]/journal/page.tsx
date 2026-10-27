@@ -38,7 +38,7 @@ export default function JournalPage() {
   return (
     <>
       {/* Hero image */}
-      <section className="relative aspect-[21/9] overflow-hidden border-b border-[var(--rule)]">
+      <section className="relative aspect-[3/2] md:aspect-[2/1] overflow-hidden border-b border-[var(--rule)]">
         <Image src={heroImage.src} alt={heroImage.alt} fill priority className="object-cover" sizes="100vw" />
       </section>
 
