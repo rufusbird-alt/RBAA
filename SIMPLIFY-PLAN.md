@@ -1,6 +1,8 @@
-# Simplify the RBAA site: 17 pages to 3
+# Simplify the RBAA site: 17 pages to 4
 
 Status: plan. Commits 1 and 2 have been applied to the working tree (not committed); nothing else has. Branch `legal-identity`. Section 9 records Rufus's decisions; where it differs from sections 1–8, section 9 wins.
+
+Updated 27 October 2026, on branch `simplify`: the Services page and its detail pages are **kept** (decision 22), so the site becomes Home, Services, About and Recent projects. The Approach page is **archived** and redirected (commit 8 done; decision 23).
 
 ## 0. Today's 17 pages
 
@@ -30,9 +32,9 @@ Archive means `git mv` into `_archive/` at the repo root, keeping the original r
 | `[locale]/page.tsx` Home | **Keep, rebuild** | Section order in §9 |
 | `[locale]/about/page.tsx` | **Keep, rebuild** | §2 |
 | `[locale]/recent-projects/page.tsx` | **New** | Merges all three case studies; anchors `#hilliard-miniatures`, `#thursby-pelham-collection`, `#venetian-palazzo` |
-| `[locale]/approach/page.tsx` | **Merge into** Home (independence lines), then **archive** | Redirect to `/` |
-| `[locale]/services/page.tsx` | **Merge into** Home services list, then **archive** | Redirect to `/` |
-| `[locale]/services/[slug]/page.tsx` | **Archive** | Four slugs redirect to `/` |
+| `[locale]/approach/page.tsx` | **Merge into** Home (independence lines), then **archive** | Redirect to `/`. **Done** 27 October (decision 23) |
+| `[locale]/services/page.tsx` | **Keep** (decision 22) | Six service cards; the Home services section links to them |
+| `[locale]/services/[slug]/page.tsx` | **Keep** (decision 22) | Six slugs (decision 22) |
 | `[locale]/case-studies/page.tsx` | **Merge into** Recent projects, then **archive** | Redirect to `/recent-projects` |
 | `[locale]/case-studies/[slug]/page.tsx` | **Merge into** Recent projects, then **archive** | Each slug redirects to its anchor |
 | `[locale]/contact/page.tsx` | **Merge into** header + Home contact section, then **archive** | Redirect to `/#contact` |
@@ -48,10 +50,10 @@ Archive means `git mv` into `_archive/` at the repo root, keeping the original r
 
 | Item | Decision | Detail |
 |---|---|---|
-| `layout/Masthead.tsx` | **Keep, rewrite** | Wordmark, visible contact line, visible language switcher, `NavMenu` with three links |
-| `layout/NavMenu.tsx` (hamburger) | **Keep** | Not archived. Receives three links: Home, About, Recent projects. Aria labels to be translated (§9) |
+| `layout/Masthead.tsx` | **Keep, rewrite** | Wordmark, visible contact line, visible language switcher, `NavMenu` with four links |
+| `layout/NavMenu.tsx` (hamburger) | **Keep** | Not archived. Receives four links: Home, Services, About, Recent projects (decision 22). Aria labels to be translated (§9) |
 | `layout/LanguageSwitcher.tsx`, `layout/SkipLink.tsx` | **Keep** | |
-| `layout/Footer.tsx` | **Keep, edit** | "The Site" list to 3 links; PGP link from `/contact#pgp` to `/#pgp`. Legal block untouched |
+| `layout/Footer.tsx` | **Keep, edit** | "The Site" list to 4 links; PGP link from `/contact#pgp` to `/#pgp`. Legal block untouched |
 | `home/QuotesCarousel.tsx` | **Keep** | Unchanged (report in §7) |
 | `about/CareerTimeline.tsx`, `about/PortraitFrame.tsx` | **Keep** | Timeline facts need checking (open question 6) |
 | `contact/ContactForm.tsx` | **Archive** | |
@@ -59,23 +61,23 @@ Archive means `git mv` into `_archive/` at the repo root, keeping the original r
 | `ui/Button`, `Eyebrow`, `SectionTitle`, `JsonLd`, `UntranslatedBanner` | **Keep** | |
 | `actions/submitContactForm.ts` (empty placeholder) | **Archive** | |
 | `lib/email.ts` | **Archive** | Already unused today |
-| `lib/content.ts`, `lib/seo.ts`, `lib/i18n.ts` | **Keep** | Journal and service getters stay exported but unused; harmless |
+| `lib/content.ts`, `lib/seo.ts`, `lib/i18n.ts` | **Keep** | Journal getters stay exported but unused; harmless. Service getters stay in use (decision 22) |
 
 ### Content and images
 
 | Item | Decision |
 |---|---|
 | `content/case-studies/*.mdx` (3) | **Keep**; rendered on Recent projects |
-| `content/services/*.mdx` (4) | **Archive** to `_archive/content/services/`; `content/services/.gitkeep` keeps the folder |
+| `content/services/*.mdx` (6) | **Keep** (decision 22) |
 | `content/journal/` (empty) | `content/journal/.gitkeep` keeps the folder in a clone |
 | `public/images/journal/*` (11 files) | **Stay in `public/`** (§9) |
-| `public/images/approach/*` (3), `public/images/services/rbaa-Isenbrandt-triptych.jpg`, `rbaa-riesener-bureau.jpg`, `rbaa-giltwood-console.jpg` | **Archive** to `_archive/public/images/…` by `git mv`, once nothing references them |
+| `public/images/approach/*` (3) | **Archive** to `_archive/public/images/…` by `git mv`, once nothing references them |
 | All other images | **Untouched** |
 
 ## 2. Target structure
 
 ### Navigation and header (every page)
-- **Hamburger stays.** `NavMenu` opens a panel with three items: **Home · About · Recent projects**.
+- **Hamburger stays.** `NavMenu` opens a panel with four items: **Home · Services · About · Recent projects** (decision 22).
 - **Contact line stays visible** in the header, outside the menu: email (`mailto:rufus@rufusbirdartadvisory.com`), telephone (`tel:+447815588181`), WhatsApp (`https://wa.me/447815588181`). Plain text links.
 - **Language switcher stays visible**, outside the menu.
 - Layout: the wordmark on the left; the contact line, language switcher and menu button on the right. On narrow screens the contact line drops to its own row beneath the wordmark (see risk 9).
@@ -86,7 +88,7 @@ Order in §9: statement, carousel, independence, credentials, services, contact.
 - **QuotesCarousel**: unchanged.
 - **Independence, four lines**: acts as agent for the client · never takes title to works · accepts no commissions, rebates or introductory fees from dealers or auction houses · the fee is agreed in writing before work begins.
 - **Credentials strip**: facts only, one line each, no adjectives.
-- **Services list**: one list, wording in §9.
+- **Services**: cards linking to the six Services pages (decision 22).
 - **Contact** (`id="contact"`): email, telephone, WhatsApp, post address, hours, languages, PGP fingerprint (`id="pgp"`). Reuses the `contact.*` keys.
 
 ### About
@@ -104,8 +106,6 @@ Next's `permanent: true` sends **308**, not 301, so use `statusCode: 301`. Redir
 const MOVED = [
   // [old path, new path]
   ['/approach', '/'],
-  ['/services', '/'],
-  ['/services/:slug', '/'],
   ['/contact', '/#contact'],
   ['/journal', '/'],
   ['/journal/:slug', '/'],
@@ -119,8 +119,8 @@ const MOVED = [
   ['/about-rufus', '/about'],
   ['/about-us', '/about'],
   ['/contact-us', '/#contact'],
-  ['/our-services', '/'],
-  ['/services.html', '/'],
+  ['/our-services', '/services'],
+  ['/services.html', '/services'],
   ['/blog', '/'],
   ['/blog/:slug', '/'],
   ['/news', '/'],
@@ -146,7 +146,7 @@ Examples: `/approach` → `/`; `/de/approach` → `/de`; `/contact` → `/#conta
 All changes apply to `en.json`, `de.json` and `fr.json`. German and French values are drafts for Rufus's review. Unused keys are removed only in the last commit, after no code reads them.
 
 ### Becoming unused
-- `nav.approach`, `nav.services`, `nav.caseStudies`, `nav.journal`, `nav.contact`
+- `nav.approach`, `nav.caseStudies`, `nav.journal`, `nav.contact`
 - `home.opening.p1`, `p2`, `p3`, `p5` (retired); `home.opening.p4` moves to About (§9)
 - `home.approachTeaser.*` (13 keys)
 - `home.servicesSection`, `home.caseStudy.eyebrow`, `.headline`, `.pull`, `.cta`
@@ -255,13 +255,13 @@ Each commit is small and ends with `npx tsc --noEmit && npx pnpm build && npx pn
 4. **Header and nav**: rewrite `Masthead` to pass three links (Home, About, Recent projects) to `NavMenu`, and add the visible contact line outside the menu. The language switcher stays visible. `NavMenu.tsx` is kept, not archived; translate its aria labels with the proposed `nav.openMenu`, `nav.closeMenu` and `nav.menuLabel` keys once approved. Point the footer site list at the three pages and the PGP link at `/#pgp`; point the not-found button at `/#contact`.
 5. **Home**: rebuild in the §9 order with `id="contact"` and `id="pgp"`; remove all links to old routes.
 6. **About**: portrait, short bio (from former `home.opening.p4`), timeline, affiliations, Substack link. Publications and lectures stay hidden. Remove the `/contact` button.
-7. **Archive the journal, add its redirects and fix the sitemap**, together. The sitemap drops `/approach`, `/services`, `/case-studies` and `/contact`, and adds `/recent-projects`.
-8. **Archive approach and add its redirect.**
-9. **Archive services**: the two route files, the four MDX files and their redirects.
+7. **Archive the journal, add its redirects and fix the sitemap**, together. The sitemap drops `/case-studies` and `/contact` (`/approach` already dropped), and adds `/recent-projects`.
+8. **Archive approach and add its redirect.** *(done 27 October)*
+9. ~~**Archive services**~~ Cancelled: Services is kept (decision 22).
 10. **Archive case studies**: both routes and their redirects, including the per-slug anchors.
 11. **Archive contact**: the page, `ContactForm`, `api/contact`, `submitContactForm.ts` and `lib/email.ts`, plus the `/contact` → `/#contact` redirect and the re-pointed legacy redirects.
 12. **Archive dead code**: `mdxComponents.tsx` and `Pullquote.tsx`.
-13. **Archive orphaned images**: approach and services only (§1); the journal images stay.
+13. **Archive orphaned images**: approach only (§1); the journal images stay.
 14. **Remove unused i18n keys** (§4) from all three files.
 15. **JSON-LD telephone**: replace the placeholder in `app/layout.tsx` with the number in §9.
 16. *(Later, only if approved)* Carousel fixes; NavMenu semantics; proposed wording for CLAUDE.md, BUILD-BRIEF.md and COPY-EN.md.
@@ -353,6 +353,17 @@ Recorded 13 October 2026. These override sections 1–8 where they differ.
     - The 'Read the approach' link is removed from Home.
     - German and French are drafts for review.
     - The /approach route itself is archived and redirected in commit 8 as planned.
+    - Superseded 27 October: the manifesto is removed from Home (decision 23).
+22. **Services kept** (27 October): the Services page and the service detail pages stay; they are not merged into Home or archived. Commit 9 is cancelled; §1, §2, §3 and the commit list are updated to match.
+    - Six services, in this order: The Private Family, The Seasoned Collector, The Interior Designer, The Family Office, The Director and Curator, The Estate Trustee (`order` in each MDX file).
+    - New: `private-family.mdx` and `director-curator.mdx`, English only, with `UntranslatedBanner` on `/de` and `/fr` like the others.
+    - Intro line: 'Every relationship is shaped by its starting point.' ('These four describe the most common' removed.)
+    - The Home services section shows the six cards; the proposed `home.services.*` text list (§4) is not used.
+    - Services goes in the menu and footer: Home, Services, About, Recent projects.
+23. **Approach removed** (27 October):
+    - `approach/page.tsx` archived to `_archive/src/app/[locale]/approach/`; header, footer and sitemap links removed; `/approach`, `/en/approach` and `/:locale(de|fr)/approach` redirect 301 to Home.
+    - The Approach manifesto (`home.approach.*`, en, de and fr) is removed from Home and kept in `_archive/messages/home-approach.json`.
+    - 'How a relationship begins' and the 'Most advisors help you buy art' quote with its four lines stay on Home.
 
 ### NavMenu aria labels
 They are hard-coded English: `aria-label={open ? 'Close menu' : 'Open menu'}` (`NavMenu.tsx:53`) and `aria-label="Primary"` (`NavMenu.tsx:78`). German and French screen-reader users hear English. Proposed keys, passed from `Masthead` as props in the way the link labels already are:
