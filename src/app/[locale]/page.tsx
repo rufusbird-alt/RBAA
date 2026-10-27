@@ -37,21 +37,6 @@ export default async function HomePage() {
         </p>
       </section>
 
-      {/* Approach manifesto, merged from the former /approach page */}
-      <section className="py-16 border-b border-[var(--rule)]">
-        <div className="max-w-[var(--measure)] mx-auto px-[var(--gutter)]">
-          <h2 className="font-display text-2xl md:text-3xl italic leading-snug">
-            {t('approach.headline')}
-          </h2>
-          <div className="mt-6 space-y-5">
-            {(['p1', 'p2', 'p3', 'p4', 'p5', 'p6', 'p7'] as const).map((k) => (
-              <p key={k}>{t.rich(`approach.${k}`, { em: (chunks) => <em>{chunks}</em> })}</p>
-            ))}
-            <p className="italic">{t('approach.p8')}</p>
-          </div>
-        </div>
-      </section>
-
       {/* §1.3 Opening paragraphs */}
       <section className="py-16 border-b border-[var(--rule)]">
         <div className="max-w-[var(--max)] mx-auto px-[var(--gutter)] grid gap-10 md:grid-cols-[minmax(0,20rem)_1fr] md:items-start">
@@ -96,7 +81,7 @@ export default async function HomePage() {
       <section className="py-16 border-b border-[var(--rule)]">
         <div className="max-w-[var(--max)] mx-auto px-[var(--gutter)]">
           <SectionTitle>{t('servicesSection')}</SectionTitle>
-          <div className="mt-10 grid gap-px bg-[var(--rule)] border border-[var(--rule)] sm:grid-cols-2 lg:grid-cols-4">
+          <div className="mt-10 grid gap-px bg-[var(--rule)] border border-[var(--rule)] sm:grid-cols-2 lg:grid-cols-3">
             {services.map((service) => (
               <Link
                 key={service.slug}

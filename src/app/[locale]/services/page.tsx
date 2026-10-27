@@ -19,7 +19,7 @@ export async function generateMetadata({
   return buildMetadata({
     title: 'Services',
     description:
-      'Every relationship is shaped by its starting point. Four service archetypes for private collectors, family offices, interior designers, and estate trustees.',
+      'Every relationship is shaped by its starting point. Six service archetypes for private collectors, family offices, interior designers, estate trustees, private families and institutions.',
     path: '/services',
     locale,
   });
@@ -42,7 +42,7 @@ export default function ServicesPage() {
             Who I work with
           </h1>
           <p className="mt-6 text-xl text-[var(--ink-soft)]">
-            Every relationship is shaped by its starting point. These four describe the most common.
+            Every relationship is shaped by its starting point.
           </p>
         </div>
       </section>

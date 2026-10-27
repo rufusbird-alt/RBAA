@@ -8,7 +8,6 @@ export async function Masthead() {
   const t = await getTranslations('nav');
 
   const navLinks = [
-    { key: 'approach' as const, href: '/approach' },
     { key: 'services' as const, href: '/services' },
     { key: 'caseStudies' as const, href: '/case-studies' },
     { key: 'journal' as const, href: '/journal' },

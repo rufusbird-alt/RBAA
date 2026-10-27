@@ -2,7 +2,6 @@ import { getTranslations } from 'next-intl/server';
 import { Link } from '@/navigation';
 
 const siteLinks = [
-  { navKey: 'approach', href: '/approach' },
   { navKey: 'services', href: '/services' },
   { navKey: 'caseStudies', href: '/case-studies' },
   { navKey: 'journal', href: '/journal' },

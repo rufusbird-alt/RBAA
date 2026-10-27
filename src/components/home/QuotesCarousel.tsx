@@ -59,7 +59,7 @@ const QUOTES = [
     descriptor: "We source art that defines the design and character of your spaces.",
   },
   {
-    text: "The finest pleasure is the joy of understanding.",
+    text: "The noblest pleasure is the joy of understanding.",
     attribution: "Leonardo da Vinci",
     descriptor: "We offer insight, bringing confidence to every acquisition.",
   },

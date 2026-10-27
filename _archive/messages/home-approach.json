@@ -1,0 +1,40 @@
+{
+  "_note": "home.approach manifesto, removed from Home 27 October 2026 at Rufus's request",
+  "home": {
+    "approach": {
+      "en": {
+        "headline": "Collecting is not a transaction. Transactions are rational. Collecting is emotional.",
+        "p1": "Art is one of the few assets where value is inseparable from meaning. Two collectors can look at the same work and see entirely different worth. What compels one person leaves another indifferent. Price follows taste as much as the other way around.",
+        "p2": "This makes collecting fundamentally different from other forms of acquisition. It is shaped by identity, ambition, reputation, emotion, and legacy, not simply market mechanics.",
+        "p3": "The art of collecting is about showing how an aesthetic can transcend its own time and be understood and appreciated across generations.",
+        "p4": "Access to art can be learned. Markets can be navigated. <em>What cannot be systematised is judgement.</em>",
+        "p5": "True advisory requires someone who can sit inside the client's world, understanding not only what is available, but what is right for them. Someone who can challenge impulse, sharpen instinct, and translate unspoken ambition into coherent direction over time.",
+        "p6": "Without counsel, collections become accidental and drift. <em>With counsel, they become intentional, understood, and deeply felt.</em>",
+        "p7": "The role of an effective art advisor is not only to facilitate transactions, but to provoke a collector to think clearly about what they are building, why it matters, and how it should evolve. The outcome is not simply ownership of objects, but the construction of meaning, coherence, and a personal legacy.",
+        "p8": "This is the difference between buying art and building a collection."
+      },
+      "de": {
+        "headline": "Sammeln ist keine Transaktion. Transaktionen sind rational. Sammeln ist emotional.",
+        "p1": "Kunst ist einer der wenigen Vermögenswerte, bei denen Wert und Bedeutung untrennbar sind. Zwei Sammler können dasselbe Werk betrachten und darin einen völlig unterschiedlichen Wert sehen. Was den einen fesselt, lässt den anderen gleichgültig. Der Preis folgt dem Geschmack ebenso sehr wie umgekehrt.",
+        "p2": "Das unterscheidet das Sammeln grundlegend von anderen Formen des Erwerbs. Es wird von Identität, Ehrgeiz, Ansehen, Emotion und Vermächtnis geprägt, nicht allein von den Mechanismen des Marktes.",
+        "p3": "In der Kunst des Sammelns geht es darum zu zeigen, wie eine Ästhetik ihre eigene Zeit überdauern und über Generationen hinweg verstanden und geschätzt werden kann.",
+        "p4": "Der Zugang zur Kunst lässt sich erlernen. Märkte lassen sich navigieren. <em>Was sich nicht systematisieren lässt, ist Urteilsvermögen.</em>",
+        "p5": "Echte Beratung braucht jemanden, der sich in die Welt des Kunden hineinversetzen kann und versteht, nicht nur was verfügbar ist, sondern was für ihn richtig ist. Jemanden, der Impulse hinterfragt, den Instinkt schärft und unausgesprochenen Ehrgeiz im Lauf der Zeit in eine klare Richtung übersetzt.",
+        "p6": "Ohne Beratung werden Sammlungen zufällig und treiben dahin. <em>Mit Beratung werden sie bewusst, verstanden und tief empfunden.</em>",
+        "p7": "Die Aufgabe eines guten Kunstberaters ist es nicht nur, Transaktionen zu ermöglichen, sondern einen Sammler dazu anzuregen, klar darüber nachzudenken, was er aufbaut, warum es wichtig ist und wie es sich entwickeln soll. Das Ergebnis ist nicht bloß der Besitz von Objekten, sondern die Schaffung von Bedeutung, Zusammenhang und einem persönlichen Vermächtnis.",
+        "p8": "Das ist der Unterschied zwischen dem Kauf von Kunst und dem Aufbau einer Sammlung."
+      },
+      "fr": {
+        "headline": "Collectionner n'est pas une transaction. Les transactions sont rationnelles. Collectionner est affaire d'émotion.",
+        "p1": "L'art est l'un des rares actifs dont la valeur est indissociable du sens. Deux collectionneurs peuvent regarder la même œuvre et y voir une valeur entièrement différente. Ce qui captive l'un laisse l'autre indifférent. Le prix suit le goût autant que l'inverse.",
+        "p2": "C'est ce qui distingue fondamentalement la collection des autres formes d'acquisition. Elle est façonnée par l'identité, l'ambition, la réputation, l'émotion et la transmission, et pas seulement par les mécanismes du marché.",
+        "p3": "L'art de collectionner consiste à montrer comment une esthétique peut transcender son époque et être comprise et appréciée au fil des générations.",
+        "p4": "L'accès à l'art peut s'apprendre. Les marchés peuvent se parcourir. <em>Ce qui ne peut se systématiser, c'est le jugement.</em>",
+        "p5": "Un véritable conseil exige quelqu'un capable d'entrer dans l'univers du client, de comprendre non seulement ce qui est disponible, mais ce qui lui convient. Quelqu'un qui sait questionner l'impulsion, aiguiser l'instinct et traduire une ambition tacite en une direction cohérente au fil du temps.",
+        "p6": "Sans conseil, les collections deviennent fortuites et dérivent. <em>Avec conseil, elles deviennent intentionnelles, comprises et profondément ressenties.</em>",
+        "p7": "Le rôle d'un conseiller en art n'est pas seulement de faciliter des transactions, mais d'amener un collectionneur à réfléchir clairement à ce qu'il construit, à la raison pour laquelle cela compte et à la manière dont cela doit évoluer. Le résultat n'est pas la simple possession d'objets, mais la construction d'un sens, d'une cohérence et d'un héritage personnel.",
+        "p8": "C'est la différence entre acheter de l'art et bâtir une collection."
+      }
+    }
+  }
+}

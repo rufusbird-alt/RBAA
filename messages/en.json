@@ -44,23 +44,12 @@
   },
   "home": {
     "definingStatement": "Rufus Bird is an art advisor, providing independent counsel for private and institutional clients.",
-    "approach": {
-      "headline": "Collecting is not a transaction. Transactions are rational. Collecting is emotional.",
-      "p1": "Art is one of the few assets where value is inseparable from meaning. Two collectors can look at the same work and see entirely different worth. What compels one person leaves another indifferent. Price follows taste as much as the other way around.",
-      "p2": "This makes collecting fundamentally different from other forms of acquisition. It is shaped by identity, ambition, reputation, emotion, and legacy, not simply market mechanics.",
-      "p3": "The art of collecting is about showing how an aesthetic can transcend its own time and be understood and appreciated across generations.",
-      "p4": "Access to art can be learned. Markets can be navigated. <em>What cannot be systematised is judgement.</em>",
-      "p5": "True advisory requires someone who can sit inside the client's world, understanding not only what is available, but what is right for them. Someone who can challenge impulse, sharpen instinct, and translate unspoken ambition into coherent direction over time.",
-      "p6": "Without counsel, collections become accidental and drift. <em>With counsel, they become intentional, understood, and deeply felt.</em>",
-      "p7": "The role of an effective art advisor is not only to facilitate transactions, but to provoke a collector to think clearly about what they are building, why it matters, and how it should evolve. The outcome is not simply ownership of objects, but the construction of meaning, coherence, and a personal legacy.",
-      "p8": "This is the difference between buying art and building a collection."
-    },
     "opening": {
-      "p1": "Rufus Bird Art Advisory Ltd was established to work with buyers and sellers in the art market. We guide collectors through the art world: navigating markets, sourcing exceptional works, refining collections, advising on valuation, collection management, legacies, conservation and sale strategy, always with complete transparency, clarity and trust. We work for you, and only for you.",
+      "p1": "Rufus Bird Art Advisory Ltd was established to work with buyers and sellers in the art market. We guide collectors through the art world: navigating markets, sourcing exceptional works, refining collections, advising on valuation, collection management, legacies, conservation and sale strategy. Always with complete transparency, clarity and trust. We work for you, and only for you.",
       "p2": "We understand that collecting art is more than the acquisition of objects, and more than a financial transaction. We believe that collecting is the deliberate culmination of emotion, legacy, reputation and taste, and is often deeply personal. Which is why a reputable, informed and independent partner at your side makes a valuable difference as you collect.",
       "p3": "We understand that deciding to sell some or all of your collection is a delicate decision that deserves care and deliberation. We advise on the best route to sale and guide clients through the whole process, from cataloguing, photography and shipping through to sale and completion. We handle the administration and negotiate on your behalf.",
       "p4": "Rufus Bird has twenty-five years inside the art world. A Cambridge graduate, he trained at Christie's in European Furniture & Works of Art, then spent over ten years in the Royal Household, as Deputy Surveyor and later Surveyor of the Queen's Works of Art, responsible for some 500,000 decorative art objects in the Royal Collection. He led the European Furniture & Works of Art department at Gurr Johns before founding his independent practice in 2024. He is an auctioneer, a published author and a connoisseur with a wealth of stories, objects and contacts across the globe. Rufus now offers discreet, unconflicted counsel to private clients and institutions.",
-      "p5": "You may be a seasoned collector pursuing a specific piece, a family office stewarding significant assets, an interior designer seeking a focal centrepiece, or a trustee of an estate needing a valuation or direction. Whatever your starting point, Rufus Bird Art Advisory Ltd acts for you alone."
+      "p5": "You may be a seasoned collector pursuing a specific piece, a family looking to the next generation of ownership or contemplating a sale, a family office stewarding significant assets, an interior designer seeking a focal centrepiece, a trustee of an estate needing a valuation or direction, or a museum curator or director seeking a specific piece. Whatever your starting point, Rufus Bird Art Advisory Ltd acts for you alone."
     },
     "approachTeaser": {
       "quote": "Most advisors help you buy art. I help you understand what you are really trying to build, and I become your partner in building it.",
@@ -87,8 +76,8 @@
     "relationship": {
       "heading": "How a relationship begins",
       "p1": "Every engagement begins with a conversation. You might be pursuing a specific work, reconsidering what you already own, facing an inheritance or a dispersal, or simply wondering whether what you have makes sense together. The conversation is without fee and without obligation, in English, German, or French.",
-      "p2": "From there, most relationships settle into one of three rhythms: a defined project (an acquisition, a sale, a collection audit, a valuation), an open retainer (regular counsel, a set number of hours per month, on-call where it matters), or a hybrid that begins as a project and continues as a partnership. The Venetian palazzo began that way.",
-      "p3": "A written fee note precedes every engagement. No secret undeclared commissions, ever. Discretion is presumed and absolute: client identities, prices, and provenance are treated as privileged. Secure, encrypted Proton Mail correspondence is standard. PGP-encrypted email is available."
+      "p2": "From there, most relationships settle into one of three rhythms: a defined project (an acquisition, a sale, a collection audit, a valuation), an open retainer (regular counsel, a set number of hours per month, on-call where it matters), or a hybrid that begins as a project and continues as a partnership.",
+      "p3": "A written fee note precedes every engagement. No secret undeclared commissions, ever. Full transparency in an often opaque market. Discretion is presumed and absolute: client identities, prices, and provenance are treated as privileged. Secure, encrypted Proton Mail correspondence is standard. PGP secure email available."
     },
     "contactCta": {
       "heading": "A private door.",

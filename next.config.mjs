@@ -17,6 +17,10 @@ const nextConfig = {
       { source: '/blog/:slug', destination: '/journal/:slug', permanent: true },
       { source: '/news', destination: '/journal', permanent: true },
       { source: '/news/:slug', destination: '/journal/:slug', permanent: true },
+      // Approach page merged into Home and archived
+      { source: '/approach', destination: '/', statusCode: 301 },
+      { source: '/en/approach', destination: '/', statusCode: 301 },
+      { source: '/:locale(de|fr)/approach', destination: '/:locale', statusCode: 301 },
     ];
   },
 };
