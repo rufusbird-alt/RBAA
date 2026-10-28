@@ -7,12 +7,14 @@ import { SectionTitle } from '@/components/ui/SectionTitle';
 import { Eyebrow } from '@/components/ui/Eyebrow';
 import { Button } from '@/components/ui/Button';
 import { PhotoCredit } from '@/components/about/PortraitFrame';
+import { SubscribeForm } from '@/components/journal/SubscribeForm';
 
 const heroImage = { src: '/images/home/panini-ancient-rome.jpg', alt: 'Pannini, A View of Ancient Rome' };
 
 export default async function HomePage() {
   const t = await getTranslations('home');
   const tc = await getTranslations('common');
+  const tSubscribe = await getTranslations('subscribe');
   const recentEntries = getAllJournalEntries().slice(0, 4);
   const services = getAllServices();
 
@@ -168,6 +170,22 @@ export default async function HomePage() {
           <div className="mt-8">
             <Button href="/contact">{t('contactCta.cta')}</Button>
           </div>
+        </div>
+      </section>
+
+      {/* Newsletter sign-up (Buttondown) */}
+      <section className="pb-16">
+        <div className="max-w-[var(--measure)] mx-auto px-[var(--gutter)] pt-2 border-t border-[var(--rule)]">
+          <SubscribeForm
+            text={{
+              label: tSubscribe('label'),
+              sent: tSubscribe('sent'),
+              invalid: tSubscribe('invalid'),
+              failed: tSubscribe('failed'),
+              button: tSubscribe('button'),
+              placeholder: tSubscribe('placeholder'),
+            }}
+          />
         </div>
       </section>
     </>

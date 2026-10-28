@@ -154,5 +154,13 @@
     "hours": "Montag bis Freitag, 09:00 – 18:00 GMT/BST",
     "languages": "English · Deutsch · Français · Español · Italiano",
     "formNote": "Ein Kontaktformular ist in Kürze hier verfügbar."
+  },
+  "subscribe": {
+    "label": "Abonnieren Sie den monatlichen Newsletter. Abmeldung jederzeit möglich.",
+    "sent": "Vielen Dank. Bitte bestätigen Sie Ihr Abonnement über den Link in Ihrem Posteingang.",
+    "invalid": "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
+    "failed": "Leider ist ein Fehler aufgetreten. Bitte versuchen Sie es später erneut.",
+    "button": "Abonnieren",
+    "placeholder": "Ihre E-Mail-Adresse"
   }
 }

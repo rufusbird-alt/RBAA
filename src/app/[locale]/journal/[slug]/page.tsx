@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { getAllJournalEntries, getJournalEntry, compileMDX, formatDate, readingTime } from '@/lib/content';
 import { buildMetadata } from '@/lib/seo';
 import { Eyebrow } from '@/components/ui/Eyebrow';
+import { SubscribeForm } from '@/components/journal/SubscribeForm';
 import { UntranslatedBanner } from '@/components/ui/UntranslatedBanner';
 import { JsonLd } from '@/components/ui/JsonLd';
 
@@ -103,6 +104,9 @@ export default function JournalEntryPage({
           className="max-w-[var(--measure)] mx-auto px-[var(--gutter)] rbaa-prose"
           dangerouslySetInnerHTML={{ __html: html }}
         />
+        <div className="max-w-[var(--measure)] mx-auto px-[var(--gutter)] mt-12 pt-2 border-t border-[var(--rule)]">
+          <SubscribeForm />
+        </div>
       </section>
     </>
   );

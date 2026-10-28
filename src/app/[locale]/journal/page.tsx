@@ -4,6 +4,7 @@ import Image from 'next/image';
 import { getAllJournalEntries, formatDate, readingTime } from '@/lib/content';
 import { buildMetadata } from '@/lib/seo';
 import { Eyebrow } from '@/components/ui/Eyebrow';
+import { SubscribeForm } from '@/components/journal/SubscribeForm';
 
 const heroImage = {
   src: '/images/journal/coppenol_calligraphy-amsterdam-town-hall-detail_01.jpg',
@@ -98,6 +99,7 @@ export default function JournalPage({
               Substack →
             </a>
           </p>
+          <SubscribeForm />
         </div>
       </section>
 

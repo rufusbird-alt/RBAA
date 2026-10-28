@@ -154,5 +154,13 @@
     "hours": "Lundi au vendredi, 09h00 – 18h00 GMT/BST",
     "languages": "English · Deutsch · Français · Español · Italiano",
     "formNote": "Un formulaire de contact sera disponible ici prochainement."
+  },
+  "subscribe": {
+    "label": "Abonnez-vous à la lettre d'information mensuelle. Désabonnement possible à tout moment.",
+    "sent": "Merci. Veuillez confirmer votre abonnement depuis votre boîte de réception.",
+    "invalid": "Veuillez saisir une adresse e-mail valide.",
+    "failed": "Désolé, une erreur s'est produite. Veuillez réessayer plus tard.",
+    "button": "S'abonner",
+    "placeholder": "Votre adresse e-mail"
   }
 }

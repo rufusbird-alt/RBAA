@@ -154,5 +154,13 @@
     "hours": "Monday to Friday, 09:00 – 18:00 GMT/BST",
     "languages": "English · Deutsch · Français · Español · Italiano",
     "formNote": "A contact form will be available here shortly."
+  },
+  "subscribe": {
+    "label": "Subscribe to the monthly newsletter. Unsubscribe at any time.",
+    "sent": "Thank you. Please check your inbox to confirm your subscription.",
+    "invalid": "Please enter a valid email address.",
+    "failed": "Sorry, something went wrong. Please try again later.",
+    "button": "Subscribe",
+    "placeholder": "Your email address"
   }
 }
