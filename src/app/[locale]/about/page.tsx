@@ -36,7 +36,7 @@ export async function generateMetadata({
   return buildMetadata({
     title: 'About',
     description:
-      "Rufus Bird — Cambridge, Christie's, the Royal Household, Gurr Johns, and now an independent practice in Shaftesbury, Dorset. Twenty-five years inside European works of art.",
+      "Rufus Bird: Cambridge, Christie's, the Royal Household, Gurr Johns, and now an independent practice in Shaftesbury, Dorset.",
     path: '/about',
     locale,
   });
@@ -101,9 +101,9 @@ export default async function AboutPage() {
       <section className="py-16 border-b border-[var(--rule)]">
         <div className="max-w-[var(--measure)] mx-auto px-[var(--gutter)]">
           <h2 className="font-display text-2xl italic mb-6">{t('affiliationsLabel')}</h2>
-          <ul className="space-y-1">
+          <ul className="space-y-2">
             {affiliations.map((a) => (
-              <li key={a} className="text-sm text-[var(--ink-soft)]">
+              <li key={a} className="text-[var(--ink-soft)]">
                 {a}
               </li>
             ))}
