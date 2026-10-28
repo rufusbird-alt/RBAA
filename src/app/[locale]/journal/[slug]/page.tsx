@@ -1,6 +1,7 @@
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import Image from 'next/image';
+import Link from 'next/link';
 import { getAllJournalEntries, getJournalEntry, compileMDX, formatDate, readingTime } from '@/lib/content';
 import { buildMetadata } from '@/lib/seo';
 import { Eyebrow } from '@/components/ui/Eyebrow';
@@ -67,7 +68,13 @@ export default function JournalEntryPage({
       <section className="py-16 border-b border-[var(--rule)]">
         <div className="max-w-[var(--measure)] mx-auto px-[var(--gutter)]">
           <Eyebrow>
-            {fm.theme} · {formatDate(fm.date)} · {readingTime(fm.wordCount)}
+            <Link
+              href={`/journal?theme=${fm.theme.toLowerCase().replace(/\s+/g, '-')}#essays`}
+              className="hover:text-[var(--accent)] transition-colors"
+            >
+              {fm.theme}
+            </Link>{' '}
+            · {formatDate(fm.date)} · {readingTime(fm.wordCount)}
           </Eyebrow>
           <h1 className="mt-3 font-display text-3xl md:text-4xl italic leading-snug">
             {fm.title}

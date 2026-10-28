@@ -5,7 +5,10 @@ import { getAllJournalEntries, formatDate, readingTime } from '@/lib/content';
 import { buildMetadata } from '@/lib/seo';
 import { Eyebrow } from '@/components/ui/Eyebrow';
 
-const heroImage = { src: '/images/journal/barberini-cabinet1.jpg', alt: 'Barberini cabinet' };
+const heroImage = {
+  src: '/images/journal/coppenol_calligraphy-amsterdam-town-hall-detail_01.jpg',
+  alt: 'Detail of calligraphy by Lieven van Coppenol, 1657, verses dedicated to the governors of Amsterdam on their new Town Hall (Rijksmuseum, Amsterdam)',
+};
 
 export async function generateMetadata({
   params: { locale },
@@ -21,6 +24,8 @@ export async function generateMetadata({
   });
 }
 
+const themeSlug = (theme: string) => theme.toLowerCase().replace(/\s+/g, '-');
+
 const themes = [
   'Attribution',
   'Condition',
@@ -32,15 +37,45 @@ const themes = [
   'Practice',
 ];
 
-export default function JournalPage() {
-  const entries = getAllJournalEntries();
+export default function JournalPage({
+  searchParams,
+}: {
+  searchParams: { theme?: string };
+}) {
+  const allEntries = getAllJournalEntries();
+  // Only headings with at least one essay are shown; empty ones appear once used
+  const activeThemes = themes.filter((theme) => allEntries.some((e) => e.theme === theme));
+  const selected = activeThemes.find((theme) => themeSlug(theme) === searchParams.theme);
+  const entries = selected ? allEntries.filter((e) => e.theme === selected) : allEntries;
+  const filterClass = (active: boolean) =>
+    `text-xs small-caps transition-colors ${
+      active
+        ? 'text-[var(--accent)] border-b border-[var(--accent)] pb-0.5'
+        : 'text-[var(--muted)] hover:text-[var(--accent)]'
+    }`;
 
   return (
     <>
       {/* Hero image */}
-      <section className="relative aspect-[3/2] md:aspect-[2/1] overflow-hidden border-b border-[var(--rule)]">
-        <Image src={heroImage.src} alt={heroImage.alt} fill priority className="object-cover" sizes="100vw" />
-      </section>
+      <figure className="border-b border-[var(--rule)]">
+        <div className="relative aspect-[3/2] md:aspect-[2/1] overflow-hidden">
+          <Image src={heroImage.src} alt={heroImage.alt} fill priority className="object-cover" sizes="100vw" />
+        </div>
+        <figcaption className="max-w-[var(--measure)] mx-auto px-[var(--gutter)] py-3 text-xs text-[var(--ink-muted)]">
+          Lieven van Coppenol, verses dedicated to the governors of Amsterdam on their new Town
+          Hall, 1657 (detail). Pen and brown ink on paper. Written by Coppenol, the city&rsquo;s
+          celebrated writing-master, at the age of 58.{' '}
+          <a
+            href="https://www.rijksmuseum.nl/en/collection/RP-T-00-412"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline underline-offset-2 hover:text-[var(--accent)] transition-colors"
+          >
+            Rijksmuseum, Amsterdam
+          </a>
+          .
+        </figcaption>
+      </figure>
 
       <section className="py-16 border-b border-[var(--rule)]">
         <div className="max-w-[var(--measure)] mx-auto px-[var(--gutter)]">
@@ -66,18 +101,34 @@ export default function JournalPage() {
         </div>
       </section>
 
-      {/* Theme filter — static labels in Phase 2; interactive in Phase 4 */}
-      <section className="py-6 border-b border-[var(--rule)] bg-[var(--ground-soft)]">
+      {/* Theme filter: each heading filters the list below, on this page */}
+      <nav
+        id="essays"
+        aria-label="Filter essays by theme"
+        className="py-6 border-b border-[var(--rule)] bg-[var(--ground-soft)] scroll-mt-20"
+      >
         <div className="max-w-[var(--max)] mx-auto px-[var(--gutter)]">
           <ul className="flex flex-wrap gap-x-6 gap-y-2">
-            {themes.map((theme) => (
+            <li>
+              <Link href="/journal#essays" scroll={false} className={filterClass(!selected)}>
+                All ({allEntries.length})
+              </Link>
+            </li>
+            {activeThemes.map((theme) => (
               <li key={theme}>
-                <span className="text-xs small-caps text-[var(--muted)]">{theme}</span>
+                <Link
+                  href={`/journal?theme=${themeSlug(theme)}#essays`}
+                  scroll={false}
+                  className={filterClass(theme === selected)}
+                  aria-current={theme === selected ? 'page' : undefined}
+                >
+                  {theme} ({allEntries.filter((e) => e.theme === theme).length})
+                </Link>
               </li>
             ))}
           </ul>
         </div>
-      </section>
+      </nav>
 
       <section className="py-16 border-b border-[var(--rule)]">
         <div className="max-w-[var(--max)] mx-auto px-[var(--gutter)]">
