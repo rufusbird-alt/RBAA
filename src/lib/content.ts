@@ -164,6 +164,24 @@ export function readingTime(wordCount: number): string {
 
 const md = new MarkdownIt({ html: true, linkify: false, typographer: true });
 
+// Serve local article images through the Next image optimiser, so the browser
+// gets a resized copy for its screen instead of the full-size original.
+const PROSE_IMAGE_WIDTHS = [640, 1080, 1920] as const;
+const optimisedSrc = (src: string, w: number) =>
+  `/_next/image?url=${encodeURIComponent(src)}&w=${w}&q=75`;
+
+md.renderer.rules.image = (tokens, idx, _options, _env, self) => {
+  const token = tokens[idx];
+  const src = token.attrGet('src') ?? '';
+  const alt = md.utils.escapeHtml(self.renderInlineAsText(token.children ?? [], _options, _env));
+  if (!src.startsWith('/')) return `<img src="${md.utils.escapeHtml(src)}" alt="${alt}" loading="lazy">`;
+  const srcset = PROSE_IMAGE_WIDTHS.map((w) => `${optimisedSrc(src, w)} ${w}w`).join(', ');
+  return (
+    `<img src="${optimisedSrc(src, 1920)}" srcset="${srcset}" ` +
+    `sizes="(max-width: 60rem) 100vw, 56rem" alt="${alt}" loading="lazy" decoding="async">`
+  );
+};
+
 // Pre-process MDX custom components to HTML equivalents before rendering.
 // SmallCaps → <span class="small-caps">, Footnote → superscript, Plate → figure.
 function preprocessCustomComponents(source: string): string {
