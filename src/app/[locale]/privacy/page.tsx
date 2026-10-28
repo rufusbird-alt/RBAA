@@ -57,6 +57,10 @@ export default function PrivacyPage({
                 Information is collected when you contact us directly, enter into an engagement, or
                 where we are required to collect it under applicable law.
               </p>
+              <p>
+                If you subscribe to our monthly newsletter, we collect your email address and the date
+                you confirmed your subscription.
+              </p>
             </div>
 
             <div className="space-y-3">
@@ -77,14 +81,22 @@ export default function PrivacyPage({
                 agents, insurers, tax authorities, legal advisers, and fraud prevention agencies. Any
                 such sharing is carried out on a strictly need-to-know basis.
               </p>
+              <p>
+                We use the following service providers, which process personal data only on our
+                instructions: Buttondown, LLC (newsletter delivery), Resend (contact form delivery),
+                and Vercel (website hosting). Our analytics provider, Plausible, receives no personal
+                data.
+              </p>
             </div>
 
             <div className="space-y-3">
               <h2 className="font-display text-xl italic text-[var(--ink)]">International transfers</h2>
               <p>
-                Where personal data is transferred outside the United Kingdom or European Economic
-                Area, we ensure appropriate contractual protections are in place in accordance with
-                applicable data protection legislation.
+                Some of our service providers are based in the United States, including Buttondown,
+                Resend, and Vercel. Transfers to Resend and Vercel are made under the UK-US data
+                bridge, under which both are certified. Transfers to Buttondown are made under the UK
+                Addendum to the EU Standard Contractual Clauses. Copies of the relevant safeguards are
+                available on request.
               </p>
             </div>
 
@@ -112,6 +124,10 @@ export default function PrivacyPage({
                 ordinarily seven years after the end of a client relationship, unless a longer
                 period is required by law or for the resolution of disputes.
               </p>
+              <p>
+                Newsletter subscribers are not clients. Their data is retained as described under
+                Newsletter below.
+              </p>
             </div>
 
             <div className="space-y-3">
@@ -121,6 +137,55 @@ export default function PrivacyPage({
                 are provided by Plausible, which sets no cookies and collects no personally
                 identifiable information. Contact form submissions are handled via Resend and used
                 solely to respond to your enquiry.
+              </p>
+              <p>
+                Our website is hosted by Vercel, which may record IP addresses and request logs for
+                security and operational purposes. These logs are kept for one day.
+              </p>
+            </div>
+
+            <div className="space-y-3">
+              <h2 className="font-display text-xl italic text-[var(--ink)]">Newsletter</h2>
+              <p>
+                If you subscribe to our monthly newsletter, we hold your email address and the date
+                you confirmed. We use it only to send the newsletter, on the basis of your consent,
+                which you give when you subscribe and confirm by email. When you subscribe, we record
+                the IP address from which you signed up, as evidence of your consent and to prevent
+                abuse.
+              </p>
+              <p>
+                Buttondown, LLC acts as our data processor, storing subscribers&rsquo; details and
+                sending the newsletter on our behalf under our instructions. Its{' '}
+                <a
+                  href="https://buttondown.com/legal/data-processing-agreement"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[var(--accent)] hover:text-[var(--accent-soft)] transition-colors"
+                >
+                  data processing agreement
+                </a> and{' '}
+                <a
+                  href="https://buttondown.com/legal/privacy"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[var(--accent)] hover:text-[var(--accent-soft)] transition-colors"
+                >
+                  privacy policy
+                </a>{' '}
+                describe its handling of data in full.
+              </p>
+              <p>
+                You can unsubscribe at any time using the link at the foot of every issue, or by
+                writing to us. We then remove your address from the mailing list. Buttondown keeps
+                unsubscribed addresses on a suppression list so that we cannot send to you by
+                mistake. We keep that record for as long as the list exists, on the basis of our
+                legitimate interest in honouring your request. It is the only record we retain after
+                you leave.
+              </p>
+              <p>
+                Some subscribers joined through an earlier newsletter platform and confirmed their
+                subscription again with us. Their details were transferred to Buttondown only after
+                that confirmation.
               </p>
             </div>
 
@@ -142,7 +207,7 @@ export default function PrivacyPage({
             </div>
 
             <p className="text-sm text-[var(--ink-muted)] pt-4 border-t border-[var(--rule)]">
-              Last updated: April 2024.
+              Last updated: October 2026.
             </p>
 
           </div>
