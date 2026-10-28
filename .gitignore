@@ -38,3 +38,9 @@ Thumbs.db
 # Generated
 public/sitemap*.xml
 public/robots.txt
+
+# Full-size print originals (CMYK, 43–74 MB); the site uses the _web copies
+public/images/case-studies/venetian-palazzo00009.jpg
+public/images/case-studies/venetian-palazzo00010.jpg
+public/images/case-studies/venetian-palazzo00011.jpg
+public/images/case-studies/venetian-palazzo00013.jpg
