@@ -158,6 +158,23 @@
   text-decoration: none;
   padding-left: 0.1em;
 }
+.rbaa-prose .rbaa-credited {
+  display: block;
+  margin: 2.5rem 0;
+}
+.rbaa-prose .rbaa-credited img {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.rbaa-prose .rbaa-credit {
+  display: block;
+  width: min(56rem, calc(100vw - 2 * var(--gutter)));
+  margin: 0.5rem 0 0 50%;
+  transform: translateX(-50%);
+  font-size: 0.75rem;
+  line-height: 1.5;
+  color: var(--ink-muted);
+}
 .rbaa-prose li {
   margin-bottom: 0.4rem;
 }

@@ -59,6 +59,7 @@ const caseStudySchema = z.object({
   scope: nonEmpty,
   heroImage: z.string().optional(),
   heroAlt: z.string().optional(),
+  heroCredit: z.string().optional(),
   published: z.boolean(),
 });
 
@@ -189,7 +190,8 @@ for (const { dir, schema } of TYPES) {
     if (data.published !== false && body.trim().length < 200) {
       report('ERROR', where, `published but body is only ${body.trim().length} characters`);
     }
-    for (const m of body.matchAll(/!\[([^\]]*)\]\(([^)]+)\)/g)) {
+    // ![alt](src "optional photo credit")
+    for (const m of body.matchAll(/!\[([^\]]*)\]\(([^)\s]+)(?:\s+"[^"]*")?\)/g)) {
       referencedImages.add(m[2]);
       checkImage(where, m[2]);
       if (!m[1].trim()) report('ERROR', where, `image with empty alt text: ${m[2]}`);

@@ -63,16 +63,23 @@ export default function CaseStudyPage({
       <UntranslatedBanner locale={locale} />
 
       {fm.heroImage ? (
-        <div className="relative w-full aspect-[3/2] md:aspect-[2/1] overflow-hidden">
-          <Image
-            src={fm.heroImage}
-            alt={fm.heroAlt ?? fm.title}
-            fill
-            className="object-cover"
-            sizes="100vw"
-            priority
-          />
-        </div>
+        <figure>
+          <div className="relative w-full aspect-[3/2] md:aspect-[2/1] overflow-hidden">
+            <Image
+              src={fm.heroImage}
+              alt={fm.heroAlt ?? fm.title}
+              fill
+              className="object-cover"
+              sizes="100vw"
+              priority
+            />
+          </div>
+          {fm.heroCredit && (
+            <figcaption className="max-w-[var(--measure)] mx-auto px-[var(--gutter)] pt-3 text-xs text-[var(--ink-muted)]">
+              {fm.heroCredit}
+            </figcaption>
+          )}
+        </figure>
       ) : (
         <div className="h-2 bg-[var(--accent)]" aria-hidden />
       )}

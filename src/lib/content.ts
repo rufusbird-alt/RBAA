@@ -33,6 +33,7 @@ export interface CaseStudyFrontmatter {
   scope: string;
   heroImage?: string;
   heroAlt?: string;
+  heroCredit?: string;
   published: boolean;
 }
 
@@ -166,6 +167,8 @@ const md = new MarkdownIt({ html: true, linkify: false, typographer: true });
 
 // Serve local article images through the Next image optimiser, so the browser
 // gets a resized copy for its screen instead of the full-size original.
+// A markdown image title becomes a photo credit under the image:
+// ![alt](/images/x.jpg "Photo: courtesy of …")
 const PROSE_IMAGE_WIDTHS = [640, 1080, 1920] as const;
 const optimisedSrc = (src: string, w: number) =>
   `/_next/image?url=${encodeURIComponent(src)}&w=${w}&q=75`;
@@ -174,11 +177,21 @@ md.renderer.rules.image = (tokens, idx, _options, _env, self) => {
   const token = tokens[idx];
   const src = token.attrGet('src') ?? '';
   const alt = md.utils.escapeHtml(self.renderInlineAsText(token.children ?? [], _options, _env));
-  if (!src.startsWith('/')) return `<img src="${md.utils.escapeHtml(src)}" alt="${alt}" loading="lazy">`;
-  const srcset = PROSE_IMAGE_WIDTHS.map((w) => `${optimisedSrc(src, w)} ${w}w`).join(', ');
+  const credit = token.attrGet('title');
+  let img: string;
+  if (!src.startsWith('/')) {
+    img = `<img src="${md.utils.escapeHtml(src)}" alt="${alt}" loading="lazy">`;
+  } else {
+    const srcset = PROSE_IMAGE_WIDTHS.map((w) => `${optimisedSrc(src, w)} ${w}w`).join(', ');
+    img =
+      `<img src="${optimisedSrc(src, 1920)}" srcset="${srcset}" ` +
+      `sizes="(max-width: 60rem) 100vw, 56rem" alt="${alt}" loading="lazy" decoding="async">`;
+  }
+  if (!credit) return img;
+  // Spans, not <figure>, because markdown-it places images inside a <p>
   return (
-    `<img src="${optimisedSrc(src, 1920)}" srcset="${srcset}" ` +
-    `sizes="(max-width: 60rem) 100vw, 56rem" alt="${alt}" loading="lazy" decoding="async">`
+    `<span class="rbaa-credited">${img}` +
+    `<span class="rbaa-credit">${md.utils.escapeHtml(credit)}</span></span>`
   );
 };
 
