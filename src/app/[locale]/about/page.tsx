@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import type { Metadata } from 'next';
 import { existsSync } from 'fs';
 import path from 'path';
@@ -88,6 +89,21 @@ export default async function AboutPage() {
             <p>{t('bio.p3')}</p>
           </div>
           <div className="clear-both" />
+          {/* Breaks out of the text column to the width of article images */}
+          <figure className="mt-12 relative left-1/2 -translate-x-1/2 w-[min(56rem,calc(100vw-2*var(--gutter)))]">
+            <div className="relative aspect-[16/9] overflow-hidden">
+              <Image
+                src="/images/portrait-RB00016.jpg"
+                alt={t('galleryAlt')}
+                fill
+                className="object-cover object-bottom"
+                sizes="(max-width: 60rem) 100vw, 56rem"
+              />
+            </div>
+            <figcaption className="mt-2 text-xs text-[var(--ink-muted)]">
+              {t('galleryCaption')}
+            </figcaption>
+          </figure>
         </div>
       </section>
 
