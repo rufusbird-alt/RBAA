@@ -1,0 +1,112 @@
+/*
+  RBAA newsletter: web CSS for Buttondown (archive and subscribe pages)
+  Paste into Buttondown: Settings → Archives → Design → Custom CSS. Use the Modern theme.
+  Colours and fonts match rbaa.vercel.app (src/app/globals.css).
+  The website has no dark mode, so leave Buttondown's dark mode switched off.
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap');
+
+:root {
+  --color-action: #6B1F2A;              /* links, buttons: site accent */
+  --color-background: #F4EFE4;          /* page: site ground */
+  --color-background-card: #EFE8D6;     /* cards, blockquotes: ground-soft */
+  --color-background-offset: #C9BFA8;   /* borders, dividers: rule */
+  --color-foreground: #1C1A17;          /* body text: ink */
+  --color-foreground-offset: #5A5140;   /* metadata: ink-muted */
+  --color-foreground-offset-2: #7A6E55; /* descriptions, footer: muted */
+  --font-brand: 'Cormorant Garamond', Garamond, Georgia, serif;
+  --font-prose: 'EB Garamond', Garamond, Georgia, serif;
+  --width-content: 36rem;               /* the site's reading width */
+}
+
+body {
+  font-family: var(--font-prose);
+  font-size: 1.125rem;
+  line-height: 1.6;
+}
+
+/* Headings and titles: italic Cormorant, as on the site */
+h1,
+h2,
+h3,
+h4,
+.subject,
+.email-title,
+.newsletter-name,
+.header-brand-name {
+  font-family: var(--font-brand);
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+/* Dates and small labels: spaced capitals, as the site's eyebrows */
+.email-detail-date,
+.email-metadata,
+.email-list-header {
+  font-family: var(--font-prose);
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-foreground-offset-2);
+}
+
+.description {
+  font-style: italic;
+  color: #3E382D;
+}
+
+a {
+  color: var(--color-action);
+  text-underline-offset: 0.2em;
+}
+
+a:hover {
+  color: #8F3842;
+}
+
+blockquote {
+  border-left: 2px solid var(--color-background-offset);
+  font-style: italic;
+  color: #3E382D;
+}
+
+/* Subscribe forms: square corners, as on the site */
+input[type='email'],
+input[type='text'] {
+  background: var(--color-background-card);
+  border: 1px solid var(--color-background-offset);
+  border-radius: 0;
+  color: var(--color-foreground);
+  font-family: var(--font-prose);
+}
+
+button,
+input[type='submit'],
+.buttondown-button {
+  background: var(--color-action);
+  color: var(--color-background);
+  border: 0;
+  border-radius: 0;
+  font-family: var(--font-prose);
+}
+
+button:hover,
+input[type='submit']:hover,
+.buttondown-button:hover {
+  background: #8F3842;
+}
+
+/* Navigation */
+.header-navigation-link {
+  font-family: var(--font-prose);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+
+.announcement-bar {
+  background: var(--color-action);
+  color: var(--color-background);
+}
