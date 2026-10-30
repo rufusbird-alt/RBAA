@@ -175,6 +175,20 @@
   line-height: 1.5;
   color: var(--ink-muted);
 }
+.rbaa-prose .rbaa-video {
+  margin: 2.5rem 0;
+}
+.rbaa-prose .rbaa-video video {
+  display: block;
+  width: auto;
+  max-width: min(56rem, calc(100vw - 2 * var(--gutter)));
+  max-height: 85vh;
+  margin: 0 auto;
+  background: var(--ink);
+}
+.rbaa-prose .rbaa-video figcaption {
+  text-align: center;
+}
 .rbaa-prose li {
   margin-bottom: 0.4rem;
 }
