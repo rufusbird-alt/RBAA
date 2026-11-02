@@ -14,7 +14,7 @@ Updated 27 October 2026, on branch `simplify`: the Services page and its detail 
 | 4 | `/services` | `src/app/[locale]/services/page.tsx` |
 | 5–8 | `/services/{seasoned-collector, family-office, interior-designer, estate-trustee}` | `services/[slug]/page.tsx` + `content/services/*.mdx` |
 | 9 | `/case-studies` | `case-studies/page.tsx` |
-| 10–12 | `/case-studies/{hilliard-miniatures, thursby-pelham-collection, venetian-palazzo}` | `case-studies/[slug]/page.tsx` + `content/case-studies/*.mdx` |
+| 10–11 | `/case-studies/{thursby-pelham-collection, venetian-palazzo}` | `case-studies/[slug]/page.tsx` + `content/case-studies/*.mdx` |
 | 13 | `/contact` | `contact/page.tsx` + `components/contact/ContactForm.tsx` |
 | 14 | `/journal` (0 entries; `/journal/[slug]` currently returns 500) | `journal/page.tsx`, `journal/[slug]/page.tsx` |
 | 15–17 | `/privacy`, `/terms-of-engagement`, `/anti-money-laundering-policy` | legal pages |
@@ -31,7 +31,7 @@ Archive means `git mv` into `_archive/` at the repo root, keeping the original r
 |---|---|---|
 | `[locale]/page.tsx` Home | **Keep, rebuild** | Section order in §9 |
 | `[locale]/about/page.tsx` | **Keep, rebuild** | §2 |
-| `[locale]/recent-projects/page.tsx` | **New** | Merges all three case studies; anchors `#hilliard-miniatures`, `#thursby-pelham-collection`, `#venetian-palazzo` |
+| `[locale]/recent-projects/page.tsx` | **New** | Merges both case studies; anchors `#thursby-pelham-collection`, `#venetian-palazzo` |
 | `[locale]/approach/page.tsx` | **Merge into** Home (independence lines), then **archive** | Redirect to `/`. **Done** 27 October (decision 23) |
 | `[locale]/services/page.tsx` | **Keep** (decision 22) | Six service cards; the Home services section links to them |
 | `[locale]/services/[slug]/page.tsx` | **Keep** (decision 22) | Six slugs (decision 22) |
@@ -110,7 +110,7 @@ const MOVED = [
   ['/journal', '/'],
   ['/journal/:slug', '/'],
   ['/case-studies', '/recent-projects'],
-  ['/case-studies/hilliard-miniatures', '/recent-projects#hilliard-miniatures'],
+  ['/case-studies/hilliard-miniatures', '/recent-projects'],
   ['/case-studies/thursby-pelham-collection', '/recent-projects#thursby-pelham-collection'],
   ['/case-studies/venetian-palazzo', '/recent-projects#venetian-palazzo'],
   ['/case-studies/:slug', '/recent-projects'],
@@ -194,7 +194,7 @@ All changes apply to `en.json`, `de.json` and `fr.json`. German and French value
 ## 7. Risks, and the commit sequence
 
 ### Risks
-1. **Placeholder text.** `hilliard-miniatures.mdx` and `venetian-palazzo.mdx` are mostly Lorem ipsum, and they are already live. Merging them onto one page puts them on a top-level page. The new validator check (§9) makes this an ERROR, so real text is needed before launch.
+1. **Placeholder text.** `venetian-palazzo.mdx` is mostly Lorem ipsum, and it is already live. Merging it onto one page puts it on a top-level page. The new validator check (§9) makes this an ERROR, so real text is needed before launch.
 2. **CLAUDE.md conflicts.** It says the client-not-dealer message must lead Home *and Approach*, describes a contact form, and names `99_Archive/` outside the repo, whereas this plan uses `_archive/` in the repo. CLAUDE.md, BUILD-BRIEF.md and COPY-EN.md need proposed updates; they are not edited here.
 3. **Status codes.** `permanent: true` sends 308; the map uses `statusCode: 301`.
 4. **Build scope.** `tsconfig.json` includes `**/*.ts(x)`, so archived files would be type-checked and fail on their imports. `"_archive"` is added to `exclude` (commit 1). Tailwind globs and `next lint` only cover `src/`, so they are unaffected.
@@ -269,7 +269,7 @@ Each commit is small and ends with `npx tsc --noEmit && npx pnpm build && npx pn
 ## 8. Open questions
 1. ~~Home statement~~ Decided in §9; wording to be pasted.
 2. ~~Opening paragraphs~~ Decided in §9.
-3. **Recent projects copy.** Real text is needed for Hilliard and Venetian palazzo (currently Lorem ipsum), and all three need cutting to about 120 words. Who writes them, and when?
+3. **Recent projects copy.** Real text is needed for Venetian palazzo (currently Lorem ipsum), and both need cutting to about 120 words. Who writes them, and when?
 4. ~~Thursby-Pelham image~~ Decided in §9.
 5. **Discretion.** Are the Thursby-Pelham family name and the sale details already published, so they can stay?
 6. **Credentials and timeline dates.**
@@ -342,7 +342,7 @@ Recorded 13 October 2026. These override sections 1–8 where they differ.
     - **Telephone**: +44 (0)7815 588181 is approved for public use (resolves open question 13).
     - **Valuation lines**: both stay in the services list.
     - **Oxford comma**: used.
-    - **Hilliard and Venetian palazzo**: placeholder text until Rufus supplies it.
+    - **Venetian palazzo**: placeholder text until Rufus supplies it.
     - **German and French credentials c1**: now carry the end years 2017 and 2021, matching the English.
     - **Home statement** (option A): 'Rufus Bird is an art advisor, providing independent counsel for private and institutional clients.' Written to `home.definingStatement` in en, with de and fr drafts.
     - **Lead message**: 'Rufus Bird works for the client only.' (`home.leadMessage`), shown directly under the statement. It replaces 'works for the client, never the dealer'; Removed from Home on 14 October at Rufus's request; the message stays central and its placement is to be decided. CLAUDE.md and COPY-EN.md updated to match.

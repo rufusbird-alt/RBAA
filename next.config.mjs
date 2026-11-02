@@ -21,6 +21,10 @@ const nextConfig = {
       { source: '/approach', destination: '/', statusCode: 301 },
       { source: '/en/approach', destination: '/', statusCode: 301 },
       { source: '/:locale(de|fr)/approach', destination: '/:locale', statusCode: 301 },
+      // Hilliard Miniatures case study removed and archived
+      { source: '/case-studies/hilliard-miniatures', destination: '/case-studies', statusCode: 301 },
+      { source: '/en/case-studies/hilliard-miniatures', destination: '/case-studies', statusCode: 301 },
+      { source: '/:locale(de|fr)/case-studies/hilliard-miniatures', destination: '/:locale/case-studies', statusCode: 301 },
     ];
   },
 };

@@ -254,7 +254,6 @@ Each is about 120 words with one image, in date order. Body text lives in `conte
 | Project | Image | Text status |
 |---|---|---|
 | The Thursby-Pelham Collection (England, 2026) | Gillis Claeissens, Portrait of a Man (`/images/case-studies/Claeissens1.jpg`) [Approved] | Full text live (about 680 words, first person); to be cut to about 120. Named in the auction catalogue, so the name stays. [Approved] |
-| Hilliard Miniatures (England, 2024) | `/images/case-studies/hilliard-2-800.jpg` [Live] | Placeholder until Rufus supplies the text: 'Details of this project will follow.' [Approved as placeholder] The live body is still Lorem ipsum. |
 | A Venetian Palazzo, Inherited in Full (Venice, 2024 to ongoing) | `/images/case-studies/venetian-palazzo-hero.jpg` [Live] | Placeholder until Rufus supplies the text: 'Details of this project will follow.' [Approved as placeholder] The live body is still Lorem ipsum. |
 
 v1.0 §4.2 contains a synthesised Venetian narrative: drawings in an attic trunk, an early sixteenth-century Vietnamese bronze, 'I have my own set of keys'. It was marked as synthesis, not fact. **Do not use any of it unless Rufus confirms every detail.**
@@ -305,7 +304,7 @@ To be brought into line in later steps; nothing is changed by v2.0 itself.
   - Home meta description: 'acquisition, stewardship, valuation and sale' (§4.7)
 - **Menu button labels**: hard-coded English (§3.2).
 - **Privacy paragraph**: not applied (§7).
-- **Hilliard and Venetian palazzo**: the MDX bodies hold Lorem ipsum; replace with the approved placeholder (§6.2) before the planned validator check (SIMPLIFY-PLAN commit 2a) turns Lorem ipsum into an error.
+- **Venetian palazzo**: the MDX body holds Lorem ipsum; replace with the approved placeholder (§6.2) before the planned validator check (SIMPLIFY-PLAN commit 2a) turns Lorem ipsum into an error.
 
 ## 10. Retired from v1.0
 
